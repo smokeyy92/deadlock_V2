@@ -1,0 +1,5 @@
+{
+  "base_counter": 0.0,
+  "min_games_threshold": 3,
+  "counter_from_winrate": true
+}

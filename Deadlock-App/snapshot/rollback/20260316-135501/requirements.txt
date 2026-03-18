@@ -1,0 +1,7 @@
+requests
+pandas
+numpy
+openpyxl
+rich
+tqdm
+PySide6

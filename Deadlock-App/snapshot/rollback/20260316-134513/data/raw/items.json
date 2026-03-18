@@ -1,0 +1,3642 @@
+[
+  {
+    "cost": null,
+    "id": 6698938,
+    "name": "tokamak_heat_sinks",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 7409189,
+    "name": "Improved Spirit",
+    "slot_type": "spirit",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 11154161,
+    "name": "Hex-Lined Snap Trap",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 12456023,
+    "name": "Spectral Assistant",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 18921423,
+    "name": "Frost Grenade",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 21628267,
+    "name": "ability_kali_dust_storm",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 26002154,
+    "name": "Melee Charge",
+    "slot_type": "weapon",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 58655583,
+    "name": "Pulse Grenade",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 9999,
+    "id": 64550694,
+    "name": "Runed Gauntlets",
+    "slot_type": "weapon",
+    "tier": 5,
+    "type": "upgrade"
+  },
+  {
+    "cost": 1600,
+    "id": 84321454,
+    "name": "Quicksilver Reload",
+    "slot_type": "spirit",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": 1600,
+    "id": 98582110,
+    "name": "Stalker",
+    "slot_type": "weapon",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 100068731,
+    "name": "Magnetic Flux",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 103496908,
+    "name": "Call Bell",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 109766091,
+    "name": "Doorway",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 112198670,
+    "name": "Spirit Shielding",
+    "slot_type": "vitality",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 147493976,
+    "name": "Flawless Advance",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 152191637,
+    "name": "ability_necro_nukemap",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 191022746,
+    "name": "Audience Participation",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 193508101,
+    "name": "Rake",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 201562678,
+    "name": "Lifethread",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 208809857,
+    "name": "Consume",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 218284420,
+    "name": "Life Drain",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 228680142,
+    "name": "Flakshot",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 9999,
+    "id": 230297145,
+    "name": "Eternal Gift",
+    "slot_type": "vitality",
+    "tier": 5,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 249410288,
+    "name": "Singularity",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 309803113,
+    "name": "ability_fortuna_ability01",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 334300056,
+    "name": "Stamina Mastery",
+    "slot_type": "vitality",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": 6400,
+    "id": 339443430,
+    "name": "Frenzy",
+    "slot_type": "weapon",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": 6400,
+    "id": 343572757,
+    "name": "Spirit Burn",
+    "slot_type": "spirit",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 347080770,
+    "name": "Scalding Spray",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 348689004,
+    "name": "thumper_ability_1",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 363299194,
+    "name": "rutger_pulse",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 365620721,
+    "name": "Glass Cannon",
+    "slot_type": "weapon",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 370209602,
+    "name": "Intertwine",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 371372145,
+    "name": "ability_haunt",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 380806748,
+    "name": "Compress Cooldown",
+    "slot_type": "spirit",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": 1600,
+    "id": 381961617,
+    "name": "Active Reload",
+    "slot_type": "weapon",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": 1600,
+    "id": 393974127,
+    "name": "Slowing Bullets",
+    "slot_type": "weapon",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": 1600,
+    "id": 395867183,
+    "name": "Mystic Shot",
+    "slot_type": "weapon",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": 3200,
+    "id": 395944548,
+    "name": "Torment Pulse",
+    "slot_type": "spirit",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 397010810,
+    "name": "Death Slam",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 421275722,
+    "name": "cadence_ability_silencecontraptions",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 9999,
+    "id": 424779525,
+    "name": "Omnicharge Signet",
+    "slot_type": "spirit",
+    "tier": 5,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 425769687,
+    "name": "ability_skyrunner_ult",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 800,
+    "id": 465043967,
+    "name": "Spirit Strike",
+    "slot_type": "spirit",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 476551004,
+    "name": "Teargas Grenade",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 483227074,
+    "name": "ability_boho_ability01",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 488392205,
+    "name": "ability_kali_trappers_bolo",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 491391007,
+    "name": "Napalm",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 492030745,
+    "name": "Rejuvenating Aurora",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 493591231,
+    "name": "Lightning Scroll",
+    "slot_type": "spirit",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 494112189,
+    "name": "Itani Lo Sahn",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 499683006,
+    "name": "Bullet Lifesteal",
+    "slot_type": "vitality",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 509856396,
+    "name": "Seismic Impact",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 512733154,
+    "name": "Spirit Snare",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 515791019,
+    "name": "Lycan Curse",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 519124136,
+    "name": "Flog",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 536278136,
+    "name": "Lil Helpers",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 537527508,
+    "name": "Stake",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 539192269,
+    "name": "Power Surge",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 548943648,
+    "name": "Charged Shot",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 599532073,
+    "name": "cadence_ability_crescendo",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 600033864,
+    "name": "Majestic Leap",
+    "slot_type": "vitality",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 604448162,
+    "name": "Bookwyrm",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 619484391,
+    "name": "Silence Wave",
+    "slot_type": "spirit",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 620778714,
+    "name": "ability_fortuna_ability03",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 629925354,
+    "name": "Essence Theft",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 630839635,
+    "name": "Echo Shard",
+    "slot_type": "spirit",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 636273017,
+    "name": "citadel_ability_wing_blast",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 639385332,
+    "name": "rutger_force_field",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 645773760,
+    "name": "Screwjab Dagger",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 800,
+    "id": 668299740,
+    "name": "Rapid Rounds",
+    "slot_type": "weapon",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": 6400,
+    "id": 673001892,
+    "name": "Armor Piercing Rounds",
+    "slot_type": "weapon",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": 6400,
+    "id": 677738769,
+    "name": "Refresher",
+    "slot_type": "spirit",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 682591488,
+    "name": "Jet\u00e9",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 690458959,
+    "name": "Express Shot",
+    "slot_type": "weapon",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": 3200,
+    "id": 709540378,
+    "name": "Cultist Sacrifice",
+    "slot_type": "weapon",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": 6400,
+    "id": 710436191,
+    "name": "Capacitor",
+    "slot_type": "weapon",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 715325746,
+    "name": "Essence Bomb",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 715762406,
+    "name": "Infernal Resilience",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 725153709,
+    "name": "Disengaging Sigil",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 731943444,
+    "name": "Bullet Dance",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 800,
+    "id": 754480263,
+    "name": "Mystic Expansion",
+    "slot_type": "spirit",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 755723302,
+    "name": "Nekomata Ward",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 759370291,
+    "name": "ability_boho_channeltether",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 775377419,
+    "name": "Assassinate",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 787198704,
+    "name": "Rapid Recharge",
+    "slot_type": "spirit",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": 6400,
+    "id": 800008313,
+    "name": "Crushing Fists",
+    "slot_type": "weapon",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": 1600,
+    "id": 805079544,
+    "name": "Weapon Shielding",
+    "slot_type": "vitality",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": 3200,
+    "id": 811521119,
+    "name": "Tesla Bullets",
+    "slot_type": "weapon",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": 1600,
+    "id": 857669956,
+    "name": "Guardian Ward",
+    "slot_type": "vitality",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": 6400,
+    "id": 865846625,
+    "name": "Leech",
+    "slot_type": "vitality",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": 3200,
+    "id": 865958998,
+    "name": "Veil Walker",
+    "slot_type": "vitality",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": 1600,
+    "id": 876563814,
+    "name": "Spirit Lifesteal",
+    "slot_type": "vitality",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 895140205,
+    "name": "Escape Artist",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 911307831,
+    "name": "Consecrating Grenade",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 915014646,
+    "name": "Transcendent Cooldown",
+    "slot_type": "spirit",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 916959628,
+    "name": "citadel_ability_vandal_overflow",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 938149308,
+    "name": "Barrage",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 943923461,
+    "name": "ability_target_practice",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 957095276,
+    "name": "cadence_ability_lullaby",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 800,
+    "id": 968099481,
+    "name": "Extra Spirit",
+    "slot_type": "spirit",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": 3200,
+    "id": 989206714,
+    "name": "Blood Tribute",
+    "slot_type": "weapon",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 994831172,
+    "name": "Rabbit Hex",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1009029159,
+    "name": "Ava",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 800,
+    "id": 1009965641,
+    "name": "Monster Rounds",
+    "slot_type": "weapon",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1011349580,
+    "name": "Radiant Daggers",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1020817390,
+    "name": "Puddle Punch",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1033019133,
+    "name": "Bloodscent",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1034605902,
+    "name": "Blessed Tac-Vest",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 1047818222,
+    "name": "Debuff Reducer",
+    "slot_type": "vitality",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1048488396,
+    "name": "ability_swan_ult",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 1055679805,
+    "name": "Vampiric Burst",
+    "slot_type": "vitality",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1065103387,
+    "name": "Lightning Ball",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1074714947,
+    "name": "Static Charge",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1080948381,
+    "name": "Fixation",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1101238302,
+    "name": "Revelation",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 1102081447,
+    "name": "Mystic Slow",
+    "slot_type": "spirit",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1105433407,
+    "name": "ability_shieldguy_ability03",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 1113837674,
+    "name": "Silencer",
+    "slot_type": "weapon",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1128670012,
+    "name": "Kinetic Carbine",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 9999,
+    "id": 1132564516,
+    "name": "Prism Blast",
+    "slot_type": "spirit",
+    "tier": 5,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1142270357,
+    "name": "Concussive Combustion",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 1144549437,
+    "name": "Spirit Shredder Bullets",
+    "slot_type": "weapon",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": 1600,
+    "id": 1150006784,
+    "name": "Arcane Surge",
+    "slot_type": "spirit",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": 6400,
+    "id": 1152158042,
+    "name": "Vortex Web",
+    "slot_type": "spirit",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1157620447,
+    "name": "cadence_ability_anthem",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1168182161,
+    "name": "Eternal Night",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 1193964439,
+    "name": "Greater Expansion",
+    "slot_type": "spirit",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": 1600,
+    "id": 1219329868,
+    "name": "Spirit Sap",
+    "slot_type": "spirit",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1224888294,
+    "name": "Hellfire Salvo",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1233782561,
+    "name": "Love Bites",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1235098866,
+    "name": "Powder Keg",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 1235347618,
+    "name": "Battle Vest",
+    "slot_type": "vitality",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1247583368,
+    "name": "Air Drop",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 1250307611,
+    "name": "Juggernaut",
+    "slot_type": "vitality",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": 3200,
+    "id": 1252627263,
+    "name": "Lifestrike",
+    "slot_type": "vitality",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": 3200,
+    "id": 1254091416,
+    "name": "Knockdown",
+    "slot_type": "spirit",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1264175662,
+    "name": "Stalker's Mark",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 1282141666,
+    "name": "Siphon Bullets",
+    "slot_type": "vitality",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1288133032,
+    "name": "citadel_ability_vandal_surge",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1289909147,
+    "name": "Spectral Silk",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 1292979587,
+    "name": "Surge of Power",
+    "slot_type": "spirit",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1307289689,
+    "name": "Soul Exchange",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1322882622,
+    "name": "Hook Blade",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1336069669,
+    "name": "Dust Devil",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 800,
+    "id": 1342610602,
+    "name": "Close Quarters",
+    "slot_type": "weapon",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1366719170,
+    "name": "Time Wall",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 1371725689,
+    "name": "Phantom Strike",
+    "slot_type": "vitality",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": 3200,
+    "id": 1378931225,
+    "name": "Metal Skin",
+    "slot_type": "vitality",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1385849824,
+    "name": "Slam Fire",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 1396247347,
+    "name": "Lucky Shot",
+    "slot_type": "weapon",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": 3200,
+    "id": 1409190604,
+    "name": "Fury Trance",
+    "slot_type": "vitality",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1410779535,
+    "name": "Captive Audience",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 1414025773,
+    "name": "Counterspell",
+    "slot_type": "vitality",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": 3200,
+    "id": 1414319208,
+    "name": "Berserker",
+    "slot_type": "weapon",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1418303954,
+    "name": "Acrobat",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1426567660,
+    "name": "Leaping Slash",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 1427630806,
+    "name": "Healing Tempo",
+    "slot_type": "vitality",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1430464147,
+    "name": "ability_nano_pounce_instant",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 800,
+    "id": 1437614329,
+    "name": "Melee Lifesteal",
+    "slot_type": "vitality",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": 800,
+    "id": 1439347412,
+    "name": "Mystic Regeneration",
+    "slot_type": "spirit",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1454278799,
+    "name": "Scorn",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1458044103,
+    "name": "Slice and Dice",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1469918191,
+    "name": "Slither",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1472593493,
+    "name": "Aura of Suffering",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1498385915,
+    "name": "tokamak_radiance",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1502050181,
+    "name": "ability_trapper_fear1",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1531378655,
+    "name": "Kudzu Connection",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1537272748,
+    "name": "Bloodletting",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 800,
+    "id": 1548066885,
+    "name": "Extended Magazine",
+    "slot_type": "weapon",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": 9999,
+    "id": 1558545403,
+    "name": "Unstable Concoction",
+    "slot_type": "spirit",
+    "tier": 5,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1564303265,
+    "name": "tokamak_hot_shot",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1565699451,
+    "name": "ability_rolling_fireball",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1568845221,
+    "name": "Tag Along",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1584495732,
+    "name": "yakuza_protection_racket",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1593133799,
+    "name": "Afterburn",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1594727071,
+    "name": "Petrifying Bola",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1613872264,
+    "name": "rutger_cheat_death",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 1644605047,
+    "name": "Reactive Barrier",
+    "slot_type": "vitality",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1656913918,
+    "name": "Binding Word",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 1662311306,
+    "name": "Divine Barrier",
+    "slot_type": "vitality",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1703045691,
+    "name": "Hotel Guest",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 800,
+    "id": 1710079648,
+    "name": "Healing Rite",
+    "slot_type": "vitality",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1719512318,
+    "name": "Luggage Cart",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1725685134,
+    "name": "Spectral Wall",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 9999,
+    "id": 1736094134,
+    "name": "Seraphim Wings",
+    "slot_type": "vitality",
+    "tier": 5,
+    "type": "upgrade"
+  },
+  {
+    "cost": 1600,
+    "id": 1763073141,
+    "name": "Recharging Rush",
+    "slot_type": "weapon",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1764146857,
+    "name": "Gutshot",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 1770441818,
+    "name": "Weakening Headshot",
+    "slot_type": "weapon",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1773588524,
+    "name": "Blindside",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1777769116,
+    "name": "Back Off!",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1792773251,
+    "name": "Rising Ram",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1796564033,
+    "name": "Flight",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 1797283378,
+    "name": "Infuser",
+    "slot_type": "vitality",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": 6400,
+    "id": 1798666702,
+    "name": "Shadow Weave",
+    "slot_type": "weapon",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": 3200,
+    "id": 1804594021,
+    "name": "Rescue Beam",
+    "slot_type": "vitality",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": 1600,
+    "id": 1813726886,
+    "name": "Slowing Hex",
+    "slot_type": "spirit",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": 9999,
+    "id": 1825399334,
+    "name": "Electric Slippers",
+    "slot_type": "vitality",
+    "tier": 5,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1835738020,
+    "name": "Killing Blow",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1841661392,
+    "name": "Bashdown",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1841901343,
+    "name": "Rallying Charge",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1842576017,
+    "name": "Full Auto",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1851171544,
+    "name": "Lurker's Ambush",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1898352041,
+    "name": "Reefdweller Harpoon",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1914797280,
+    "name": "Sand Blast",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1917840730,
+    "name": "Combo",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 1925087134,
+    "name": "Suppressor",
+    "slot_type": "spirit",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1928108461,
+    "name": "Grapple Arm",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 1932939246,
+    "name": "Alchemical Fire",
+    "slot_type": "weapon",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1939833676,
+    "name": "Static Charge",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1950738949,
+    "name": "Dazzling Trick",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 1955841979,
+    "name": "Spellbreaker",
+    "slot_type": "vitality",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1963397252,
+    "name": "Ice Path",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 1976391348,
+    "name": "Cold Front",
+    "slot_type": "spirit",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1976701714,
+    "name": "Flying Cloak",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 1991038380,
+    "name": "Haunting Spectres",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 800,
+    "id": 1998374645,
+    "name": "Mystic Burst",
+    "slot_type": "spirit",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 1999680326,
+    "name": "Card Trick",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2000761890,
+    "name": "Skipshot",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2001589780,
+    "name": "Grasping Hands",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2006773718,
+    "name": "Riposte",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 800,
+    "id": 2010028405,
+    "name": "Headshot Booster",
+    "slot_type": "weapon",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2031714424,
+    "name": "Quantum Entanglement",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 2037039379,
+    "name": "Inhibitor",
+    "slot_type": "vitality",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2043074967,
+    "name": "Pain Battery",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2048438176,
+    "name": "Crow Familiar",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2052252881,
+    "name": "Petrify",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 9999,
+    "id": 2054088113,
+    "name": "Mystical Piano",
+    "slot_type": "spirit",
+    "tier": 5,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2054144742,
+    "name": "Return to Shadows",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 2059712766,
+    "name": "Restorative Locket",
+    "slot_type": "vitality",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2061574352,
+    "name": "Storm Cloud",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 2061878743,
+    "name": "Disarming Hex",
+    "slot_type": "spirit",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": 1600,
+    "id": 2064029594,
+    "name": "Opening Rounds",
+    "slot_type": "weapon",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": 9999,
+    "id": 2068250483,
+    "name": "Frostbite Charm",
+    "slot_type": "spirit",
+    "tier": 5,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2074867748,
+    "name": "ability_werewolf_hunt",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 2081037738,
+    "name": "Mystic Vulnerability",
+    "slot_type": "spirit",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2086284285,
+    "name": "thumper_ability_2",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 2095565695,
+    "name": "Point Blank",
+    "slot_type": "weapon",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": 3200,
+    "id": 2108215830,
+    "name": "Heroic Aura",
+    "slot_type": "weapon",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": 3200,
+    "id": 2121044373,
+    "name": "Tankbuster",
+    "slot_type": "spirit",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2142213586,
+    "name": "Rabbit Hex",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2142734020,
+    "name": "Medicinal Specter",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 2142980412,
+    "name": "Focus Lens",
+    "slot_type": "spirit",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": 3200,
+    "id": 2152872419,
+    "name": "Sharpshooter",
+    "slot_type": "weapon",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2153275594,
+    "name": "Wrecking Ball",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 2163598980,
+    "name": "Spirit Resilience",
+    "slot_type": "vitality",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": 6400,
+    "id": 2221211450,
+    "name": "Spellslinger",
+    "slot_type": "weapon",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2221949202,
+    "name": "Djinn's Mark",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 2226497419,
+    "name": "Spiritual Overflow",
+    "slot_type": "weapon",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2240607294,
+    "name": "Bounce Pad",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2260066289,
+    "name": "Grit",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 9999,
+    "id": 2319629810,
+    "name": "Shadow Strike",
+    "slot_type": "vitality",
+    "tier": 5,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2322200384,
+    "name": "ability_shieldguy_ability02",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2351041382,
+    "name": "Arctic Beam",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 2356412290,
+    "name": "Titanic Magazine",
+    "slot_type": "weapon",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2364803451,
+    "name": "ability_death_tax",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2366960452,
+    "name": "Crimson Slash",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2395530931,
+    "name": "ability_astro_shotgun_toggle",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2396527575,
+    "name": "Naptime",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2398133749,
+    "name": "Sanguine Retreat",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2406758797,
+    "name": "Burrow",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 2407033488,
+    "name": "Intensifying Magazine",
+    "slot_type": "weapon",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": 6400,
+    "id": 2407781327,
+    "name": "Colossus",
+    "slot_type": "vitality",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2414191464,
+    "name": "Smoke Bomb",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 2417568017,
+    "name": "Scourge",
+    "slot_type": "spirit",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2443795083,
+    "name": "Choking Incense",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 2447176615,
+    "name": "Enduring Speed",
+    "slot_type": "vitality",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2460791803,
+    "name": "Serrated Knives",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 800,
+    "id": 2462046703,
+    "name": "Golden Goose Egg",
+    "slot_type": "spirit",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2462670856,
+    "name": "Wither & Die",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 2463960640,
+    "name": "Escalating Resilience",
+    "slot_type": "weapon",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": 6400,
+    "id": 2480592370,
+    "name": "Ricochet",
+    "slot_type": "weapon",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": 3200,
+    "id": 2481177645,
+    "name": "Hunter's Aura",
+    "slot_type": "weapon",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2489807574,
+    "name": "thumper_ability_3",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2493171901,
+    "name": "Astral Walk",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 2519598785,
+    "name": "Boundless Spirit",
+    "slot_type": "spirit",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2521902222,
+    "name": "Sticky Bomb",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2524015798,
+    "name": "The Great Homonculus!",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 2533252781,
+    "name": "Ethereal Shift",
+    "slot_type": "spirit",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2554327994,
+    "name": "On The Hunt",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2561043068,
+    "name": "ability_graf_ult",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2563620507,
+    "name": "thumper_ability_4",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2565763509,
+    "name": "Go For The Throat",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2566573207,
+    "name": "Flying Slash",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 2566692615,
+    "name": "Healing Booster",
+    "slot_type": "vitality",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2590796390,
+    "name": "Shining Wonder",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 2603935618,
+    "name": "Healbane",
+    "slot_type": "vitality",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2604653402,
+    "name": "Traveler",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2610344982,
+    "name": "Sleight of Hand",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2611201292,
+    "name": "fathom_defer_damage",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 2617435668,
+    "name": "Cursed Relic",
+    "slot_type": "spirit",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2619369142,
+    "name": "ability_swan_featherboomerang",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2627122290,
+    "name": "ability_graf_ability01",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2656490109,
+    "name": "Alchemical Flask",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2670099061,
+    "name": "Grapple",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2675680636,
+    "name": "Bottled Phantasmicide",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 2678489038,
+    "name": "Hollow Point",
+    "slot_type": "weapon",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2702908623,
+    "name": "Last Stand",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2717130900,
+    "name": "Boot Kick",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 2717651715,
+    "name": "Superior Duration",
+    "slot_type": "spirit",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2732213553,
+    "name": "Breach",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 2739107182,
+    "name": "Burst Fire",
+    "slot_type": "weapon",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2750845124,
+    "name": "Borrow Life",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2751689917,
+    "name": "Willpower",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2785646790,
+    "name": "tokamak_breach",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 2800629741,
+    "name": "Magic Carpet",
+    "slot_type": "spirit",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": 6400,
+    "id": 2820116164,
+    "name": "Diviner's Kevlar",
+    "slot_type": "vitality",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2824119765,
+    "name": "Shoulder Charge",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2824729668,
+    "name": "ability_shieldguy_ult",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 800,
+    "id": 2829638276,
+    "name": "Extra Regen",
+    "slot_type": "vitality",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2833514487,
+    "name": "ability_vandal_pillar",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2839987102,
+    "name": "Infernal Brand",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2876116869,
+    "name": "Crawling Plague",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2917891787,
+    "name": "Paradoxical Swap",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2918874166,
+    "name": "Ira Domini",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 800,
+    "id": 2922054143,
+    "name": "Rusted Barrel",
+    "slot_type": "spirit",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2935955509,
+    "name": "ability_shieldguy_ability01",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 2947183272,
+    "name": "Radiant Regeneration",
+    "slot_type": "spirit",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2948410412,
+    "name": "Sleep Dagger",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2949458312,
+    "name": "ability_graf_ability03",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 2951612397,
+    "name": "Duration Extender",
+    "slot_type": "spirit",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2954330093,
+    "name": "Affliction",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 2956256701,
+    "name": "Healing Nova",
+    "slot_type": "vitality",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": 1600,
+    "id": 2971868509,
+    "name": "Bullet Resist Shredder",
+    "slot_type": "spirit",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 2981692841,
+    "name": "Telekinesis",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2984400727,
+    "name": "yakuza_kobun",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 2995140627,
+    "name": "Flame Imp",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3000276336,
+    "name": "ability_astro_rifle",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 3005970438,
+    "name": "Escalating Exposure",
+    "slot_type": "spirit",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": 6400,
+    "id": 3028234315,
+    "name": "Witchmail",
+    "slot_type": "vitality",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3054993162,
+    "name": "Captivating Read",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 3074274290,
+    "name": "Trophy Collector",
+    "slot_type": "vitality",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": 800,
+    "id": 3077079169,
+    "name": "High-Velocity Rounds",
+    "slot_type": "weapon",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3089858203,
+    "name": "Exploding Uppercut",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3093645682,
+    "name": "Potent Vapors",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3113315799,
+    "name": "Grand Finale!",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3117047651,
+    "name": "Tail Whack",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3120550633,
+    "name": "Rend",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3133377790,
+    "name": "Mini Turret",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 3140772621,
+    "name": "Bullet Resilience",
+    "slot_type": "vitality",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": 3200,
+    "id": 3144988365,
+    "name": "Decay",
+    "slot_type": "spirit",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3156905386,
+    "name": "Vexing Bolt",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3190606822,
+    "name": "Spirit Lasso",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 3190916303,
+    "name": "Spirit Snatch",
+    "slot_type": "spirit",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3200615766,
+    "name": "ability_werewolf_trackingbomb",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3214055642,
+    "name": "Jar of Dead",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3219375905,
+    "name": "citadel_ability_kali_disruptive_charge",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3230530872,
+    "name": "Malice",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3232290270,
+    "name": "ability_bomber_ult",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3242902780,
+    "name": "Guided Owl",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3247040238,
+    "name": "Splatter",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3248109871,
+    "name": "Demontrigger Blitz",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3255651252,
+    "name": "Power Slash",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 3261353684,
+    "name": "Superior Cooldown",
+    "slot_type": "spirit",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": 9999,
+    "id": 3269957497,
+    "name": "Infinite Rounds",
+    "slot_type": "weapon",
+    "tier": 5,
+    "type": "upgrade"
+  },
+  {
+    "cost": 3200,
+    "id": 3270001687,
+    "name": "Warp Stone",
+    "slot_type": "vitality",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": 3200,
+    "id": 3294954488,
+    "name": "Ballistic Enchantment",
+    "slot_type": "weapon",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3296031213,
+    "name": "Blasted",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3303049331,
+    "name": "Sticky Bomb",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3319782965,
+    "name": "Shadow Transformation",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3322902852,
+    "name": "Pest Barrier",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 3331811235,
+    "name": "Long Range",
+    "slot_type": "weapon",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3338528319,
+    "name": "ability_charged_bomb",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3356256357,
+    "name": "cadence_ability_grandfinale",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 3357231760,
+    "name": "Unstoppable",
+    "slot_type": "vitality",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3360792911,
+    "name": "Silktrap",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 3361075077,
+    "name": "Return Fire",
+    "slot_type": "vitality",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": 6400,
+    "id": 3361811174,
+    "name": "Cheat Death",
+    "slot_type": "vitality",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3377867107,
+    "name": "Sekhmet's Spirit",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3379486147,
+    "name": "Nox Nostra",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 800,
+    "id": 3399065363,
+    "name": "Sprint Boots",
+    "slot_type": "vitality",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": 1600,
+    "id": 3403085434,
+    "name": "Fleetfoot",
+    "slot_type": "weapon",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3422822440,
+    "name": "Bio Blast",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3426178920,
+    "name": "Overload",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3428732129,
+    "name": "Lethal Venom",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3443575800,
+    "name": "Light Eater",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3449758496,
+    "name": "ability_skyrunner_magic_beam",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3452399392,
+    "name": "Rain of Arrows",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3467292895,
+    "name": "Pounce",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 3491236900,
+    "name": "Plated Armor",
+    "slot_type": "vitality",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3493884851,
+    "name": "Shocking Reanimation",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3503044146,
+    "name": "Heavy Barrage",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3516947824,
+    "name": "Flame Dash",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 9999,
+    "id": 3523480953,
+    "name": "Cloak of Opportunity",
+    "slot_type": "vitality",
+    "tier": 5,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3534969709,
+    "name": "citadel_ability_chain_lightning",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3553292912,
+    "name": "Plot Armor",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3561817145,
+    "name": "Ground Strike",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 9999,
+    "id": 3568217437,
+    "name": "Haunting Shot",
+    "slot_type": "weapon",
+    "tier": 5,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3577477084,
+    "name": "yakuza_shakedown_target",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 3577481646,
+    "name": "Mystic Reverb",
+    "slot_type": "spirit",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": 3200,
+    "id": 3585132399,
+    "name": "Fortitude",
+    "slot_type": "vitality",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3632058121,
+    "name": "ability_fortuna_ult",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 800,
+    "id": 3633614685,
+    "name": "Extra Health",
+    "slot_type": "vitality",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3642273386,
+    "name": "Stone Form",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 3647584222,
+    "name": "Split Shot",
+    "slot_type": "weapon",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3692321247,
+    "name": "Pillow Toss",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 3696726732,
+    "name": "Toxic Bullets",
+    "slot_type": "weapon",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3706135393,
+    "name": "Misdirection",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3708354687,
+    "name": "ability_necro_killsummon_trigger",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3727084744,
+    "name": "Jumpstart",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 9999,
+    "id": 3729138568,
+    "name": "Celestial Blessing",
+    "slot_type": "vitality",
+    "tier": 5,
+    "type": "upgrade"
+  },
+  {
+    "cost": 3200,
+    "id": 3731635960,
+    "name": "Dispel Magic",
+    "slot_type": "vitality",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3733594387,
+    "name": "Fire Scarabs",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3747867012,
+    "name": "Enchanter's Satchel",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3760705623,
+    "name": "Kinetic Pulse",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3762861984,
+    "name": "Chain Gang",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 800,
+    "id": 3776945997,
+    "name": "Extra Charge",
+    "slot_type": "spirit",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3788152387,
+    "name": "The Cube",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 3791587546,
+    "name": "Weighted Shots",
+    "slot_type": "weapon",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3793541808,
+    "name": "ability_boho_ability02",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3803152704,
+    "name": "ability_fortuna_ability02",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 3812615317,
+    "name": "Arctic Blast",
+    "slot_type": "spirit",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3826390464,
+    "name": "Frozen Shelter",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3832675871,
+    "name": "Hyper Beam",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 800,
+    "id": 3862866912,
+    "name": "Restorative Shot",
+    "slot_type": "weapon",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3867044190,
+    "name": "Crushing Leap",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3875361929,
+    "name": "ability_bomber_ability02",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 3884003354,
+    "name": "Crippling Headshot",
+    "slot_type": "weapon",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3908497730,
+    "name": "yakuza_setting_sun",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3913047754,
+    "name": "Hat Trick",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 6400,
+    "id": 3919289022,
+    "name": "Mercurial Magnum",
+    "slot_type": "spirit",
+    "tier": 4,
+    "type": "upgrade"
+  },
+  {
+    "cost": 9999,
+    "id": 3949773228,
+    "name": "Nullification Burst",
+    "slot_type": "vitality",
+    "tier": 5,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3954890388,
+    "name": "citadel_ability_charged_tackle",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3962304265,
+    "name": "Swish",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 3965226174,
+    "name": "citadel_ability_hornet_mark",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 3970837787,
+    "name": "Enchanter's Emblem",
+    "slot_type": "vitality",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": 1600,
+    "id": 3977876567,
+    "name": "Kinetic Dash",
+    "slot_type": "weapon",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 3983754897,
+    "name": "Entangling Bola",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 4007624791,
+    "name": "Mud Shield",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 4009459244,
+    "name": "Mauling Leap",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 4042747505,
+    "name": "tokamak_dying_star",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 9999,
+    "id": 4050602737,
+    "name": "Mystic Conduit",
+    "slot_type": "spirit",
+    "tier": 5,
+    "type": "upgrade"
+  },
+  {
+    "cost": 3200,
+    "id": 4053935515,
+    "name": "Headhunter",
+    "slot_type": "weapon",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 4062064977,
+    "name": "Wrecking Ball",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 4072270083,
+    "name": "Siphon Life",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 3200,
+    "id": 4075861416,
+    "name": "Spirit Rend",
+    "slot_type": "weapon",
+    "tier": 3,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 4081368554,
+    "name": "Queen of Shadows",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 4081662205,
+    "name": "ability_bomber_ability03",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 1600,
+    "id": 4104549924,
+    "name": "Swift Striker",
+    "slot_type": "weapon",
+    "tier": 2,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 4110547059,
+    "name": "Borrowed Decree",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 4111222521,
+    "name": "Entangling Thorns",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 9999,
+    "id": 4121584236,
+    "name": "Shrink Ray",
+    "slot_type": "spirit",
+    "tier": 5,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 4131517918,
+    "name": "Gloom Bombs",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 800,
+    "id": 4139877411,
+    "name": "Extra Stamina",
+    "slot_type": "vitality",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 4147641675,
+    "name": "Project Mind",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 4158849812,
+    "name": "Witching Hour",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 4179229681,
+    "name": "Crackshot",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 4182904284,
+    "name": "rutger_rocket",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 4197612718,
+    "name": "ability_graf_ability02",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": 800,
+    "id": 4204808176,
+    "name": "Rebuttal",
+    "slot_type": "vitality",
+    "tier": 1,
+    "type": "upgrade"
+  },
+  {
+    "cost": null,
+    "id": 4206531918,
+    "name": "Goo Ball",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 4210991587,
+    "name": "Umbrella Maneuver",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 4260284622,
+    "name": "citadel_ability_kali_spinning_blade",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  },
+  {
+    "cost": null,
+    "id": 4264339460,
+    "name": "tokamak_crimson_cannon",
+    "slot_type": null,
+    "tier": null,
+    "type": "ability"
+  }
+]

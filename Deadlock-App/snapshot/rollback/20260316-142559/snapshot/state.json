@@ -1,0 +1,30 @@
+{
+  "version": "3.0",
+  "hero_count": 38,
+  "ability_count": 155,
+  "item_count": 455,
+  "match_count": 7611,
+  "dataset_last_generated": "2026-03-16T13:18:20.450757+00:00",
+  "last_patch_detected": "",
+  "dataset_files": [
+    "deadlock_dataset.xlsx",
+    "hero_vs_hero_matrix.csv",
+    "matchup_predictions.csv"
+  ],
+  "analysis_files": [
+    "hero_meta_scores.csv",
+    "team_scores.csv",
+    "synergy_matrix.csv",
+    "counter_matrix.csv"
+  ],
+  "project_modules": [
+    "api_client",
+    "dataset_builder",
+    "synergy_engine",
+    "counter_engine",
+    "meta_analyzer",
+    "draft_engine",
+    "match_predictor"
+  ],
+  "generated_at": "2026-03-16T13:18:20.450757+00:00"
+}

@@ -1,0 +1,6 @@
+{
+  "tank": ["abrams", "warden", "kelvin", "viscous"],
+  "carry": ["wraith", "shiv", "haze", "infernus"],
+  "support": ["ivy", "dynamo", "mcginnis", "pocket"],
+  "initiator": ["lash", "mirage", "paradox", "yamato"]
+}

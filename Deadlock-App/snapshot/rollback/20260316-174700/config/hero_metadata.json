@@ -1,0 +1,192 @@
+{
+  "abrams": {
+    "role": "tank",
+    "tags": ["frontline", "engage", "melee"],
+    "abilities": ["Shoulder Charge", "Infernal Resilience", "Seismic Impact", "Siphon Life"]
+  },
+  "bebop": {
+    "role": "flex",
+    "tags": ["hook", "explosive", "range"],
+    "abilities": ["Hook", "Sticky Bomb", "Hyper Beam", "Omega Strike"]
+  },
+  "calico": {
+    "role": "assassin",
+    "tags": ["mobility", "stealth", "melee"],
+    "abilities": ["Leaping Slash", "Nine Lives", "Hex Barrier", "Phantom Form"]
+  },
+  "dynamo": {
+    "role": "support",
+    "tags": ["aoe", "crowd control", "team"],
+    "abilities": ["Kinetic Pulse", "Quantum Entanglement", "Singularity", "Demystify"]
+  },
+  "drifter": {
+    "role": "flex",
+    "tags": ["crowd control", "aoe", "utility"],
+    "abilities": ["Warp Stone", "Juxtaposition", "Goo Grenade", "Tornado"]
+  },
+  "grey_talon": {
+    "role": "carry",
+    "tags": ["sniper", "range", "slow"],
+    "abilities": ["Guided Owl", "Charged Shot", "Rain of Arrows", "Charge of Misery"]
+  },
+  "haze": {
+    "role": "carry",
+    "tags": ["assassin", "stealth", "damage"],
+    "abilities": ["Smoke Bomb", "Bullet Dance", "Sleep Dagger", "Fixation"]
+  },
+  "holliday": {
+    "role": "carry",
+    "tags": ["range", "damage", "mobility"],
+    "abilities": ["Lasso", "Ride Into The Sunrise", "Fan the Hammer", "Explosive Dead Shot"]
+  },
+  "infernus": {
+    "role": "carry",
+    "tags": ["damage", "aoe", "fire"],
+    "abilities": ["Catalyst", "Flame Dash", "Concussive Combustion", "Afterburn"]
+  },
+  "ivy": {
+    "role": "support",
+    "tags": ["mobility", "healer", "carry"],
+    "abilities": ["Kudzu Bomb", "Air Drop", "Watcher's Covenant", "Stone Form"]
+  },
+  "kelvin": {
+    "role": "support",
+    "tags": ["aoe", "freeze", "team"],
+    "abilities": ["Frost Grenade", "Arctic Beam", "Frozen Shelter", "Glacial Cage"]
+  },
+  "lady_geist": {
+    "role": "carry",
+    "tags": ["mage", "life drain", "damage"],
+    "abilities": ["Life Drain", "Essence Bomb", "Malice", "Soul Exchange"]
+  },
+  "lash": {
+    "role": "initiator",
+    "tags": ["mobility", "engage", "aoe"],
+    "abilities": ["Ground Strike", "Flog", "Death Slam", "Grapnel"]
+  },
+  "mcginnis": {
+    "role": "tank",
+    "tags": ["frontline", "turret", "support"],
+    "abilities": ["Medicinal Specter", "Heavy Barrage", "Spectral Wall", "Turret"]
+  },
+  "mirage": {
+    "role": "carry",
+    "tags": ["fire", "damage", "displacement"],
+    "abilities": ["Fire Scarabs", "Tornado", "Djinn's Mark", "Traveler"]
+  },
+  "mo_and_krill": {
+    "role": "tank",
+    "tags": ["frontline", "burrow", "melee"],
+    "abilities": ["Scorn", "Burrow", "Sand Blast", "Combo"]
+  },
+  "paradox": {
+    "role": "flex",
+    "tags": ["time", "displacement", "range"],
+    "abilities": ["Kinetic Carbine", "Pulse Grenade", "Time Wall", "Paradoxical Swap"]
+  },
+  "pocket": {
+    "role": "carry",
+    "tags": ["mage", "mobility", "damage"],
+    "abilities": ["Barrage", "Flying Cloak", "Enchanter's Satchel", "Affliction"]
+  },
+  "seven": {
+    "role": "carry",
+    "tags": ["damage", "mage", "lightning"],
+    "abilities": ["Static Charge", "Lightning Ball", "Thunderclap", "Storm Cloud"]
+  },
+  "shiv": {
+    "role": "assassin",
+    "tags": ["melee", "bleed", "brawler"],
+    "abilities": ["Serrated Knives", "Slice and Dice", "Bloodletting", "Killing Blow"]
+  },
+  "sinclair": {
+    "role": "flex",
+    "tags": ["summon", "support", "magic"],
+    "abilities": ["Rabbit Hex", "Bundle of Curses", "Spectral Assistant", "Grand Illusion"]
+  },
+  "vindicta": {
+    "role": "carry",
+    "tags": ["sniper", "range", "assassin"],
+    "abilities": ["Stake", "Crow Familiar", "Flight", "Assassinate"]
+  },
+  "viscous": {
+    "role": "tank",
+    "tags": ["frontline", "slow", "aoe"],
+    "abilities": ["Puddle Punch", "Splatter", "Pull", "The Cube"]
+  },
+  "vyper": {
+    "role": "carry",
+    "tags": ["range", "poison", "mobility"],
+    "abilities": ["Venom Snare", "Hyper Speed", "Corrosive Vent", "Neural Inject"]
+  },
+  "warden": {
+    "role": "tank",
+    "tags": ["frontline", "stun", "sustain"],
+    "abilities": ["Alchemical Flask", "Binding Word", "Willpower", "Future Sight"]
+  },
+  "wraith": {
+    "role": "carry",
+    "tags": ["damage", "cards", "mobility"],
+    "abilities": ["Card Trick", "Royal Flush", "Full Auto", "Telekinesis"]
+  },
+  "yamato": {
+    "role": "assassin",
+    "tags": ["melee", "mobility", "dash"],
+    "abilities": ["Power Slash", "Flying Strike", "Shadow Transformation", "Crimson Slash"]
+  },
+  "apollo": {
+    "role": "carry",
+    "tags": ["range", "damage", "agile"],
+    "abilities": []
+  },
+  "billy": {
+    "role": "flex",
+    "tags": ["utility"],
+    "abilities": []
+  },
+  "celeste": {
+    "role": "support",
+    "tags": ["healer", "utility"],
+    "abilities": []
+  },
+  "doorman": {
+    "role": "support",
+    "tags": ["crowd control", "utility"],
+    "abilities": []
+  },
+  "graves": {
+    "role": "carry",
+    "tags": ["range", "damage"],
+    "abilities": []
+  },
+  "mina": {
+    "role": "support",
+    "tags": ["healer", "utility"],
+    "abilities": []
+  },
+  "paige": {
+    "role": "carry",
+    "tags": ["damage", "agile"],
+    "abilities": []
+  },
+  "rem": {
+    "role": "flex",
+    "tags": ["utility"],
+    "abilities": []
+  },
+  "silver": {
+    "role": "carry",
+    "tags": ["range", "damage"],
+    "abilities": []
+  },
+  "venator": {
+    "role": "assassin",
+    "tags": ["hunter", "melee"],
+    "abilities": []
+  },
+  "victor": {
+    "role": "carry",
+    "tags": ["range", "mage"],
+    "abilities": []
+  }
+}

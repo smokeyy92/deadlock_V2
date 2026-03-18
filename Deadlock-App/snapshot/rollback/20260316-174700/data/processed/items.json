@@ -1,0 +1,3187 @@
+[
+  {
+    "item_id": "3000276336",
+    "name": "ability_astro_rifle",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2395530931",
+    "name": "ability_astro_shotgun_toggle",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "483227074",
+    "name": "ability_boho_ability01",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3793541808",
+    "name": "ability_boho_ability02",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "759370291",
+    "name": "ability_boho_channeltether",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3875361929",
+    "name": "ability_bomber_ability02",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4081662205",
+    "name": "ability_bomber_ability03",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3232290270",
+    "name": "ability_bomber_ult",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3338528319",
+    "name": "ability_charged_bomb",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2364803451",
+    "name": "ability_death_tax",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "309803113",
+    "name": "ability_fortuna_ability01",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3803152704",
+    "name": "ability_fortuna_ability02",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "620778714",
+    "name": "ability_fortuna_ability03",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3632058121",
+    "name": "ability_fortuna_ult",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2627122290",
+    "name": "ability_graf_ability01",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4197612718",
+    "name": "ability_graf_ability02",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2949458312",
+    "name": "ability_graf_ability03",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2561043068",
+    "name": "ability_graf_ult",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "371372145",
+    "name": "ability_haunt",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "21628267",
+    "name": "ability_kali_dust_storm",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "488392205",
+    "name": "ability_kali_trappers_bolo",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1430464147",
+    "name": "ability_nano_pounce_instant",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3708354687",
+    "name": "ability_necro_killsummon_trigger",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "152191637",
+    "name": "ability_necro_nukemap",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1565699451",
+    "name": "ability_rolling_fireball",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2935955509",
+    "name": "ability_shieldguy_ability01",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2322200384",
+    "name": "ability_shieldguy_ability02",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1105433407",
+    "name": "ability_shieldguy_ability03",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2824729668",
+    "name": "ability_shieldguy_ult",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3449758496",
+    "name": "ability_skyrunner_magic_beam",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "425769687",
+    "name": "ability_skyrunner_ult",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2619369142",
+    "name": "ability_swan_featherboomerang",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1048488396",
+    "name": "ability_swan_ult",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "943923461",
+    "name": "ability_target_practice",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1502050181",
+    "name": "ability_trapper_fear1",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2833514487",
+    "name": "ability_vandal_pillar",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2074867748",
+    "name": "ability_werewolf_hunt",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3200615766",
+    "name": "ability_werewolf_trackingbomb",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1418303954",
+    "name": "Acrobat",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "381961617",
+    "name": "Active Reload",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2954330093",
+    "name": "Affliction",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1593133799",
+    "name": "Afterburn",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1247583368",
+    "name": "Air Drop",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1932939246",
+    "name": "Alchemical Fire",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2656490109",
+    "name": "Alchemical Flask",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1150006784",
+    "name": "Arcane Surge",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2351041382",
+    "name": "Arctic Beam",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3812615317",
+    "name": "Arctic Blast",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "673001892",
+    "name": "Armor Piercing Rounds",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "775377419",
+    "name": "Assassinate",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2493171901",
+    "name": "Astral Walk",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "191022746",
+    "name": "Audience Participation",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1472593493",
+    "name": "Aura of Suffering",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1009029159",
+    "name": "Ava",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1777769116",
+    "name": "Back Off!",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3294954488",
+    "name": "Ballistic Enchantment",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "938149308",
+    "name": "Barrage",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1841661392",
+    "name": "Bashdown",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1235347618",
+    "name": "Battle Vest",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1414319208",
+    "name": "Berserker",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1656913918",
+    "name": "Binding Word",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3422822440",
+    "name": "Bio Blast",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3296031213",
+    "name": "Blasted",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1034605902",
+    "name": "Blessed Tac-Vest",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1773588524",
+    "name": "Blindside",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "989206714",
+    "name": "Blood Tribute",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1537272748",
+    "name": "Bloodletting",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1033019133",
+    "name": "Bloodscent",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "604448162",
+    "name": "Bookwyrm",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2717130900",
+    "name": "Boot Kick",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2750845124",
+    "name": "Borrow Life",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4110547059",
+    "name": "Borrowed Decree",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2675680636",
+    "name": "Bottled Phantasmicide",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2240607294",
+    "name": "Bounce Pad",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2519598785",
+    "name": "Boundless Spirit",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2732213553",
+    "name": "Breach",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "731943444",
+    "name": "Bullet Dance",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "499683006",
+    "name": "Bullet Lifesteal",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3140772621",
+    "name": "Bullet Resilience",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2971868509",
+    "name": "Bullet Resist Shredder",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2406758797",
+    "name": "Burrow",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2739107182",
+    "name": "Burst Fire",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1157620447",
+    "name": "cadence_ability_anthem",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "599532073",
+    "name": "cadence_ability_crescendo",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3356256357",
+    "name": "cadence_ability_grandfinale",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "957095276",
+    "name": "cadence_ability_lullaby",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "421275722",
+    "name": "cadence_ability_silencecontraptions",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "103496908",
+    "name": "Call Bell",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "710436191",
+    "name": "Capacitor",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3054993162",
+    "name": "Captivating Read",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1410779535",
+    "name": "Captive Audience",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1999680326",
+    "name": "Card Trick",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3729138568",
+    "name": "Celestial Blessing",
+    "cost": 9999,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3762861984",
+    "name": "Chain Gang",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "548943648",
+    "name": "Charged Shot",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3361811174",
+    "name": "Cheat Death",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2443795083",
+    "name": "Choking Incense",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3534969709",
+    "name": "citadel_ability_chain_lightning",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3954890388",
+    "name": "citadel_ability_charged_tackle",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3965226174",
+    "name": "citadel_ability_hornet_mark",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3219375905",
+    "name": "citadel_ability_kali_disruptive_charge",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4260284622",
+    "name": "citadel_ability_kali_spinning_blade",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "916959628",
+    "name": "citadel_ability_vandal_overflow",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1288133032",
+    "name": "citadel_ability_vandal_surge",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "636273017",
+    "name": "citadel_ability_wing_blast",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3523480953",
+    "name": "Cloak of Opportunity",
+    "cost": 9999,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1342610602",
+    "name": "Close Quarters",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1976391348",
+    "name": "Cold Front",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2407781327",
+    "name": "Colossus",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1917840730",
+    "name": "Combo",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "380806748",
+    "name": "Compress Cooldown",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1142270357",
+    "name": "Concussive Combustion",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "911307831",
+    "name": "Consecrating Grenade",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "208809857",
+    "name": "Consume",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1414025773",
+    "name": "Counterspell",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4179229681",
+    "name": "Crackshot",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2876116869",
+    "name": "Crawling Plague",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2366960452",
+    "name": "Crimson Slash",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3884003354",
+    "name": "Crippling Headshot",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2048438176",
+    "name": "Crow Familiar",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "800008313",
+    "name": "Crushing Fists",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3867044190",
+    "name": "Crushing Leap",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "709540378",
+    "name": "Cultist Sacrifice",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2617435668",
+    "name": "Cursed Relic",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1950738949",
+    "name": "Dazzling Trick",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "397010810",
+    "name": "Death Slam",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1047818222",
+    "name": "Debuff Reducer",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3144988365",
+    "name": "Decay",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3248109871",
+    "name": "Demontrigger Blitz",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2061878743",
+    "name": "Disarming Hex",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "725153709",
+    "name": "Disengaging Sigil",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3731635960",
+    "name": "Dispel Magic",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1662311306",
+    "name": "Divine Barrier",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2820116164",
+    "name": "Diviner's Kevlar",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2221949202",
+    "name": "Djinn's Mark",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "109766091",
+    "name": "Doorway",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2951612397",
+    "name": "Duration Extender",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1336069669",
+    "name": "Dust Devil",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "630839635",
+    "name": "Echo Shard",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1825399334",
+    "name": "Electric Slippers",
+    "cost": 9999,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3970837787",
+    "name": "Enchanter's Emblem",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3747867012",
+    "name": "Enchanter's Satchel",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2447176615",
+    "name": "Enduring Speed",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3983754897",
+    "name": "Entangling Bola",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4111222521",
+    "name": "Entangling Thorns",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3005970438",
+    "name": "Escalating Exposure",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2463960640",
+    "name": "Escalating Resilience",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "895140205",
+    "name": "Escape Artist",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "715325746",
+    "name": "Essence Bomb",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "629925354",
+    "name": "Essence Theft",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "230297145",
+    "name": "Eternal Gift",
+    "cost": 9999,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1168182161",
+    "name": "Eternal Night",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2533252781",
+    "name": "Ethereal Shift",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3089858203",
+    "name": "Exploding Uppercut",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "690458959",
+    "name": "Express Shot",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1548066885",
+    "name": "Extended Magazine",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3776945997",
+    "name": "Extra Charge",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3633614685",
+    "name": "Extra Health",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2829638276",
+    "name": "Extra Regen",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "968099481",
+    "name": "Extra Spirit",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4139877411",
+    "name": "Extra Stamina",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2611201292",
+    "name": "fathom_defer_damage",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3733594387",
+    "name": "Fire Scarabs",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1080948381",
+    "name": "Fixation",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "228680142",
+    "name": "Flakshot",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3516947824",
+    "name": "Flame Dash",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2995140627",
+    "name": "Flame Imp",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "147493976",
+    "name": "Flawless Advance",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3403085434",
+    "name": "Fleetfoot",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1796564033",
+    "name": "Flight",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "519124136",
+    "name": "Flog",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1976701714",
+    "name": "Flying Cloak",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2566573207",
+    "name": "Flying Slash",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2142980412",
+    "name": "Focus Lens",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3585132399",
+    "name": "Fortitude",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "339443430",
+    "name": "Frenzy",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "18921423",
+    "name": "Frost Grenade",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2068250483",
+    "name": "Frostbite Charm",
+    "cost": 9999,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3826390464",
+    "name": "Frozen Shelter",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1842576017",
+    "name": "Full Auto",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1409190604",
+    "name": "Fury Trance",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "365620721",
+    "name": "Glass Cannon",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4131517918",
+    "name": "Gloom Bombs",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2565763509",
+    "name": "Go For The Throat",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2462046703",
+    "name": "Golden Goose Egg",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4206531918",
+    "name": "Goo Ball",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3113315799",
+    "name": "Grand Finale!",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2670099061",
+    "name": "Grapple",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1928108461",
+    "name": "Grapple Arm",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2001589780",
+    "name": "Grasping Hands",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1193964439",
+    "name": "Greater Expansion",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2260066289",
+    "name": "Grit",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3561817145",
+    "name": "Ground Strike",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "857669956",
+    "name": "Guardian Ward",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3242902780",
+    "name": "Guided Owl",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1764146857",
+    "name": "Gutshot",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3913047754",
+    "name": "Hat Trick",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3568217437",
+    "name": "Haunting Shot",
+    "cost": 9999,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1991038380",
+    "name": "Haunting Spectres",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4053935515",
+    "name": "Headhunter",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2010028405",
+    "name": "Headshot Booster",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2603935618",
+    "name": "Healbane",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2566692615",
+    "name": "Healing Booster",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2956256701",
+    "name": "Healing Nova",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1710079648",
+    "name": "Healing Rite",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1427630806",
+    "name": "Healing Tempo",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3503044146",
+    "name": "Heavy Barrage",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1224888294",
+    "name": "Hellfire Salvo",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2108215830",
+    "name": "Heroic Aura",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "11154161",
+    "name": "Hex-Lined Snap Trap",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3077079169",
+    "name": "High-Velocity Rounds",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2678489038",
+    "name": "Hollow Point",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1322882622",
+    "name": "Hook Blade",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1703045691",
+    "name": "Hotel Guest",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2481177645",
+    "name": "Hunter's Aura",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3832675871",
+    "name": "Hyper Beam",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1963397252",
+    "name": "Ice Path",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "7409189",
+    "name": "Improved Spirit",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2839987102",
+    "name": "Infernal Brand",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "715762406",
+    "name": "Infernal Resilience",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3269957497",
+    "name": "Infinite Rounds",
+    "cost": 9999,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1797283378",
+    "name": "Infuser",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2037039379",
+    "name": "Inhibitor",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2407033488",
+    "name": "Intensifying Magazine",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "370209602",
+    "name": "Intertwine",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2918874166",
+    "name": "Ira Domini",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "494112189",
+    "name": "Itani Lo Sahn",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3214055642",
+    "name": "Jar of Dead",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "682591488",
+    "name": "Jet\u00e9",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1250307611",
+    "name": "Juggernaut",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3727084744",
+    "name": "Jumpstart",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1835738020",
+    "name": "Killing Blow",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1128670012",
+    "name": "Kinetic Carbine",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3977876567",
+    "name": "Kinetic Dash",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3760705623",
+    "name": "Kinetic Pulse",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1254091416",
+    "name": "Knockdown",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1531378655",
+    "name": "Kudzu Connection",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2702908623",
+    "name": "Last Stand",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1426567660",
+    "name": "Leaping Slash",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "865846625",
+    "name": "Leech",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3428732129",
+    "name": "Lethal Venom",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "218284420",
+    "name": "Life Drain",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1252627263",
+    "name": "Lifestrike",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "201562678",
+    "name": "Lifethread",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3443575800",
+    "name": "Light Eater",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1065103387",
+    "name": "Lightning Ball",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "493591231",
+    "name": "Lightning Scroll",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "536278136",
+    "name": "Lil Helpers",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3331811235",
+    "name": "Long Range",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1233782561",
+    "name": "Love Bites",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1396247347",
+    "name": "Lucky Shot",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1719512318",
+    "name": "Luggage Cart",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1851171544",
+    "name": "Lurker's Ambush",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "515791019",
+    "name": "Lycan Curse",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2800629741",
+    "name": "Magic Carpet",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "100068731",
+    "name": "Magnetic Flux",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "600033864",
+    "name": "Majestic Leap",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3230530872",
+    "name": "Malice",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4009459244",
+    "name": "Mauling Leap",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2142734020",
+    "name": "Medicinal Specter",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "26002154",
+    "name": "Melee Charge",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1437614329",
+    "name": "Melee Lifesteal",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3919289022",
+    "name": "Mercurial Magnum",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1378931225",
+    "name": "Metal Skin",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3133377790",
+    "name": "Mini Turret",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3706135393",
+    "name": "Misdirection",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1009965641",
+    "name": "Monster Rounds",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4007624791",
+    "name": "Mud Shield",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1998374645",
+    "name": "Mystic Burst",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4050602737",
+    "name": "Mystic Conduit",
+    "cost": 9999,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "754480263",
+    "name": "Mystic Expansion",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1439347412",
+    "name": "Mystic Regeneration",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3577481646",
+    "name": "Mystic Reverb",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "395867183",
+    "name": "Mystic Shot",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1102081447",
+    "name": "Mystic Slow",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2081037738",
+    "name": "Mystic Vulnerability",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2054088113",
+    "name": "Mystical Piano",
+    "cost": 9999,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "491391007",
+    "name": "Napalm",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2396527575",
+    "name": "Naptime",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "755723302",
+    "name": "Nekomata Ward",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3379486147",
+    "name": "Nox Nostra",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3949773228",
+    "name": "Nullification Burst",
+    "cost": 9999,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "424779525",
+    "name": "Omnicharge Signet",
+    "cost": 9999,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2554327994",
+    "name": "On The Hunt",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2064029594",
+    "name": "Opening Rounds",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3426178920",
+    "name": "Overload",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2043074967",
+    "name": "Pain Battery",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2917891787",
+    "name": "Paradoxical Swap",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3322902852",
+    "name": "Pest Barrier",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2052252881",
+    "name": "Petrify",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1594727071",
+    "name": "Petrifying Bola",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1371725689",
+    "name": "Phantom Strike",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3692321247",
+    "name": "Pillow Toss",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3491236900",
+    "name": "Plated Armor",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3553292912",
+    "name": "Plot Armor",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2095565695",
+    "name": "Point Blank",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3093645682",
+    "name": "Potent Vapors",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3467292895",
+    "name": "Pounce",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1235098866",
+    "name": "Powder Keg",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3255651252",
+    "name": "Power Slash",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "539192269",
+    "name": "Power Surge",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1132564516",
+    "name": "Prism Blast",
+    "cost": 9999,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4147641675",
+    "name": "Project Mind",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1020817390",
+    "name": "Puddle Punch",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "58655583",
+    "name": "Pulse Grenade",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2031714424",
+    "name": "Quantum Entanglement",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4081368554",
+    "name": "Queen of Shadows",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "84321454",
+    "name": "Quicksilver Reload",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "994831172",
+    "name": "Rabbit Hex",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2142213586",
+    "name": "Rabbit Hex",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1011349580",
+    "name": "Radiant Daggers",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2947183272",
+    "name": "Radiant Regeneration",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3452399392",
+    "name": "Rain of Arrows",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "193508101",
+    "name": "Rake",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1841901343",
+    "name": "Rallying Charge",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "787198704",
+    "name": "Rapid Recharge",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "668299740",
+    "name": "Rapid Rounds",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1644605047",
+    "name": "Reactive Barrier",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4204808176",
+    "name": "Rebuttal",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1763073141",
+    "name": "Recharging Rush",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1898352041",
+    "name": "Reefdweller Harpoon",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "677738769",
+    "name": "Refresher",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "492030745",
+    "name": "Rejuvenating Aurora",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3120550633",
+    "name": "Rend",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1804594021",
+    "name": "Rescue Beam",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2059712766",
+    "name": "Restorative Locket",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3862866912",
+    "name": "Restorative Shot",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3361075077",
+    "name": "Return Fire",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2054144742",
+    "name": "Return to Shadows",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1101238302",
+    "name": "Revelation",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2480592370",
+    "name": "Ricochet",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2006773718",
+    "name": "Riposte",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1792773251",
+    "name": "Rising Ram",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "64550694",
+    "name": "Runed Gauntlets",
+    "cost": 9999,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2922054143",
+    "name": "Rusted Barrel",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1613872264",
+    "name": "rutger_cheat_death",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "639385332",
+    "name": "rutger_force_field",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "363299194",
+    "name": "rutger_pulse",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4182904284",
+    "name": "rutger_rocket",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1914797280",
+    "name": "Sand Blast",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2398133749",
+    "name": "Sanguine Retreat",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "347080770",
+    "name": "Scalding Spray",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1454278799",
+    "name": "Scorn",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2417568017",
+    "name": "Scourge",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "645773760",
+    "name": "Screwjab Dagger",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "509856396",
+    "name": "Seismic Impact",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3377867107",
+    "name": "Sekhmet's Spirit",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1736094134",
+    "name": "Seraphim Wings",
+    "cost": 9999,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2460791803",
+    "name": "Serrated Knives",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2319629810",
+    "name": "Shadow Strike",
+    "cost": 9999,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3319782965",
+    "name": "Shadow Transformation",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1798666702",
+    "name": "Shadow Weave",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2152872419",
+    "name": "Sharpshooter",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2590796390",
+    "name": "Shining Wonder",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3493884851",
+    "name": "Shocking Reanimation",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2824119765",
+    "name": "Shoulder Charge",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4121584236",
+    "name": "Shrink Ray",
+    "cost": 9999,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "619484391",
+    "name": "Silence Wave",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1113837674",
+    "name": "Silencer",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3360792911",
+    "name": "Silktrap",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "249410288",
+    "name": "Singularity",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1282141666",
+    "name": "Siphon Bullets",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4072270083",
+    "name": "Siphon Life",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2000761890",
+    "name": "Skipshot",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1385849824",
+    "name": "Slam Fire",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2948410412",
+    "name": "Sleep Dagger",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2610344982",
+    "name": "Sleight of Hand",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1458044103",
+    "name": "Slice and Dice",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1469918191",
+    "name": "Slither",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "393974127",
+    "name": "Slowing Bullets",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1813726886",
+    "name": "Slowing Hex",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2414191464",
+    "name": "Smoke Bomb",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1307289689",
+    "name": "Soul Exchange",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "12456023",
+    "name": "Spectral Assistant",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1289909147",
+    "name": "Spectral Silk",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1725685134",
+    "name": "Spectral Wall",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1955841979",
+    "name": "Spellbreaker",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2221211450",
+    "name": "Spellslinger",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "343572757",
+    "name": "Spirit Burn",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3190606822",
+    "name": "Spirit Lasso",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "876563814",
+    "name": "Spirit Lifesteal",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4075861416",
+    "name": "Spirit Rend",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2163598980",
+    "name": "Spirit Resilience",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1219329868",
+    "name": "Spirit Sap",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "112198670",
+    "name": "Spirit Shielding",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1144549437",
+    "name": "Spirit Shredder Bullets",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "512733154",
+    "name": "Spirit Snare",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3190916303",
+    "name": "Spirit Snatch",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "465043967",
+    "name": "Spirit Strike",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2226497419",
+    "name": "Spiritual Overflow",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3247040238",
+    "name": "Splatter",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3647584222",
+    "name": "Split Shot",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3399065363",
+    "name": "Sprint Boots",
+    "cost": 800,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "537527508",
+    "name": "Stake",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "98582110",
+    "name": "Stalker",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1264175662",
+    "name": "Stalker's Mark",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "334300056",
+    "name": "Stamina Mastery",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1074714947",
+    "name": "Static Charge",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1939833676",
+    "name": "Static Charge",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2521902222",
+    "name": "Sticky Bomb",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3303049331",
+    "name": "Sticky Bomb",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3642273386",
+    "name": "Stone Form",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2061574352",
+    "name": "Storm Cloud",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3261353684",
+    "name": "Superior Cooldown",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2717651715",
+    "name": "Superior Duration",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1925087134",
+    "name": "Suppressor",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1292979587",
+    "name": "Surge of Power",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4104549924",
+    "name": "Swift Striker",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3962304265",
+    "name": "Swish",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1568845221",
+    "name": "Tag Along",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3117047651",
+    "name": "Tail Whack",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2121044373",
+    "name": "Tankbuster",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "476551004",
+    "name": "Teargas Grenade",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2981692841",
+    "name": "Telekinesis",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "811521119",
+    "name": "Tesla Bullets",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3788152387",
+    "name": "The Cube",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2524015798",
+    "name": "The Great Homonculus!",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "348689004",
+    "name": "thumper_ability_1",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2086284285",
+    "name": "thumper_ability_2",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2489807574",
+    "name": "thumper_ability_3",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2563620507",
+    "name": "thumper_ability_4",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1366719170",
+    "name": "Time Wall",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2356412290",
+    "name": "Titanic Magazine",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2785646790",
+    "name": "tokamak_breach",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4264339460",
+    "name": "tokamak_crimson_cannon",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4042747505",
+    "name": "tokamak_dying_star",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "6698938",
+    "name": "tokamak_heat_sinks",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1564303265",
+    "name": "tokamak_hot_shot",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1498385915",
+    "name": "tokamak_radiance",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "395944548",
+    "name": "Torment Pulse",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3696726732",
+    "name": "Toxic Bullets",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "915014646",
+    "name": "Transcendent Cooldown",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2604653402",
+    "name": "Traveler",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3074274290",
+    "name": "Trophy Collector",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4210991587",
+    "name": "Umbrella Maneuver",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1558545403",
+    "name": "Unstable Concoction",
+    "cost": 9999,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3357231760",
+    "name": "Unstoppable",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1055679805",
+    "name": "Vampiric Burst",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "865958998",
+    "name": "Veil Walker",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3156905386",
+    "name": "Vexing Bolt",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1152158042",
+    "name": "Vortex Web",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3270001687",
+    "name": "Warp Stone",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1770441818",
+    "name": "Weakening Headshot",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "805079544",
+    "name": "Weapon Shielding",
+    "cost": 1600,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3791587546",
+    "name": "Weighted Shots",
+    "cost": 3200,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2751689917",
+    "name": "Willpower",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4158849812",
+    "name": "Witching Hour",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3028234315",
+    "name": "Witchmail",
+    "cost": 6400,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2462670856",
+    "name": "Wither & Die",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2153275594",
+    "name": "Wrecking Ball",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "4062064977",
+    "name": "Wrecking Ball",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "2984400727",
+    "name": "yakuza_kobun",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "1584495732",
+    "name": "yakuza_protection_racket",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3908497730",
+    "name": "yakuza_setting_sun",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  },
+  {
+    "item_id": "3577477084",
+    "name": "yakuza_shakedown_target",
+    "cost": null,
+    "stats": {},
+    "build_path": []
+  }
+]

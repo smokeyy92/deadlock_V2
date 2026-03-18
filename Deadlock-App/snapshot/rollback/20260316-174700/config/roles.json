@@ -1,0 +1,52 @@
+{
+  "tank": [
+    "abrams",
+    "mcginnis",
+    "mo_and_krill",
+    "viscous",
+    "warden"
+  ],
+  "carry": [
+    "apollo",
+    "graves",
+    "grey_talon",
+    "haze",
+    "holliday",
+    "infernus",
+    "lady_geist",
+    "mirage",
+    "paige",
+    "pocket",
+    "seven",
+    "silver",
+    "victor",
+    "vindicta",
+    "vyper",
+    "wraith"
+  ],
+  "support": [
+    "celeste",
+    "doorman",
+    "dynamo",
+    "ivy",
+    "kelvin",
+    "mina"
+  ],
+  "initiator": [
+    "lash"
+  ],
+  "assassin": [
+    "calico",
+    "shiv",
+    "venator",
+    "yamato"
+  ],
+  "flex": [
+    "bebop",
+    "billy",
+    "drifter",
+    "paradox",
+    "rem",
+    "sinclair"
+  ]
+}

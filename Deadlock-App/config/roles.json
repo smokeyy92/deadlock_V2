@@ -1,0 +1,52 @@
+{
+  "Hypercarry": [
+    "infernus",
+    "seven",
+    "venator",
+    "warden",
+    "wraith"
+  ],
+  "Offcarry": [
+    "apollo",
+    "calico",
+    "celeste",
+    "graves",
+    "mina",
+    "mirage"
+  ],
+  "Frontliner/Tank": [
+    "abrams",
+    "bebop",
+    "billy",
+    "shiv",
+    "victor"
+  ],
+  "Support": [
+    "doorman",
+    "dynamo",
+    "ivy",
+    "kelvin",
+    "mcginnis",
+    "paige",
+    "rem",
+    "viscous"
+  ],
+  "Spirit/Flex/Hybrid": [
+    "grey_talon",
+    "lady_geist",
+    "pocket",
+    "silver",
+    "sinclair",
+    "yamato"
+  ],
+  "Pick/Initiator/Catch": [
+    "drifter",
+    "haze",
+    "holliday",
+    "lash",
+    "mo_and_krill",
+    "paradox",
+    "vindicta",
+    "vyper"
+  ]
+}

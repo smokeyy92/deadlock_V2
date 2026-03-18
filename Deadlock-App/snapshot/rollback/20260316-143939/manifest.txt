@@ -1,0 +1,7 @@
+﻿timestamp=20260316-143939
+project_root=C:\Users\smbsm\Documents\DevOps\Deadlock\Deadlock-App
+git_head=e1d9d5d025325e554eb0961ba2d7d35b897c7fc3
+
+# git status --short
+?? ./
+?? ../God-Teir-App/

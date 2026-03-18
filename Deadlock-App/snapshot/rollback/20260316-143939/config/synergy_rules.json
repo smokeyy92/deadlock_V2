@@ -1,0 +1,5 @@
+{
+  "same_role_penalty": -0.03,
+  "complementary_role_bonus": 0.05,
+  "base_synergy": 0.5
+}

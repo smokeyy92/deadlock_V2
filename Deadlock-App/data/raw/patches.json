@@ -1,0 +1,342 @@
+[
+  {
+    "title": "03-06-2026 Update",
+    "pub_date": "2026-03-11T04:39:40Z",
+    "link": "https://forums.playdeadlock.com/threads/03-06-2026-update.114328/",
+    "guid": {
+      "is_perma_link": false,
+      "text": "114328"
+    },
+    "author": "invalid@example.com (Yoshi)",
+    "category": {
+      "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+      "text": "Changelog"
+    },
+    "dc_creator": "Yoshi",
+    "content_encoded": "<div class=\"bbWrapper\"><div class=\"bbCodeBlock bbCodeBlock--unfurl    js-unfurl fauxBlockLink\"\n\t\tdata-unfurl=\"true\" data-result-id=\"7726\" data-url=\"https://store.steampowered.com/news/app/1422450/view/519740319207522795\" data-host=\"store.steampowered.com\" data-pending=\"false\">\n\t\t<div class=\"contentRow\">\n\t\t\t\n\t\t\t\t<div class=\"contentRow-figure contentRow-figure--fixedSmall js-unfurl-figure\">\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"https://clan.akamai.steamstatic.com/images/45164767/1a200778c94a048c5b2580a1e1a36071679ff19e.png\" loading=\"lazy\" alt=\"store.steampowered.com\" class=\"bbCodeBlockUnfurl-image\" data-onerror=\"hide-parent\"/>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"contentRow-main\">\n\t\t\t\t<h3 class=\"contentRow-header js-unfurl-title\">\n\t\t\t\t\t<a href=\"https://store.steampowered.com/news/app/1422450/view/519740319207522795\"\n\t\t\t\t\t\tclass=\"link link--external fauxBlockLink-blockLink\"\n\t\t\t\t\t\ttarget=\"_blank\"\n\t\t\t\t\t\trel=\"noopener\"\n\t\t\t\t\t\tdata-proxy-href=\"\">\n\t\t\t\t\t\tDeadlock - Gameplay Update - 03-06-2026 - Steam News\n\t\t\t\t\t</a>\n\t\t\t\t</h3>\n\n\t\t\t\t<div class=\"contentRow-snippet js-unfurl-desc\">[ General ] - Can now jump during slide - Dash jump grants a very brief period with increased air control (30% for 0.25s) - Shrine is now easier to kill for the first one and harder for the second. HP from 8100 to 5000/10000 (HP updates after the first one dies, like Walkers) - Shrines attack no...</div>\n\n\t\t\t\t<div class=\"contentRow-minor contentRow-minor--hideLinks\">\n\t\t\t\t\t<span class=\"js-unfurl-favicon\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<img src=\"https://store.steampowered.com/favicon.ico\" loading=\"lazy\" alt=\"store.steampowered.com\" class=\"bbCodeBlockUnfurl-icon\"\n\t\t\t\t\t\t\t\tdata-onerror=\"hide-parent\"/>\n\t\t\t\t\t\t\n\t\t\t\t\t</span>\n\t\t\t\t\tstore.steampowered.com\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div></div>",
+    "slash_comments": "2"
+  },
+  {
+    "title": "01-30-2026 Update",
+    "pub_date": "2026-02-17T23:35:49Z",
+    "link": "https://forums.playdeadlock.com/threads/01-30-2026-update.102822/",
+    "guid": {
+      "is_perma_link": false,
+      "text": "102822"
+    },
+    "author": "invalid@example.com (Yoshi)",
+    "category": {
+      "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+      "text": "Changelog"
+    },
+    "dc_creator": "Yoshi",
+    "content_encoded": "<div class=\"bbWrapper\">- Added hero banning to Standard Mode and Street Brawl. You can now select one hero in your roster screen (using middle click) to tell the matchmaker that you prefer to avoid that hero. When the game starts, it will tell you which heroes were banned. We are doing just 2 total bans for now. This does not affect new heroes in the initial release window.<br />\n<br />\n- Parties of 3+ players now need to have an additional hero in their roster (from 3 to 4)<br />\n<br />\n- Fire Rate increases and reductions from most...<br />\n<br />\n<a href=\"https://forums.playdeadlock.com/threads/01-30-2026-update.102822/\" class=\"link link--internal\">Read more</a></div>",
+    "slash_comments": "5"
+  },
+  {
+    "title": "12-29-2025 Update",
+    "pub_date": "2026-01-21T02:10:58Z",
+    "link": "https://forums.playdeadlock.com/threads/12-29-2025-update.95233/",
+    "guid": {
+      "is_perma_link": false,
+      "text": "95233"
+    },
+    "author": "invalid@example.com (Yoshi)",
+    "category": {
+      "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+      "text": "Changelog"
+    },
+    "dc_creator": "Yoshi",
+    "content_encoded": "<div class=\"bbWrapper\">- Bebop: Stamina increased from 2 to 3<br />\n- Bebop: Stamina regeneration cooldown increased from 4.55s to 6s<br />\n- Bebop: Bebop Health per boon increased from +46 to +52<br />\n- Bebop: Sticky Bomb base damage reduced from 100 to 75<br />\n- Bebop: Sticky Bomb T2 damage reduced from 63 to 60<br />\n- Bebop: Sticky Bomb Spirit Scaling increased from 1.1 to 1.5<br />\n- Bebop: Sticky Bomb per hero hit from 1.5% to 1% + 0.0025% Spirit Scaling<br />\n- Bebop: Sticky Bomb per hero kill from 4% to 2.5% + 0.015% Spirit Scaling<br />\n- Grey Talon...<br />\n<br />\n<a href=\"https://forums.playdeadlock.com/threads/12-29-2025-update.95233/\" class=\"link link--internal\">Read more</a></div>",
+    "slash_comments": "3"
+  },
+  {
+    "title": "12-16-2025 Update",
+    "pub_date": "2025-12-17T20:33:46Z",
+    "link": "https://forums.playdeadlock.com/threads/12-16-2025-update.93983/",
+    "guid": {
+      "is_perma_link": false,
+      "text": "93983"
+    },
+    "author": "invalid@example.com (Yoshi)",
+    "category": {
+      "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+      "text": "Changelog"
+    },
+    "dc_creator": "Yoshi",
+    "content_encoded": "<div class=\"bbWrapper\">- The 10% move speed slow from taking damage is now a 20% slow only for the portion over the hero&#039;s base move speed<br />\n- Move Speed bonuses now stack diminishingly<br />\n- Base move speed reduced by 0.1 (except for heroes lower than 6.5)<br />\n- Heroes with move speed spirit scaling have the values reduced by 40%<br />\n- Updated move speed values on items:<br />\n<div style=\"margin-left: 20px\">- Active Reload: Move speed reduced from 1 to 0.75&#8203;</div><div style=\"margin-left: 20px\">- Backstabber: Move speed reduced from 1.75 to 1.5&#8203;</div><div style=\"margin-left: 20px\">- Fleetfoot: Move speed reduced from 3.5...&#8203;</div><br />\n<a href=\"https://forums.playdeadlock.com/threads/12-16-2025-update.93983/\" class=\"link link--internal\">Read more</a></div>",
+    "slash_comments": "1"
+  },
+  {
+    "title": "11-21-2025 Update",
+    "pub_date": "2025-12-04T00:34:27Z",
+    "link": "https://forums.playdeadlock.com/threads/11-21-2025-update.90383/",
+    "guid": {
+      "is_perma_link": false,
+      "text": "90383"
+    },
+    "author": "invalid@example.com (Yoshi)",
+    "category": {
+      "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+      "text": "Changelog"
+    },
+    "dc_creator": "Yoshi",
+    "content_encoded": "<div class=\"bbWrapper\"><b>[ General ]</b><br />\n<br />\n- Trooper bounty mechanics have been reworked. The first half of the souls still fly out as deniable orb, however rather than the other half being instantly given to nearby players it will fall to the ground as an orb that you need to get near to pick up. It has a 18m capture radius where it&#039;ll travel to you once you get within. Only one player needs to claim it, share rules remain the same as before.<br />\n- They last for 18s on the ground. Duration increases by 2s per minute...<br />\n<br />\n<a href=\"https://forums.playdeadlock.com/threads/11-21-2025-update.90383/\" class=\"link link--internal\">Read more</a></div>",
+    "slash_comments": "5"
+  },
+  {
+    "title": "10-24-2025 Update",
+    "pub_date": "2025-10-24T23:54:51Z",
+    "link": "https://forums.playdeadlock.com/threads/10-24-2025-update.87198/",
+    "guid": {
+      "is_perma_link": false,
+      "text": "87198"
+    },
+    "author": "invalid@example.com (Yoshi)",
+    "category": {
+      "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+      "text": "Changelog"
+    },
+    "dc_creator": "Yoshi",
+    "content_encoded": "<div class=\"bbWrapper\">* Getting damaged during the initial launch window (0.6s) after using a Jump Pad will cause you to be stunned (similar to ziplines having an initial knockoff period). When you are stunned, you will lose control and continue towards the landing destination. The stun will wear off 0.2s after landing, and then a 30% slow for 2s will apply. Damage over time does not trigger this (same damage rules as ziplines).<br />\n<br />\n<br />\n* Mystic Shot: Base damage reduced from 55 to 45<br />\n* Mystic Shot: Spirit scaling...<br />\n<br />\n<a href=\"https://forums.playdeadlock.com/threads/10-24-2025-update.87198/\" class=\"link link--internal\">Read more</a></div>",
+    "slash_comments": "0"
+  },
+  {
+    "title": "10-02-2025 Update",
+    "pub_date": "2025-10-05T18:05:47Z",
+    "link": "https://forums.playdeadlock.com/threads/10-02-2025-update.84332/",
+    "guid": {
+      "is_perma_link": false,
+      "text": "84332"
+    },
+    "author": "invalid@example.com (Yoshi)",
+    "category": {
+      "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+      "text": "Changelog"
+    },
+    "dc_creator": "Yoshi",
+    "content_encoded": "<div class=\"bbWrapper\"><b>[ General ]</b><br />\n<br />\n* Weapon Investment bonus increased from 7/9/13/20/29/40/58/72/83/93% to 7/9/13/20/29/40/60/75/95/115 (for 0.8/1.6/2.4/3.2/4.8/7.2/9.6/16/22.4/28.8k spent)<br />\n<br />\n* Applying a CC to an enemy is reduced in duration when affected by other CCs in a short interval. Each previously applied CC reduces the duration by 7% up to a max of 21% over the past 7 seconds. CC is defined as the same set of debuffs that affect Reactive Barrier (stun, sleep, immobilize, tether, etc). Note that...<br />\n<br />\n<a href=\"https://forums.playdeadlock.com/threads/10-02-2025-update.84332/\" class=\"link link--internal\">Read more</a></div>",
+    "slash_comments": "2"
+  },
+  {
+    "title": "09-04-2025 Update",
+    "pub_date": "2025-09-04T23:33:38Z",
+    "link": "https://forums.playdeadlock.com/threads/09-04-2025-update.80693/",
+    "guid": {
+      "is_perma_link": false,
+      "text": "80693"
+    },
+    "author": "invalid@example.com (Yoshi)",
+    "category": {
+      "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+      "text": "Changelog"
+    },
+    "dc_creator": "Yoshi",
+    "content_encoded": "<div class=\"bbWrapper\">- Rejuv only heals the person hitting the crystal<br />\n- Dying to a non-player (when there is no bounty/assists) now increases the respawn time for that death by 10 seconds<br />\n- Patron 1st death time is now a constant 12s instead of being variable between 8 and 15 seconds<br />\n<br />\n- Abrams: Infernal Resilience damage regenerated increased from 12% to 13%<br />\n<br />\n- Bebop: Weapon Range growth per boon increased from 1.2 to 1.5<br />\n- Bebop: Bullet damage growth per boon increased from 0.13 to 0.14<br />\n- Bebop: Exploding...<br />\n<br />\n<a href=\"https://forums.playdeadlock.com/threads/09-04-2025-update.80693/\" class=\"link link--internal\">Read more</a></div>",
+    "slash_comments": "0"
+  },
+  {
+    "title": "08-18-2025 Update",
+    "pub_date": "2025-08-30T00:36:28Z",
+    "link": "https://forums.playdeadlock.com/threads/08-18-2025-update.75046/",
+    "guid": {
+      "is_perma_link": false,
+      "text": "75046"
+    },
+    "author": "invalid@example.com (Yoshi)",
+    "category": {
+      "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+      "text": "Changelog"
+    },
+    "dc_creator": "Yoshi",
+    "content_encoded": "<div class=\"bbWrapper\"><div class=\"bbCodeBlock bbCodeBlock--unfurl    js-unfurl fauxBlockLink\"\n\t\tdata-unfurl=\"true\" data-result-id=\"5426\" data-url=\"https://store.steampowered.com/news/app/1422450/view/669466707009471267\" data-host=\"store.steampowered.com\" data-pending=\"false\">\n\t\t<div class=\"contentRow\">\n\t\t\t\n\t\t\t\t<div class=\"contentRow-figure contentRow-figure--fixedSmall js-unfurl-figure\">\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"https://clan.akamai.steamstatic.com/images/45164767/256d6479251714acd1fa90b30b60a48b40e6352c.png\" loading=\"lazy\" alt=\"store.steampowered.com\" class=\"bbCodeBlockUnfurl-image\" data-onerror=\"hide-parent\"/>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"contentRow-main\">\n\t\t\t\t<h3 class=\"contentRow-header js-unfurl-title\">\n\t\t\t\t\t<a href=\"https://store.steampowered.com/news/app/1422450/view/669466707009471267\"\n\t\t\t\t\t\tclass=\"link link--external fauxBlockLink-blockLink\"\n\t\t\t\t\t\ttarget=\"_blank\"\n\t\t\t\t\t\trel=\"noopener\"\n\t\t\t\t\t\tdata-proxy-href=\"\">\n\t\t\t\t\t\tDeadlock - Six New Heroes - Steam News\n\t\t\t\t\t</a>\n\t\t\t\t</h3>\n\n\t\t\t\t<div class=\"contentRow-snippet js-unfurl-desc\">... coming to the streets of the Cursed Apple</div>\n\n\t\t\t\t<div class=\"contentRow-minor contentRow-minor--hideLinks\">\n\t\t\t\t\t<span class=\"js-unfurl-favicon\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<img src=\"https://store.steampowered.com/favicon.ico\" loading=\"lazy\" alt=\"store.steampowered.com\" class=\"bbCodeBlockUnfurl-icon\"\n\t\t\t\t\t\t\t\tdata-onerror=\"hide-parent\"/>\n\t\t\t\t\t\t\n\t\t\t\t\t</span>\n\t\t\t\t\tstore.steampowered.com\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div></div>",
+    "slash_comments": "3"
+  },
+  {
+    "title": "07-29-2025 Update",
+    "pub_date": "2025-08-08T19:07:41Z",
+    "link": "https://forums.playdeadlock.com/threads/07-29-2025-update.72760/",
+    "guid": {
+      "is_perma_link": false,
+      "text": "72760"
+    },
+    "author": "invalid@example.com (Yoshi)",
+    "category": {
+      "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+      "text": "Changelog"
+    },
+    "dc_creator": "Yoshi",
+    "content_encoded": "<div class=\"bbWrapper\"><b>[ General ]</b><br />\n<br />\n- Mid Boss HP is now fixed at the spawn time. Base HP increased from 6725 to 12500 and growth reduced from 470 to 200.<br />\n- Reworked Rejuv reward from Mid Boss. No longer buffs troopers, reduces respawn time and buffs various stats. Upon death, 3 rejuv crystals fall to the ground (4 for subsequent midboss kills). Claiming one now grants you in place revive after 3s. If you already claimed one and claim another, it&#039;ll go to an ally (priority is closest allies first, then most...<br />\n<br />\n<a href=\"https://forums.playdeadlock.com/threads/07-29-2025-update.72760/\" class=\"link link--internal\">Read more</a></div>",
+    "slash_comments": "2"
+  },
+  {
+    "title": "07-04-2025 Update",
+    "pub_date": "2025-07-04T20:03:43Z",
+    "link": "https://forums.playdeadlock.com/threads/07-04-2025-update.70156/",
+    "guid": {
+      "is_perma_link": false,
+      "text": "70156"
+    },
+    "author": "invalid@example.com (Yoshi)",
+    "category": {
+      "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+      "text": "Changelog"
+    },
+    "dc_creator": "Yoshi",
+    "content_encoded": "<div class=\"bbWrapper\"><b>[ General ]</b><br />\n<br />\n- Bullet Cycle Time for all heroes increased by 5% (effectively reduces gun DPS globally by 5%)<br />\n- Spirit bonus based on souls spent in the tree is increased by 25%<br />\n- Ability base damage and AP bonus damage reduced by ~8% (spirit power growth unaffected)<br />\n- Spirit gained from leveling reduced from 1.25 to 1.1<br />\n- Ultimate cooldowns increased by 10% (affects base and upgrades, so the total CD with AP is 10% longer)<br />\n- 300 Souls Boon now gives an AP instead of an Ability Unlock<br />\n-...<br />\n<br />\n<a href=\"https://forums.playdeadlock.com/threads/07-04-2025-update.70156/\" class=\"link link--internal\">Read more</a></div>",
+    "slash_comments": "0"
+  },
+  {
+    "title": "06-17-2025 Update",
+    "pub_date": "2025-06-17T20:34:00Z",
+    "link": "https://forums.playdeadlock.com/threads/06-17-2025-update.68401/",
+    "guid": {
+      "is_perma_link": false,
+      "text": "68401"
+    },
+    "author": "invalid@example.com (Yoshi)",
+    "category": {
+      "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+      "text": "Changelog"
+    },
+    "dc_creator": "Yoshi",
+    "content_encoded": "<div class=\"bbWrapper\"><b>[ Map Changes ]</b><br />\n<br />\nMid Lane Rework (between Guardians):<br />\n- Removed the Arch Monument.<br />\n- Removed the rope entrances to Mid Boss.<br />\n- Removed barrels and kiosk low cover.<br />\n- Replaced bridge with a larger version.<br />\n- Added stairway entrance to Mid Boss.<br />\n- Moved the veil areas to fit with the new bridge.<br />\n- Veil areas connect to Mid Boss.<br />\n- Extended the wall cover further toward the bridge.<br />\n<br />\nMid Boss Changes:<br />\n- Started Mid Boss Sewer theming.<br />\n- Added connection from the rope shafts to upper area...<br />\n<br />\n<a href=\"https://forums.playdeadlock.com/threads/06-17-2025-update.68401/\" class=\"link link--internal\">Read more</a></div>",
+    "slash_comments": "0"
+  },
+  {
+    "title": "05-27-2025 Update",
+    "pub_date": "2025-05-27T23:47:06Z",
+    "link": "https://forums.playdeadlock.com/threads/05-27-2025-update.66453/",
+    "guid": {
+      "is_perma_link": false,
+      "text": "66453"
+    },
+    "author": "invalid@example.com (Yoshi)",
+    "category": {
+      "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+      "text": "Changelog"
+    },
+    "dc_creator": "Yoshi",
+    "content_encoded": "<div class=\"bbWrapper\">- Breakable souls rescaled from 28.5 + 2.375/min to 23 + 2.6/min<br />\n- Trooper resistance near base reduced from 40% to 35%<br />\n- Fixed a bug where Urn can be invisibly carried on the hero by throwing it in certain areas like the air vents<br />\n- Fixed Neutrals near the base gaining the &quot;near base&quot; trooper resist<br />\n<br />\n- Added news kiosk structure in between Mid Lane Walker and base entrance<br />\n- Added wall partition structures outside of Outer Lane base entrances<br />\n- Improved lighting in Mid Boss area<br />\n<br />\n-...<br />\n<br />\n<a href=\"https://forums.playdeadlock.com/threads/05-27-2025-update.66453/\" class=\"link link--internal\">Read more</a></div>",
+    "slash_comments": "0"
+  },
+  {
+    "title": "05-21-2025 Update",
+    "pub_date": "2025-05-21T22:55:33Z",
+    "link": "https://forums.playdeadlock.com/threads/05-21-2025-update.65674/",
+    "guid": {
+      "is_perma_link": false,
+      "text": "65674"
+    },
+    "author": "invalid@example.com (Yoshi)",
+    "category": {
+      "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+      "text": "Changelog"
+    },
+    "dc_creator": "Yoshi",
+    "content_encoded": "<div class=\"bbWrapper\">[ General ]<br />\n<br />\n- Troopers will now only flinch from player damage if it is a headshot while the trooper is busy running.<br />\n- Trooper resistance near base reduced from 50% to 40%<br />\n- Fixed Breakable souls being counted as secured souls rather than unsecured souls (this fix was released yesterday)<br />\n- Added Breakable souls to the post game Souls by Source graph (was previously bundled in with Urn)<br />\n- Melee damage growth per boon reduced by 5%<br />\n<br />\n- Express Shot: Weapon Damage increased from 125% to 150%<br />\n-...<br />\n<br />\n<a href=\"https://forums.playdeadlock.com/threads/05-21-2025-update.65674/\" class=\"link link--internal\">Read more</a></div>",
+    "slash_comments": "0"
+  },
+  {
+    "title": "05-19-2025 Update",
+    "pub_date": "2025-05-20T00:12:38Z",
+    "link": "https://forums.playdeadlock.com/threads/05-19-2025-update.65381/",
+    "guid": {
+      "is_perma_link": false,
+      "text": "65381"
+    },
+    "author": "invalid@example.com (Yoshi)",
+    "category": {
+      "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+      "text": "Changelog"
+    },
+    "dc_creator": "Yoshi",
+    "content_encoded": "<div class=\"bbWrapper\">[ General ]<br />\n<br />\n- Troopers now gain 50% resistance when they are in near the base (this has been 30% the past few days)<br />\n- Distance allowed to shoot Shrines increased by 7m<br />\n- Hero Kill Bounty increased from 175-&gt;1600 to 250-&gt;1800 (maxes out at 45 min)<br />\n- 2 hero soul split ratio increased from 60% to 65%<br />\n- Walker HP increased by 10%<br />\n- Walkers resistance vs troopers reaches -40% at 20 minutes instead of 16 minutes<br />\n- Objectives Spirit Resistance reduced from 50% to 40%<br />\n<br />\n- The soul orb securer&#039;s...<br />\n<br />\n<a href=\"https://forums.playdeadlock.com/threads/05-19-2025-update.65381/\" class=\"link link--internal\">Read more</a></div>",
+    "slash_comments": "0"
+  },
+  {
+    "title": "05-11-2025 Update",
+    "pub_date": "2025-05-11T19:06:03Z",
+    "link": "https://forums.playdeadlock.com/threads/05-11-2025-update.64113/",
+    "guid": {
+      "is_perma_link": false,
+      "text": "64113"
+    },
+    "author": "invalid@example.com (Yoshi)",
+    "category": {
+      "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+      "text": "Changelog"
+    },
+    "dc_creator": "Yoshi",
+    "content_encoded": "<div class=\"bbWrapper\">- Weapon tree investment bonus increased by 6-12% (from 6/8/12/18/26/36/52/68/78/88% to 7/9/13/20/29/40/58/72/83/93)<br />\n- Spirit Power scaling globally reduced by -7%<br />\n<br />\n- Lady Geist: Malice now costs 6% of your Current HP<br />\n- Lady Geist: Malice damage reduced from 32 to 25<br />\n- Lady Geist: Malice damage spirit scaling reduced from 0.72 to 0.6<br />\n- Lady Geist: T2 Malice reduced from 40 to 30<br />\n- Shiv: Slice and Dice damage reduced from 100 to 80<br />\n- Shiv: Bullet damage growth reduced from 0.246 to 0.22<br />\n-...<br />\n<br />\n<a href=\"https://forums.playdeadlock.com/threads/05-11-2025-update.64113/\" class=\"link link--internal\">Read more</a></div>",
+    "slash_comments": "0"
+  },
+  {
+    "title": "05-08-2025 Update",
+    "pub_date": "2025-05-08T19:43:20Z",
+    "link": "https://forums.playdeadlock.com/threads/05-08-2025-update.63133/",
+    "guid": {
+      "is_perma_link": false,
+      "text": "63133"
+    },
+    "author": "invalid@example.com (Yoshi)",
+    "category": {
+      "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+      "text": "Changelog"
+    },
+    "dc_creator": "Yoshi",
+    "content_encoded": "<div class=\"bbWrapper\"><div class=\"bbCodeBlock bbCodeBlock--unfurl    js-unfurl fauxBlockLink\"\n\t\tdata-unfurl=\"true\" data-result-id=\"4591\" data-url=\"https://store.steampowered.com/news/app/1422450/view/524216645064852902\" data-host=\"store.steampowered.com\" data-pending=\"false\">\n\t\t<div class=\"contentRow\">\n\t\t\t\n\t\t\t\t<div class=\"contentRow-figure contentRow-figure--fixedSmall js-unfurl-figure\">\n\t\t\t\t\t\n\t\t\t\t\t\t<img src=\"https://clan.akamai.steamstatic.com/images/45164767/0908b05b0e83747ca99a9337d401daf3a662f85d.png\" loading=\"lazy\" alt=\"store.steampowered.com\" class=\"bbCodeBlockUnfurl-image\" data-onerror=\"hide-parent\"/>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"contentRow-main\">\n\t\t\t\t<h3 class=\"contentRow-header js-unfurl-title\">\n\t\t\t\t\t<a href=\"https://store.steampowered.com/news/app/1422450/view/524216645064852902\"\n\t\t\t\t\t\tclass=\"link link--external fauxBlockLink-blockLink\"\n\t\t\t\t\t\ttarget=\"_blank\"\n\t\t\t\t\t\trel=\"noopener\"\n\t\t\t\t\t\tdata-proxy-href=\"\">\n\t\t\t\t\t\tDeadlock - Shop Rework Update - Steam News\n\t\t\t\t\t</a>\n\t\t\t\t</h3>\n\n\t\t\t\t<div class=\"contentRow-snippet js-unfurl-desc\">Full shop rework including many new items, build authoring, quickbuy redesign and several other game updates</div>\n\n\t\t\t\t<div class=\"contentRow-minor contentRow-minor--hideLinks\">\n\t\t\t\t\t<span class=\"js-unfurl-favicon\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<img src=\"https://store.steampowered.com/favicon.ico\" loading=\"lazy\" alt=\"store.steampowered.com\" class=\"bbCodeBlockUnfurl-icon\"\n\t\t\t\t\t\t\t\tdata-onerror=\"hide-parent\"/>\n\t\t\t\t\t\t\n\t\t\t\t\t</span>\n\t\t\t\t\tstore.steampowered.com\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div></div>",
+    "slash_comments": "0"
+  },
+  {
+    "title": "04-17-2025 Update",
+    "pub_date": "2025-04-18T01:40:16Z",
+    "link": "https://forums.playdeadlock.com/threads/04-17-2025-update.61382/",
+    "guid": {
+      "is_perma_link": false,
+      "text": "61382"
+    },
+    "author": "invalid@example.com (Yoshi)",
+    "category": {
+      "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+      "text": "Changelog"
+    },
+    "dc_creator": "Yoshi",
+    "content_encoded": "<div class=\"bbWrapper\">[ General ]<br />\n<br />\n- Soul Orbs no longer have special duplication rules before 8 minutes. Soul splitting rules are now the same before 8 minutes as afterwards. Adjusted trooper economy to compensate. There is also no longer a bounty bump that occurs at 8 minutes.<br />\n<br />\n- Wave interval increased from 25s to 30s (bounty values adjusted by the same ratio)<br />\n- Guardians attack range reduced from 38.1m to 35m<br />\n- Guardians melee attempt range reduced from 6.1m to 5m<br />\n- Guardians melee damage range reduced from...<br />\n<br />\n<a href=\"https://forums.playdeadlock.com/threads/04-17-2025-update.61382/\" class=\"link link--internal\">Read more</a></div>",
+    "slash_comments": "0"
+  },
+  {
+    "title": "04-04-2025 Update",
+    "pub_date": "2025-04-04T23:35:38Z",
+    "link": "https://forums.playdeadlock.com/threads/04-04-2025-update.60284/",
+    "guid": {
+      "is_perma_link": false,
+      "text": "60284"
+    },
+    "author": "invalid@example.com (Yoshi)",
+    "category": {
+      "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+      "text": "Changelog"
+    },
+    "dc_creator": "Yoshi",
+    "content_encoded": "<div class=\"bbWrapper\">- Added an option to allow canceling abilities with the ability key to the main options page.<br />\n<br />\n- Soul orb spawn delay range increased from 0.2-0.7 to 0.4-0.7<br />\n- Soul orb size increased by 10%<br />\n- Soul orb lag compensation buffer increased from 120ms to 140ms<br />\n- Fixed issues with denying melee soul orbs<br />\n- Fixed various other timing related bugs with Soul orbs<br />\n<br />\n- Fixed shotguns doing too much damage to Guardians<br />\n<br />\n- Removed the outer lanes teleporters<br />\n- Sprint increased by +0.5 for all heroes<br />\n<br />\n-...<br />\n<br />\n<a href=\"https://forums.playdeadlock.com/threads/04-04-2025-update.60284/\" class=\"link link--internal\">Read more</a></div>",
+    "slash_comments": "0"
+  },
+  {
+    "title": "03-19-2025 Update",
+    "pub_date": "2025-03-20T02:36:14Z",
+    "link": "https://forums.playdeadlock.com/threads/03-19-2025-update.59098/",
+    "guid": {
+      "is_perma_link": false,
+      "text": "59098"
+    },
+    "author": "invalid@example.com (Yoshi)",
+    "category": {
+      "domain": "https://forums.playdeadlock.com/forums/changelog.10/",
+      "text": "Changelog"
+    },
+    "dc_creator": "Yoshi",
+    "content_encoded": "<div class=\"bbWrapper\">- Sprint increased by +0.5 for all heroes</div>",
+    "slash_comments": "0"
+  }
+]

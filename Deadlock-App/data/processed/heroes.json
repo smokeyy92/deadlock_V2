@@ -1,0 +1,994 @@
+[
+  {
+    "id": 6,
+    "hero_id": "6",
+    "name": "Abrams",
+    "slug": "abrams",
+    "role": "frontliner",
+    "tags": [
+      "frontline",
+      "engage",
+      "melee"
+    ],
+    "stats": {
+      "winrate": 0.507472,
+      "pickrate": 0.031667,
+      "avg_kills": 6.425,
+      "avg_deaths": 6.983,
+      "avg_assists": 13.292,
+      "games": 6223
+    },
+    "abilities": [
+      "Shoulder Charge",
+      "Infernal Resilience",
+      "Seismic Impact",
+      "Siphon Life"
+    ]
+  },
+  {
+    "id": 77,
+    "hero_id": "77",
+    "name": "Apollo",
+    "slug": "apollo",
+    "role": "offcarry",
+    "tags": [
+      "range",
+      "damage",
+      "agile"
+    ],
+    "stats": {
+      "winrate": 0.485578,
+      "pickrate": 0.048165,
+      "avg_kills": 7.954,
+      "avg_deaths": 6.483,
+      "avg_assists": 13.616,
+      "games": 9465
+    },
+    "abilities": [
+      "Ability 147493976",
+      "Ability 494112189",
+      "Ability 725153709",
+      "Ability 2006773718"
+    ]
+  },
+  {
+    "id": 15,
+    "hero_id": "15",
+    "name": "Bebop",
+    "slug": "bebop",
+    "role": "frontliner",
+    "tags": [
+      "hook",
+      "explosive",
+      "range"
+    ],
+    "stats": {
+      "winrate": 0.46098,
+      "pickrate": 0.028757,
+      "avg_kills": 6.242,
+      "avg_deaths": 8.129,
+      "avg_assists": 14.575,
+      "games": 5651
+    },
+    "abilities": [
+      "Hook",
+      "Sticky Bomb",
+      "Hyper Beam",
+      "Omega Strike"
+    ]
+  },
+  {
+    "id": 72,
+    "hero_id": "72",
+    "name": "Billy",
+    "slug": "billy",
+    "role": "frontliner",
+    "tags": [
+      "frontline",
+      "melee",
+      "crowd control",
+      "engage"
+    ],
+    "stats": {
+      "winrate": 0.465729,
+      "pickrate": 0.014477,
+      "avg_kills": 5.911,
+      "avg_deaths": 7.618,
+      "avg_assists": 12.962,
+      "games": 2845
+    },
+    "abilities": [
+      "Bashdown",
+      "Rising Ram",
+      "Blasted",
+      "Chain Gang"
+    ]
+  },
+  {
+    "id": 16,
+    "hero_id": "16",
+    "name": "Calico",
+    "slug": "calico",
+    "role": "offcarry",
+    "tags": [
+      "mobility",
+      "stealth",
+      "melee"
+    ],
+    "stats": {
+      "winrate": 0.530858,
+      "pickrate": 0.039331,
+      "avg_kills": 8.616,
+      "avg_deaths": 6.407,
+      "avg_assists": 14.458,
+      "games": 7729
+    },
+    "abilities": [
+      "Leaping Slash",
+      "Nine Lives",
+      "Hex Barrier",
+      "Phantom Form"
+    ]
+  },
+  {
+    "id": 81,
+    "hero_id": "81",
+    "name": "Celeste",
+    "slug": "celeste",
+    "role": "offcarry",
+    "tags": [
+      "range",
+      "agile",
+      "mobility",
+      "mage"
+    ],
+    "stats": {
+      "winrate": 0.530721,
+      "pickrate": 0.039092,
+      "avg_kills": 7.244,
+      "avg_deaths": 5.989,
+      "avg_assists": 14.164,
+      "games": 7682
+    },
+    "abilities": [
+      "Light Eater",
+      "Dazzling Trick",
+      "Radiant Daggers",
+      "Shining Wonder"
+    ]
+  },
+  {
+    "id": 64,
+    "hero_id": "64",
+    "name": "Drifter",
+    "slug": "drifter",
+    "role": "initiator",
+    "tags": [
+      "crowd control",
+      "aoe",
+      "utility"
+    ],
+    "stats": {
+      "winrate": 0.523023,
+      "pickrate": 0.043763,
+      "avg_kills": 8.273,
+      "avg_deaths": 8.033,
+      "avg_assists": 14.541,
+      "games": 8600
+    },
+    "abilities": [
+      "Warp Stone",
+      "Juxtaposition",
+      "Goo Grenade",
+      "Tornado"
+    ]
+  },
+  {
+    "id": 11,
+    "hero_id": "11",
+    "name": "Dynamo",
+    "slug": "dynamo",
+    "role": "support",
+    "tags": [
+      "aoe",
+      "crowd control",
+      "team"
+    ],
+    "stats": {
+      "winrate": 0.536255,
+      "pickrate": 0.018808,
+      "avg_kills": 3.934,
+      "avg_deaths": 6.388,
+      "avg_assists": 16.08,
+      "games": 3696
+    },
+    "abilities": [
+      "Kinetic Pulse",
+      "Quantum Entanglement",
+      "Singularity",
+      "Demystify"
+    ]
+  },
+  {
+    "id": 76,
+    "hero_id": "76",
+    "name": "Graves",
+    "slug": "graves",
+    "role": "offcarry",
+    "tags": [
+      "range",
+      "summon",
+      "crowd control",
+      "damage"
+    ],
+    "stats": {
+      "winrate": 0.526084,
+      "pickrate": 0.020777,
+      "avg_kills": 5.445,
+      "avg_deaths": 7.096,
+      "avg_assists": 12.3,
+      "games": 4083
+    },
+    "abilities": [
+      "Grasping Hands",
+      "Jar of Dead",
+      "Borrowed Decree"
+    ]
+  },
+  {
+    "id": 17,
+    "hero_id": "17",
+    "name": "Grey Talon",
+    "slug": "grey_talon",
+    "role": "spirit",
+    "tags": [
+      "sniper",
+      "range",
+      "slow"
+    ],
+    "stats": {
+      "winrate": 0.471029,
+      "pickrate": 0.01493,
+      "avg_kills": 7.931,
+      "avg_deaths": 5.821,
+      "avg_assists": 13.045,
+      "games": 2934
+    },
+    "abilities": [
+      "Guided Owl",
+      "Charged Shot",
+      "Rain of Arrows",
+      "Charge of Misery"
+    ]
+  },
+  {
+    "id": 13,
+    "hero_id": "13",
+    "name": "Haze",
+    "slug": "haze",
+    "role": "initiator",
+    "tags": [
+      "assassin",
+      "stealth",
+      "damage"
+    ],
+    "stats": {
+      "winrate": 0.505189,
+      "pickrate": 0.037753,
+      "avg_kills": 7.769,
+      "avg_deaths": 7.047,
+      "avg_assists": 11.464,
+      "games": 7419
+    },
+    "abilities": [
+      "Smoke Bomb",
+      "Bullet Dance",
+      "Sleep Dagger",
+      "Fixation"
+    ]
+  },
+  {
+    "id": 14,
+    "hero_id": "14",
+    "name": "Holliday",
+    "slug": "holliday",
+    "role": "initiator",
+    "tags": [
+      "range",
+      "damage",
+      "mobility"
+    ],
+    "stats": {
+      "winrate": 0.448901,
+      "pickrate": 0.013195,
+      "avg_kills": 6.094,
+      "avg_deaths": 6.919,
+      "avg_assists": 15.713,
+      "games": 2593
+    },
+    "abilities": [
+      "Lasso",
+      "Ride Into The Sunrise",
+      "Fan the Hammer",
+      "Explosive Dead Shot"
+    ]
+  },
+  {
+    "id": 1,
+    "hero_id": "1",
+    "name": "Infernus",
+    "slug": "infernus",
+    "role": "hypercarry",
+    "tags": [
+      "damage",
+      "aoe",
+      "fire"
+    ],
+    "stats": {
+      "winrate": 0.452659,
+      "pickrate": 0.015694,
+      "avg_kills": 6.586,
+      "avg_deaths": 7.078,
+      "avg_assists": 10.601,
+      "games": 3084
+    },
+    "abilities": [
+      "Catalyst",
+      "Flame Dash",
+      "Concussive Combustion",
+      "Afterburn"
+    ]
+  },
+  {
+    "id": 20,
+    "hero_id": "20",
+    "name": "Ivy",
+    "slug": "ivy",
+    "role": "support",
+    "tags": [
+      "mobility",
+      "healer",
+      "carry"
+    ],
+    "stats": {
+      "winrate": 0.539086,
+      "pickrate": 0.03385,
+      "avg_kills": 4.276,
+      "avg_deaths": 5.817,
+      "avg_assists": 15.447,
+      "games": 6652
+    },
+    "abilities": [
+      "Kudzu Bomb",
+      "Air Drop",
+      "Watcher's Covenant",
+      "Stone Form"
+    ]
+  },
+  {
+    "id": 12,
+    "hero_id": "12",
+    "name": "Kelvin",
+    "slug": "kelvin",
+    "role": "support",
+    "tags": [
+      "aoe",
+      "freeze",
+      "team"
+    ],
+    "stats": {
+      "winrate": 0.489938,
+      "pickrate": 0.012391,
+      "avg_kills": 3.497,
+      "avg_deaths": 6.042,
+      "avg_assists": 15.688,
+      "games": 2435
+    },
+    "abilities": [
+      "Frost Grenade",
+      "Arctic Beam",
+      "Frozen Shelter",
+      "Glacial Cage"
+    ]
+  },
+  {
+    "id": 4,
+    "hero_id": "4",
+    "name": "Lady Geist",
+    "slug": "lady_geist",
+    "role": "spirit",
+    "tags": [
+      "mage",
+      "life drain",
+      "damage"
+    ],
+    "stats": {
+      "winrate": 0.487916,
+      "pickrate": 0.017897,
+      "avg_kills": 6.193,
+      "avg_deaths": 6.557,
+      "avg_assists": 11.665,
+      "games": 3517
+    },
+    "abilities": [
+      "Life Drain",
+      "Essence Bomb",
+      "Malice",
+      "Soul Exchange"
+    ]
+  },
+  {
+    "id": 31,
+    "hero_id": "31",
+    "name": "Lash",
+    "slug": "lash",
+    "role": "initiator",
+    "tags": [
+      "mobility",
+      "engage",
+      "aoe"
+    ],
+    "stats": {
+      "winrate": 0.499058,
+      "pickrate": 0.048618,
+      "avg_kills": 6.782,
+      "avg_deaths": 6.474,
+      "avg_assists": 15.218,
+      "games": 9554
+    },
+    "abilities": [
+      "Ground Strike",
+      "Flog",
+      "Death Slam",
+      "Grapnel"
+    ]
+  },
+  {
+    "id": 8,
+    "hero_id": "8",
+    "name": "McGinnis",
+    "slug": "mcginnis",
+    "role": "support",
+    "tags": [
+      "frontline",
+      "turret",
+      "support"
+    ],
+    "stats": {
+      "winrate": 0.551216,
+      "pickrate": 0.014854,
+      "avg_kills": 5.101,
+      "avg_deaths": 5.965,
+      "avg_assists": 12.952,
+      "games": 2919
+    },
+    "abilities": [
+      "Medicinal Specter",
+      "Heavy Barrage",
+      "Spectral Wall",
+      "Turret"
+    ]
+  },
+  {
+    "id": 63,
+    "hero_id": "63",
+    "name": "Mina",
+    "slug": "mina",
+    "role": "offcarry",
+    "tags": [
+      "mobility",
+      "lifesteal",
+      "melee",
+      "damage"
+    ],
+    "stats": {
+      "winrate": 0.473218,
+      "pickrate": 0.022421,
+      "avg_kills": 7.836,
+      "avg_deaths": 5.894,
+      "avg_assists": 11.836,
+      "games": 4406
+    },
+    "abilities": [
+      "Rake",
+      "Sanguine Retreat",
+      "Love Bites",
+      "Nox Nostra"
+    ]
+  },
+  {
+    "id": 52,
+    "hero_id": "52",
+    "name": "Mirage",
+    "slug": "mirage",
+    "role": "offcarry",
+    "tags": [
+      "fire",
+      "damage",
+      "displacement"
+    ],
+    "stats": {
+      "winrate": 0.430175,
+      "pickrate": 0.018584,
+      "avg_kills": 6.606,
+      "avg_deaths": 6.458,
+      "avg_assists": 10.566,
+      "games": 3652
+    },
+    "abilities": [
+      "Fire Scarabs",
+      "Tornado",
+      "Djinn's Mark",
+      "Traveler"
+    ]
+  },
+  {
+    "id": 18,
+    "hero_id": "18",
+    "name": "Mo & Krill",
+    "slug": "mo_and_krill",
+    "role": "initiator",
+    "tags": [
+      "frontline",
+      "burrow",
+      "melee"
+    ],
+    "stats": {
+      "winrate": 0.528465,
+      "pickrate": 0.035397,
+      "avg_kills": 5.178,
+      "avg_deaths": 6.732,
+      "avg_assists": 16.526,
+      "games": 6956
+    },
+    "abilities": [
+      "Scorn",
+      "Burrow",
+      "Sand Blast",
+      "Combo"
+    ]
+  },
+  {
+    "id": 67,
+    "hero_id": "67",
+    "name": "Paige",
+    "slug": "paige",
+    "role": "support",
+    "tags": [
+      "summon",
+      "barrier",
+      "crowd control",
+      "team"
+    ],
+    "stats": {
+      "winrate": 0.503723,
+      "pickrate": 0.021184,
+      "avg_kills": 2.583,
+      "avg_deaths": 5.41,
+      "avg_assists": 17.625,
+      "games": 4163
+    },
+    "abilities": [
+      "Bookwyrm",
+      "Plot Armor",
+      "Captivating Read",
+      "Rallying Charge"
+    ]
+  },
+  {
+    "id": 10,
+    "hero_id": "10",
+    "name": "Paradox",
+    "slug": "paradox",
+    "role": "initiator",
+    "tags": [
+      "time",
+      "displacement",
+      "range"
+    ],
+    "stats": {
+      "winrate": 0.475549,
+      "pickrate": 0.033611,
+      "avg_kills": 5.646,
+      "avg_deaths": 7.302,
+      "avg_assists": 15.604,
+      "games": 6605
+    },
+    "abilities": [
+      "Kinetic Carbine",
+      "Pulse Grenade",
+      "Time Wall",
+      "Paradoxical Swap"
+    ]
+  },
+  {
+    "id": 50,
+    "hero_id": "50",
+    "name": "Pocket",
+    "slug": "pocket",
+    "role": "spirit",
+    "tags": [
+      "mage",
+      "mobility",
+      "damage"
+    ],
+    "stats": {
+      "winrate": 0.495595,
+      "pickrate": 0.023103,
+      "avg_kills": 6.861,
+      "avg_deaths": 6.885,
+      "avg_assists": 13.033,
+      "games": 4540
+    },
+    "abilities": [
+      "Barrage",
+      "Flying Cloak",
+      "Enchanter's Satchel",
+      "Affliction"
+    ]
+  },
+  {
+    "id": 79,
+    "hero_id": "79",
+    "name": "Rem",
+    "slug": "rem",
+    "role": "support",
+    "tags": [
+      "summon",
+      "healer",
+      "crowd control",
+      "team"
+    ],
+    "stats": {
+      "winrate": 0.448146,
+      "pickrate": 0.033906,
+      "avg_kills": 3.304,
+      "avg_deaths": 5.592,
+      "avg_assists": 16.555,
+      "games": 6663
+    },
+    "abilities": [
+      "Pillow Toss",
+      "Tag Along",
+      "Lil Helpers",
+      "Naptime"
+    ]
+  },
+  {
+    "id": 2,
+    "hero_id": "2",
+    "name": "Seven",
+    "slug": "seven",
+    "role": "hypercarry",
+    "tags": [
+      "damage",
+      "mage",
+      "lightning"
+    ],
+    "stats": {
+      "winrate": 0.539066,
+      "pickrate": 0.025271,
+      "avg_kills": 5.941,
+      "avg_deaths": 6.496,
+      "avg_assists": 12.034,
+      "games": 4966
+    },
+    "abilities": [
+      "Static Charge",
+      "Lightning Ball",
+      "Thunderclap",
+      "Storm Cloud"
+    ]
+  },
+  {
+    "id": 19,
+    "hero_id": "19",
+    "name": "Shiv",
+    "slug": "shiv",
+    "role": "frontliner",
+    "tags": [
+      "melee",
+      "bleed",
+      "brawler"
+    ],
+    "stats": {
+      "winrate": 0.452846,
+      "pickrate": 0.030217,
+      "avg_kills": 8.63,
+      "avg_deaths": 7.491,
+      "avg_assists": 11.64,
+      "games": 5938
+    },
+    "abilities": [
+      "Serrated Knives",
+      "Slice and Dice",
+      "Bloodletting",
+      "Killing Blow"
+    ]
+  },
+  {
+    "id": 80,
+    "hero_id": "80",
+    "name": "Silver",
+    "slug": "silver",
+    "role": "spirit",
+    "tags": [
+      "melee",
+      "range",
+      "transform",
+      "damage"
+    ],
+    "stats": {
+      "winrate": 0.525049,
+      "pickrate": 0.038903,
+      "avg_kills": 7.503,
+      "avg_deaths": 6.827,
+      "avg_assists": 13.841,
+      "games": 7645
+    },
+    "abilities": [
+      "Slam Fire",
+      "Boot Kick",
+      "Entangling Bola",
+      "Lycan Curse"
+    ]
+  },
+  {
+    "id": 60,
+    "hero_id": "60",
+    "name": "Sinclair",
+    "slug": "sinclair",
+    "role": "spirit",
+    "tags": [
+      "summon",
+      "support",
+      "magic"
+    ],
+    "stats": {
+      "winrate": 0.46409,
+      "pickrate": 0.013958,
+      "avg_kills": 5.177,
+      "avg_deaths": 5.649,
+      "avg_assists": 13.574,
+      "games": 2743
+    },
+    "abilities": [
+      "Rabbit Hex",
+      "Bundle of Curses",
+      "Spectral Assistant",
+      "Grand Illusion"
+    ]
+  },
+  {
+    "id": 69,
+    "hero_id": "69",
+    "name": "The Doorman",
+    "slug": "the_doorman",
+    "role": "unknown",
+    "tags": [],
+    "stats": {
+      "winrate": 0.482436,
+      "pickrate": 0.019556,
+      "avg_kills": 4.637,
+      "avg_deaths": 5.182,
+      "avg_assists": 14.119,
+      "games": 3843
+    },
+    "abilities": [
+      "Ability 103496908",
+      "Ability 109766091",
+      "Ability 1703045691",
+      "Ability 1719512318"
+    ]
+  },
+  {
+    "id": 65,
+    "hero_id": "65",
+    "name": "Venator",
+    "slug": "venator",
+    "role": "hypercarry",
+    "tags": [
+      "range",
+      "hunter",
+      "damage",
+      "crowd control"
+    ],
+    "stats": {
+      "winrate": 0.514846,
+      "pickrate": 0.051417,
+      "avg_kills": 7.929,
+      "avg_deaths": 6.924,
+      "avg_assists": 11.545,
+      "games": 10104
+    },
+    "abilities": [
+      "Consecrating Grenade",
+      "Gutshot",
+      "Hex-Lined Snap Trap",
+      "Ira Domini"
+    ]
+  },
+  {
+    "id": 66,
+    "hero_id": "66",
+    "name": "Victor",
+    "slug": "victor",
+    "role": "frontliner",
+    "tags": [
+      "frontline",
+      "aoe",
+      "sustain",
+      "spirit"
+    ],
+    "stats": {
+      "winrate": 0.514995,
+      "pickrate": 0.01578,
+      "avg_kills": 6.04,
+      "avg_deaths": 5.954,
+      "avg_assists": 10.43,
+      "games": 3101
+    },
+    "abilities": [
+      "Pain Battery",
+      "Jumpstart",
+      "Aura of Suffering",
+      "Shocking Reanimation"
+    ]
+  },
+  {
+    "id": 3,
+    "hero_id": "3",
+    "name": "Vindicta",
+    "slug": "vindicta",
+    "role": "initiator",
+    "tags": [
+      "sniper",
+      "range",
+      "assassin"
+    ],
+    "stats": {
+      "winrate": 0.498242,
+      "pickrate": 0.020263,
+      "avg_kills": 8.402,
+      "avg_deaths": 6.283,
+      "avg_assists": 13.012,
+      "games": 3982
+    },
+    "abilities": [
+      "Stake",
+      "Crow Familiar",
+      "Flight",
+      "Assassinate"
+    ]
+  },
+  {
+    "id": 35,
+    "hero_id": "35",
+    "name": "Viscous",
+    "slug": "viscous",
+    "role": "support",
+    "tags": [
+      "frontline",
+      "slow",
+      "aoe"
+    ],
+    "stats": {
+      "winrate": 0.511983,
+      "pickrate": 0.018686,
+      "avg_kills": 5.329,
+      "avg_deaths": 5.554,
+      "avg_assists": 14.302,
+      "games": 3672
+    },
+    "abilities": [
+      "Puddle Punch",
+      "Splatter",
+      "Pull",
+      "The Cube"
+    ]
+  },
+  {
+    "id": 58,
+    "hero_id": "58",
+    "name": "Vyper",
+    "slug": "vyper",
+    "role": "initiator",
+    "tags": [
+      "range",
+      "poison",
+      "mobility"
+    ],
+    "stats": {
+      "winrate": 0.516581,
+      "pickrate": 0.010895,
+      "avg_kills": 9.158,
+      "avg_deaths": 7.156,
+      "avg_assists": 10.411,
+      "games": 2141
+    },
+    "abilities": [
+      "Venom Snare",
+      "Hyper Speed",
+      "Corrosive Vent",
+      "Neural Inject"
+    ]
+  },
+  {
+    "id": 25,
+    "hero_id": "25",
+    "name": "Warden",
+    "slug": "warden",
+    "role": "hypercarry",
+    "tags": [
+      "frontline",
+      "stun",
+      "sustain"
+    ],
+    "stats": {
+      "winrate": 0.485226,
+      "pickrate": 0.019632,
+      "avg_kills": 6.827,
+      "avg_deaths": 6.71,
+      "avg_assists": 10.955,
+      "games": 3858
+    },
+    "abilities": [
+      "Alchemical Flask",
+      "Binding Word",
+      "Willpower",
+      "Future Sight"
+    ]
+  },
+  {
+    "id": 7,
+    "hero_id": "7",
+    "name": "Wraith",
+    "slug": "wraith",
+    "role": "hypercarry",
+    "tags": [
+      "damage",
+      "cards",
+      "mobility"
+    ],
+    "stats": {
+      "winrate": 0.514602,
+      "pickrate": 0.030843,
+      "avg_kills": 7.15,
+      "avg_deaths": 5.473,
+      "avg_assists": 10.166,
+      "games": 6061
+    },
+    "abilities": [
+      "Card Trick",
+      "Royal Flush",
+      "Full Auto",
+      "Telekinesis"
+    ]
+  },
+  {
+    "id": 27,
+    "hero_id": "27",
+    "name": "Yamato",
+    "slug": "yamato",
+    "role": "spirit",
+    "tags": [
+      "melee",
+      "mobility",
+      "dash"
+    ],
+    "stats": {
+      "winrate": 0.484745,
+      "pickrate": 0.02235,
+      "avg_kills": 7.426,
+      "avg_deaths": 7.852,
+      "avg_assists": 12.991,
+      "games": 4392
+    },
+    "abilities": [
+      "Power Slash",
+      "Flying Strike",
+      "Shadow Transformation",
+      "Crimson Slash"
+    ]
+  }
+]
