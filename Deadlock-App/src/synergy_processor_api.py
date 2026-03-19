@@ -3,8 +3,6 @@ import pandas as pd
 import re
 import time
 from collections import defaultdict
-import json
-import os
 
 # --- 1. Configuration & Mapping ---
 HERO_NAMES = {
@@ -38,10 +36,9 @@ API_PARAMS = {
 }
 
 def process_match_batch(matches):
-    """Processes matches to extract Synergy, Matchups, and Lane Winrates."""
+    """Processes matches to extract both Synergy (allies) and Matchups (opponents)."""
     synergy_records = []
     matchup_records = []
-    lane_records = []
     
     for match in matches:
         objectives = match.get("objectives", [])
@@ -87,31 +84,26 @@ def process_match_batch(matches):
             t0_heroes = lane_groups[l_id]["Team0"]
             t1_heroes = lane_groups[l_id]["Team1"]
 
-            # --- NEW: Lane Winrate Stats ---
-            for team_name, heroes in lane_groups[l_id].items():
-                is_win = 1 if team_name == winner else 0
-                for h_name in heroes:
-                    lane_records.append({'Hero': h_name, 'Lane': l_id, 'Win': is_win})
-
-            # 1. Extract Synergy (Allies)
+            # 1. Extract Synergy (Allies) - only for duos
             for t_name, heroes in lane_groups[l_id].items():
                 if len(heroes) == 2:
                     h1, h2 = sorted(heroes)
                     synergy_records.append({'Hero1': h1, 'Hero2': h2, 'Win': 1 if t_name == winner else 0})
 
-            # 2. Extract Matchups (Opponents)
+            # 2. Extract Matchups (Opponents) - any combination
             if t0_heroes and t1_heroes:
                 for h0 in t0_heroes:
                     for h1 in t1_heroes:
+                        # Record for Hero from Team0 vs Hero from Team1
                         matchup_records.append({'Hero': h0, 'Opponent': h1, 'Win': 1 if winner == "Team0" else 0})
+                        # Record for Hero from Team1 vs Hero from Team0
                         matchup_records.append({'Hero': h1, 'Opponent': h0, 'Win': 1 if winner == "Team1" else 0})
                         
-    return synergy_records, matchup_records, lane_records
+    return synergy_records, matchup_records
 
 def main():
     all_synergy = []
     all_matchups = []
-    all_lanes = []
     current_max_id = "9999999999999"
     iteration = 1
     
@@ -131,11 +123,11 @@ def main():
 
         if not matches: break
 
-        syn_batch, match_batch, lane_batch = process_match_batch(matches)
+        syn_batch, match_batch = process_match_batch(matches)
         all_synergy.extend(syn_batch)
         all_matchups.extend(match_batch)
-        all_lanes.extend(lane_batch)
         
+        # Coverage calculation for Synergy
         if all_synergy:
             counts = pd.DataFrame(all_synergy).groupby(['Hero1', 'Hero2']).size()
             coverage = ( (counts >= 100).sum() / TOTAL_POSSIBLE_PAIRS ) * 100
@@ -149,7 +141,7 @@ def main():
     if not all_synergy:
         print("No data collected."); return
 
-    # --- Processing Data ---
+    # --- Processing Synergy Data ---
     df_syn = pd.DataFrame(all_synergy)
     stats_syn = df_syn.groupby(['Hero1', 'Hero2'])['Win'].agg(['mean', 'count']).reset_index()
     mirrored_syn = pd.concat([
@@ -157,60 +149,41 @@ def main():
         stats_syn.rename(columns={'Hero1': 'Ally', 'Hero2': 'Hero', 'mean': 'WR', 'count': 'Cnt'})
     ])
 
+    # --- Processing Matchup Data ---
     df_match = pd.DataFrame(all_matchups)
     stats_match = df_match.groupby(['Hero', 'Opponent'])['Win'].agg(['mean', 'count']).reset_index()
 
-    # --- NEW: Processing Lane Stats ---
-    df_lane = pd.DataFrame(all_lanes)
-    stats_lane = df_lane.groupby(['Hero', 'Lane'])['Win'].agg(['mean', 'count']).reset_index()
-    lane_pivot = stats_lane.pivot(index='Hero', columns='Lane', values='mean')
-
     # --- Excel Export ---
     with pd.ExcelWriter(OUTPUT_FILE, engine='xlsxwriter') as writer:
+        # Sheet 1: Synergy Winrates (Threshold applied)
         mirrored_syn.loc[mirrored_syn['Cnt'] < 100, 'WR'] = None
         mirrored_syn.pivot(index='Hero', columns='Ally', values='WR').to_excel(writer, sheet_name='Synergy_Winrates')
         
+        # Sheet 2: Matchup Winrates (Threshold applied)
         stats_match_filtered = stats_match.copy()
         stats_match_filtered.loc[stats_match_filtered['count'] < 100, 'mean'] = None
         stats_match_filtered.pivot(index='Hero', columns='Opponent', values='mean').to_excel(writer, sheet_name='Matchup_Winrates')
 
+        # Sheet 3: Match Counts (Synergy)
         mirrored_syn.pivot(index='Hero', columns='Ally', values='Cnt').to_excel(writer, sheet_name='Synergy_Counts')
-        
-        # New Sheet: Lane Winrates
-        lane_pivot.to_excel(writer, sheet_name='Lane_Winrates')
 
         # Formatting
-        for sheet_name in ['Synergy_Winrates', 'Matchup_Winrates', 'Lane_Winrates']:
+        for sheet_name in ['Synergy_Winrates', 'Matchup_Winrates']:
             ws = writer.sheets[sheet_name]
             ws.conditional_format(1, 1, 100, 100, {
                 'type': '3_color_scale', 
                 'min_color': "#F8696B", 'mid_color': "#FFFFFF", 'max_color': "#63BE7B",
-                'min_type': 'num', 'min_value': 0.40, 'mid_type': 'num', 'mid_value': 0.50, 'max_type': 'num', 'max_value': 0.60
+                'min_type': 'num', 'min_value': 0.35, 'mid_type': 'num', 'mid_value': 0.50, 'max_type': 'num', 'max_value': 0.65
             })
 
-    # --- JSON Export ---
-    os.makedirs("data", exist_ok=True)
-    
-    # 1. Synergy JSON
-    json_stats = {}
-    for _, row in stats_syn.iterrows():
-        pair_key = f"{row['Hero1']}|{row['Hero2']}"
-        json_stats[pair_key] = {"winrate": round(float(row['mean']), 4) if row['count'] >= 100 else 0.0, "matches": int(row['count'])}
-    
-    with open(os.path.join("data", "synergy_data.json"), "w", encoding="utf-8") as f:
-        json.dump(json_stats, f, indent=4, ensure_ascii=False)
+        ws_cnt = writer.sheets['Synergy_Counts']
+        ws_cnt.conditional_format(1, 1, 100, 100, {
+            'type': '3_color_scale',
+            'min_color': "#FFEB84", 'mid_color': "#81D4FA", 'max_color': "#0D47A1",
+            'min_type': 'num', 'min_value': 0, 'mid_type': 'num', 'mid_value': 100, 'max_type': 'num', 'max_value': 500
+        })
 
-    # 2. Lane JSON
-    lane_json = {}
-    for _, row in stats_lane.iterrows():
-        hero = row['Hero']
-        if hero not in lane_json: lane_json[hero] = {}
-        lane_json[hero][f"lane_{int(row['Lane'])}"] = round(float(row['mean']), 4)
-
-    with open(os.path.join("data", "lane_data.json"), "w", encoding="utf-8") as f:
-        json.dump(lane_json, f, indent=4, ensure_ascii=False)
-
-    print(f"\nSUCCESS: Reports saved. Lane data included.")
+    print(f"\nSUCCESS: Report with Synergy and Matchups saved to {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()

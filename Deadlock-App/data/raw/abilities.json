@@ -756,6 +756,42 @@
     "scaling": {}
   },
   {
+    "id": 1020817390,
+    "hero_id": 35,
+    "name": "Ability 1020817390",
+    "cooldown": null,
+    "damage": null,
+    "description": "",
+    "scaling": {}
+  },
+  {
+    "id": 3247040238,
+    "hero_id": 35,
+    "name": "Ability 3247040238",
+    "cooldown": null,
+    "damage": null,
+    "description": "",
+    "scaling": {}
+  },
+  {
+    "id": 3788152387,
+    "hero_id": 35,
+    "name": "Ability 3788152387",
+    "cooldown": null,
+    "damage": null,
+    "description": "",
+    "scaling": {}
+  },
+  {
+    "id": 4206531918,
+    "hero_id": 35,
+    "name": "Ability 4206531918",
+    "cooldown": null,
+    "damage": null,
+    "description": "",
+    "scaling": {}
+  },
+  {
     "id": 938149308,
     "hero_id": 50,
     "name": "Ability 938149308",
