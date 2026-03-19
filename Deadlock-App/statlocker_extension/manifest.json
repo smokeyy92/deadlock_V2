@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Deadlock Draft Bridge",
+    "version": "1.0",
+    "description": "Syncs Deadlock draft data to local analyzer",
+    "permissions": [ "storage" ],
+    "content_scripts": [
+        {
+            "matches": [ "*://statlocker.gg/draft/*" ],
+            "js": [ "content.js" ],
+            "run_at": "document_idle"
+        }
+    ]
+}
