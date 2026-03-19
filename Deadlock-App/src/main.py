@@ -18,6 +18,7 @@ from snapshot_manager import SnapshotManager
 from synergy_engine import compute_synergy_matrix
 from team_analyzer import analyze_teams
 from utils import ensure_directories
+from bridge_server import start_bridge
 
 console = Console()
 
@@ -94,6 +95,7 @@ def run_gui() -> None:
         import sys as _sys
         app = QApplication.instance() or QApplication(_sys.argv)
         window = MainWindow()
+        start_bridge(window)
         window.show()
         app.exec()
     except ImportError as exc:
