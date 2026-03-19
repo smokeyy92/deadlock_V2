@@ -18977,417 +18977,6 @@
       "hero_id": 13,
       "hero_build_id": 1023,
       "author_account_id": 203209620,
-      "last_updated_timestamp": 1737065772,
-      "publish_timestamp": null,
-      "name": "Chrome's Rapid Haze",
-      "description": "UPDATED 1/16! \u2013 (Chrome\u2019s) Rapid Haze is a gun-centric, gank focused roamer build that exceeds in lockdown kill potential. We rapidly \u2013 haha \u2013 scale our offensive, defensive, and technical skills with special care, creating an effective mixture of high damage, strong sustain, and helpful tools. Visit the full written guide in Deadlock\u2019s official Discord server for further details and to ask any questions :)",
-      "language": 0,
-      "version": 77,
-      "origin_build_id": 1023,
-      "tags": [],
-      "development_build": null,
-      "details": {
-        "mod_categories": [
-          {
-            "name": "Super Early Game",
-            "width": 444.0,
-            "height": 154.0,
-            "description": "AS \u2192 ER \u2192 RR \u2192 ES",
-            "mods": [
-              {
-                "ability_id": 1248737459,
-                "annotation": "Sell for late game tech.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 2829638276,
-                "annotation": "Sell for Spirit Armor.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 668299740,
-                "annotation": "It's best to sell Ammo Scavenger or Headshot Booster before this when choked on slots.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 4139877411,
-                "annotation": "If laning against a hero with large, telegraphed damage such as Geist Bomb, Viscous Splatter, or Warden Cage, buy this 3rd.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              }
-            ],
-            "optional": null
-          },
-          {
-            "name": "Read Annotations!        Big Dmg \u2193    + Pressure \u2193",
-            "width": 236.0,
-            "height": 153.0,
-            "description": null,
-            "mods": [
-              {
-                "ability_id": 1710079648,
-                "annotation": "If you\u2019re suffering from large chunks of damage or need to quickly regen in-lane after a tough 1v1, pick this up. Sell for Combat Barrier.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 2010028405,
-                "annotation": "To put pressure on your opponent in lane. This is well applied in winning lanes to capitalize on momentum, and against lane opponents who are fond of standing out from cover regardless of advantaged / disadvantaged lane state.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              }
-            ],
-            "optional": null
-          },
-          {
-            "name": "Early Game",
-            "width": 336.0,
-            "height": 158.0,
-            "description": "SS \u2192 BL \u2192 CB",
-            "mods": [
-              {
-                "ability_id": 4104549924,
-                "annotation": null,
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 499683006,
-                "annotation": null,
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 1235347618,
-                "annotation": null,
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              }
-            ],
-            "optional": null
-          },
-          {
-            "name": "Mid Game",
-            "width": 444.0,
-            "height": 154.0,
-            "description": "BRS \u2192 KD \u2192 QSR (Dagger) \u2192 SB",
-            "mods": [
-              {
-                "ability_id": 2971868509,
-                "annotation": null,
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 3977876567,
-                "annotation": null,
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 84321454,
-                "annotation": "QSR is most effectively used at the end of your first clip to extend your damage whether against an enemy, tower, or camp. It can also be used to extend the buff of Kinetic Dash to two clips.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 393974127,
-                "annotation": null,
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              }
-            ],
-            "optional": null
-          },
-          {
-            "name": "Ganking Tech (Read Annotations)       Runners \u2193      Leechers \u2193     Gunners \u2193",
-            "width": 344.0,
-            "height": 125.0,
-            "description": null,
-            "mods": [
-              {
-                "ability_id": 1813726886,
-                "annotation": "Our default ganking relic, an excellent tool for locking down enemies into your Bullet Dance or otherwise. ",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 3144988365,
-                "annotation": "Against Tanks & Leeches like Abrams, Shiv, and Geist. Use this during a gank or to push them away in a team fight.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 2922054143,
-                "annotation": "If your opponent has high weapon damage output, use this during a gank to create a one-sided exchange. Best against Wraith, Ivy, McGinnis, Talon, etc.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              }
-            ],
-            "optional": null
-          },
-          {
-            "name": "Late Game",
-            "width": 228.0,
-            "height": 103.0,
-            "description": "BF \u2192 SO",
-            "mods": [
-              {
-                "ability_id": 2739107182,
-                "annotation": null,
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 2226497419,
-                "annotation": null,
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              }
-            ],
-            "optional": null
-          },
-          {
-            "name": "Priority Late Game Picks",
-            "width": 228.0,
-            "height": 150.0,
-            "description": "",
-            "mods": [
-              {
-                "ability_id": 3357231760,
-                "annotation": "If you are getting heavily CC'd in Bullet Dance or otherwise, I advise you buy this before the other T4 options. Unstoppable does a lot to keep us alive in Late Game.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 1113837674,
-                "annotation": "When facing heavy spirit users, which is frequent, new Silencer shuts them down completely. ",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              }
-            ],
-            "optional": null
-          },
-          {
-            "name": "Late Game Tech",
-            "width": 554.0,
-            "height": 129.0,
-            "description": "No Order, Read Annotations!         ",
-            "mods": [
-              {
-                "ability_id": 2037039379,
-                "annotation": "A straightforward \u201cnerf\u201d relic for our late game, it\u2019s impossible to go wrong with Inhibitor. Especially helpful for outliving fights against metal skinned enemies.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 3884003354,
-                "annotation": "A strong relic to pierce through the pervasive Bullet Armor present in the current meta. Crippling Headshot frequently out damages Lucky Shot currently, and is considered the optimal choice for maximizing damage.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 1378931225,
-                "annotation": "To combat rampant gun builds, especially those that thrive off of burst interactions (Bebop hook combo, McGinnis wall combo, etc.)",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 2407781327,
-                "annotation": "A strong pairing with gun or Ult to briefly increase your sustain and keep enemies locked around you. If incoming CC is low, this can supersede Unstoppable.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 2617435668,
-                "annotation": "If their team has a massive carry, Curse is sometimes a requirement to kill them and turn a teamfight.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              }
-            ],
-            "optional": null
-          },
-          {
-            "name": "Spirit Armors",
-            "width": 234.0,
-            "height": 149.0,
-            "description": null,
-            "mods": [
-              {
-                "ability_id": 223594321,
-                "annotation": "An essential purchase at some point, it\u2019s important to sense when that is exactly in the match. Frequently around the 11-15 minute mark.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 2163598980,
-                "annotation": "Another essential purchase, but can be picked up much later in the round. Any time after Spiritual Overflow is ideal.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              }
-            ],
-            "optional": null
-          },
-          {
-            "name": "UPDATED 1/16 - Reshuffling & Refining",
-            "width": 559.0,
-            "height": 135.0,
-            "description": "Check out the Discord Guide for details and to ask any questions. ",
-            "mods": null,
-            "optional": null
-          },
-          {
-            "name": "Check Out The Annotations!",
-            "width": 465.0,
-            "height": 152.0,
-            "description": "Hover over relics to check out helpful annotations for use cases and general tips.",
-            "mods": null,
-            "optional": null
-          }
-        ],
-        "ability_order": {
-          "currency_changes": [
-            {
-              "ability_id": 1080948381,
-              "currency_type": 2,
-              "delta": -1,
-              "annotation": null
-            },
-            {
-              "ability_id": 2948410412,
-              "currency_type": 2,
-              "delta": -1,
-              "annotation": null
-            },
-            {
-              "ability_id": 2414191464,
-              "currency_type": 2,
-              "delta": -1,
-              "annotation": null
-            },
-            {
-              "ability_id": 731943444,
-              "currency_type": 2,
-              "delta": -1,
-              "annotation": null
-            },
-            {
-              "ability_id": 1080948381,
-              "currency_type": 1,
-              "delta": -1,
-              "annotation": null
-            },
-            {
-              "ability_id": 1080948381,
-              "currency_type": 1,
-              "delta": -2,
-              "annotation": null
-            },
-            {
-              "ability_id": 731943444,
-              "currency_type": 1,
-              "delta": -1,
-              "annotation": null
-            },
-            {
-              "ability_id": 2414191464,
-              "currency_type": 1,
-              "delta": -1,
-              "annotation": null
-            },
-            {
-              "ability_id": 1080948381,
-              "currency_type": 1,
-              "delta": -5,
-              "annotation": null
-            },
-            {
-              "ability_id": 2948410412,
-              "currency_type": 1,
-              "delta": -1,
-              "annotation": null
-            },
-            {
-              "ability_id": 2948410412,
-              "currency_type": 1,
-              "delta": -2,
-              "annotation": null
-            },
-            {
-              "ability_id": 731943444,
-              "currency_type": 1,
-              "delta": -2,
-              "annotation": null
-            },
-            {
-              "ability_id": 731943444,
-              "currency_type": 1,
-              "delta": -5,
-              "annotation": null
-            },
-            {
-              "ability_id": 2948410412,
-              "currency_type": 1,
-              "delta": -5,
-              "annotation": null
-            },
-            {
-              "ability_id": 2414191464,
-              "currency_type": 1,
-              "delta": -2,
-              "annotation": null
-            },
-            {
-              "ability_id": 2414191464,
-              "currency_type": 1,
-              "delta": -5,
-              "annotation": null
-            }
-          ]
-        }
-      }
-    },
-    "num_favorites": 391151,
-    "num_ignores": null,
-    "num_reports": null,
-    "num_weekly_favorites": null,
-    "rollup_category": 1
-  },
-  {
-    "hero_build": {
-      "hero_id": 13,
-      "hero_build_id": 1023,
-      "author_account_id": 203209620,
       "last_updated_timestamp": 1740425846,
       "publish_timestamp": null,
       "name": "Chrome's Rapid Haze",
@@ -19776,6 +19365,417 @@
               "ability_id": 2948410412,
               "currency_type": 1,
               "delta": -5,
+              "annotation": null
+            },
+            {
+              "ability_id": 2414191464,
+              "currency_type": 1,
+              "delta": -5,
+              "annotation": null
+            }
+          ]
+        }
+      }
+    },
+    "num_favorites": 391151,
+    "num_ignores": null,
+    "num_reports": null,
+    "num_weekly_favorites": null,
+    "rollup_category": 1
+  },
+  {
+    "hero_build": {
+      "hero_id": 13,
+      "hero_build_id": 1023,
+      "author_account_id": 203209620,
+      "last_updated_timestamp": 1737065772,
+      "publish_timestamp": null,
+      "name": "Chrome's Rapid Haze",
+      "description": "UPDATED 1/16! \u2013 (Chrome\u2019s) Rapid Haze is a gun-centric, gank focused roamer build that exceeds in lockdown kill potential. We rapidly \u2013 haha \u2013 scale our offensive, defensive, and technical skills with special care, creating an effective mixture of high damage, strong sustain, and helpful tools. Visit the full written guide in Deadlock\u2019s official Discord server for further details and to ask any questions :)",
+      "language": 0,
+      "version": 77,
+      "origin_build_id": 1023,
+      "tags": [],
+      "development_build": null,
+      "details": {
+        "mod_categories": [
+          {
+            "name": "Super Early Game",
+            "width": 444.0,
+            "height": 154.0,
+            "description": "AS \u2192 ER \u2192 RR \u2192 ES",
+            "mods": [
+              {
+                "ability_id": 1248737459,
+                "annotation": "Sell for late game tech.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 2829638276,
+                "annotation": "Sell for Spirit Armor.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 668299740,
+                "annotation": "It's best to sell Ammo Scavenger or Headshot Booster before this when choked on slots.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 4139877411,
+                "annotation": "If laning against a hero with large, telegraphed damage such as Geist Bomb, Viscous Splatter, or Warden Cage, buy this 3rd.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              }
+            ],
+            "optional": null
+          },
+          {
+            "name": "Read Annotations!        Big Dmg \u2193    + Pressure \u2193",
+            "width": 236.0,
+            "height": 153.0,
+            "description": null,
+            "mods": [
+              {
+                "ability_id": 1710079648,
+                "annotation": "If you\u2019re suffering from large chunks of damage or need to quickly regen in-lane after a tough 1v1, pick this up. Sell for Combat Barrier.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 2010028405,
+                "annotation": "To put pressure on your opponent in lane. This is well applied in winning lanes to capitalize on momentum, and against lane opponents who are fond of standing out from cover regardless of advantaged / disadvantaged lane state.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              }
+            ],
+            "optional": null
+          },
+          {
+            "name": "Early Game",
+            "width": 336.0,
+            "height": 158.0,
+            "description": "SS \u2192 BL \u2192 CB",
+            "mods": [
+              {
+                "ability_id": 4104549924,
+                "annotation": null,
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 499683006,
+                "annotation": null,
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 1235347618,
+                "annotation": null,
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              }
+            ],
+            "optional": null
+          },
+          {
+            "name": "Mid Game",
+            "width": 444.0,
+            "height": 154.0,
+            "description": "BRS \u2192 KD \u2192 QSR (Dagger) \u2192 SB",
+            "mods": [
+              {
+                "ability_id": 2971868509,
+                "annotation": null,
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 3977876567,
+                "annotation": null,
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 84321454,
+                "annotation": "QSR is most effectively used at the end of your first clip to extend your damage whether against an enemy, tower, or camp. It can also be used to extend the buff of Kinetic Dash to two clips.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 393974127,
+                "annotation": null,
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              }
+            ],
+            "optional": null
+          },
+          {
+            "name": "Ganking Tech (Read Annotations)       Runners \u2193      Leechers \u2193     Gunners \u2193",
+            "width": 344.0,
+            "height": 125.0,
+            "description": null,
+            "mods": [
+              {
+                "ability_id": 1813726886,
+                "annotation": "Our default ganking relic, an excellent tool for locking down enemies into your Bullet Dance or otherwise. ",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 3144988365,
+                "annotation": "Against Tanks & Leeches like Abrams, Shiv, and Geist. Use this during a gank or to push them away in a team fight.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 2922054143,
+                "annotation": "If your opponent has high weapon damage output, use this during a gank to create a one-sided exchange. Best against Wraith, Ivy, McGinnis, Talon, etc.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              }
+            ],
+            "optional": null
+          },
+          {
+            "name": "Late Game",
+            "width": 228.0,
+            "height": 103.0,
+            "description": "BF \u2192 SO",
+            "mods": [
+              {
+                "ability_id": 2739107182,
+                "annotation": null,
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 2226497419,
+                "annotation": null,
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              }
+            ],
+            "optional": null
+          },
+          {
+            "name": "Priority Late Game Picks",
+            "width": 228.0,
+            "height": 150.0,
+            "description": "",
+            "mods": [
+              {
+                "ability_id": 3357231760,
+                "annotation": "If you are getting heavily CC'd in Bullet Dance or otherwise, I advise you buy this before the other T4 options. Unstoppable does a lot to keep us alive in Late Game.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 1113837674,
+                "annotation": "When facing heavy spirit users, which is frequent, new Silencer shuts them down completely. ",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              }
+            ],
+            "optional": null
+          },
+          {
+            "name": "Late Game Tech",
+            "width": 554.0,
+            "height": 129.0,
+            "description": "No Order, Read Annotations!         ",
+            "mods": [
+              {
+                "ability_id": 2037039379,
+                "annotation": "A straightforward \u201cnerf\u201d relic for our late game, it\u2019s impossible to go wrong with Inhibitor. Especially helpful for outliving fights against metal skinned enemies.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 3884003354,
+                "annotation": "A strong relic to pierce through the pervasive Bullet Armor present in the current meta. Crippling Headshot frequently out damages Lucky Shot currently, and is considered the optimal choice for maximizing damage.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 1378931225,
+                "annotation": "To combat rampant gun builds, especially those that thrive off of burst interactions (Bebop hook combo, McGinnis wall combo, etc.)",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 2407781327,
+                "annotation": "A strong pairing with gun or Ult to briefly increase your sustain and keep enemies locked around you. If incoming CC is low, this can supersede Unstoppable.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 2617435668,
+                "annotation": "If their team has a massive carry, Curse is sometimes a requirement to kill them and turn a teamfight.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              }
+            ],
+            "optional": null
+          },
+          {
+            "name": "Spirit Armors",
+            "width": 234.0,
+            "height": 149.0,
+            "description": null,
+            "mods": [
+              {
+                "ability_id": 223594321,
+                "annotation": "An essential purchase at some point, it\u2019s important to sense when that is exactly in the match. Frequently around the 11-15 minute mark.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 2163598980,
+                "annotation": "Another essential purchase, but can be picked up much later in the round. Any time after Spiritual Overflow is ideal.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              }
+            ],
+            "optional": null
+          },
+          {
+            "name": "UPDATED 1/16 - Reshuffling & Refining",
+            "width": 559.0,
+            "height": 135.0,
+            "description": "Check out the Discord Guide for details and to ask any questions. ",
+            "mods": null,
+            "optional": null
+          },
+          {
+            "name": "Check Out The Annotations!",
+            "width": 465.0,
+            "height": 152.0,
+            "description": "Hover over relics to check out helpful annotations for use cases and general tips.",
+            "mods": null,
+            "optional": null
+          }
+        ],
+        "ability_order": {
+          "currency_changes": [
+            {
+              "ability_id": 1080948381,
+              "currency_type": 2,
+              "delta": -1,
+              "annotation": null
+            },
+            {
+              "ability_id": 2948410412,
+              "currency_type": 2,
+              "delta": -1,
+              "annotation": null
+            },
+            {
+              "ability_id": 2414191464,
+              "currency_type": 2,
+              "delta": -1,
+              "annotation": null
+            },
+            {
+              "ability_id": 731943444,
+              "currency_type": 2,
+              "delta": -1,
+              "annotation": null
+            },
+            {
+              "ability_id": 1080948381,
+              "currency_type": 1,
+              "delta": -1,
+              "annotation": null
+            },
+            {
+              "ability_id": 1080948381,
+              "currency_type": 1,
+              "delta": -2,
+              "annotation": null
+            },
+            {
+              "ability_id": 731943444,
+              "currency_type": 1,
+              "delta": -1,
+              "annotation": null
+            },
+            {
+              "ability_id": 2414191464,
+              "currency_type": 1,
+              "delta": -1,
+              "annotation": null
+            },
+            {
+              "ability_id": 1080948381,
+              "currency_type": 1,
+              "delta": -5,
+              "annotation": null
+            },
+            {
+              "ability_id": 2948410412,
+              "currency_type": 1,
+              "delta": -1,
+              "annotation": null
+            },
+            {
+              "ability_id": 2948410412,
+              "currency_type": 1,
+              "delta": -2,
+              "annotation": null
+            },
+            {
+              "ability_id": 731943444,
+              "currency_type": 1,
+              "delta": -2,
+              "annotation": null
+            },
+            {
+              "ability_id": 731943444,
+              "currency_type": 1,
+              "delta": -5,
+              "annotation": null
+            },
+            {
+              "ability_id": 2948410412,
+              "currency_type": 1,
+              "delta": -5,
+              "annotation": null
+            },
+            {
+              "ability_id": 2414191464,
+              "currency_type": 1,
+              "delta": -2,
               "annotation": null
             },
             {
@@ -27188,417 +27188,6 @@
       "hero_id": 13,
       "hero_build_id": 1023,
       "author_account_id": 203209620,
-      "last_updated_timestamp": 1731708575,
-      "publish_timestamp": null,
-      "name": "Chrome's Rapid Haze",
-      "description": "More updates on 11/15 \u2013 (Chrome\u2019s) Rapid Haze is a gun-centric, gank focused roamer build that exceeds in lockdown kill potential. We rapidly \u2013 haha \u2013 scale our offensive, defensive, and technical skills with special care, creating an effective mixture of high damage, strong sustain, and helpful tools. Visit the full written guide in Deadlock\u2019s official Discord server for further details and to ask any questions :)",
-      "language": 0,
-      "version": 50,
-      "origin_build_id": 1023,
-      "tags": [],
-      "development_build": null,
-      "details": {
-        "mod_categories": [
-          {
-            "name": "Super Early Game",
-            "width": 444.0,
-            "height": 154.0,
-            "description": "ER \u2192 ES \u2192 RR \u2192 ES",
-            "mods": [
-              {
-                "ability_id": 2829638276,
-                "annotation": "Sell for Extra Health.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 968099481,
-                "annotation": "Sell for Curse.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 668299740,
-                "annotation": null,
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 4139877411,
-                "annotation": "If laning against a hero with large, telegraphed damage such as Geist Bomb, Viscous Splatter, or Warden Cage, buy this 3rd.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              }
-            ],
-            "optional": null
-          },
-          {
-            "name": "Read Annotations!       Big Dmg \u2193    + Pressure \u2193",
-            "width": 230.0,
-            "height": 160.0,
-            "description": null,
-            "mods": [
-              {
-                "ability_id": 1710079648,
-                "annotation": "If you\u2019re suffering from large chunks of damage or need to quickly regen in-lane after a tough 1v1, pick this up.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 2010028405,
-                "annotation": "To put pressure on your opponent in lane. This is well applied in winning lanes to capitalize on momentum, and against lane opponents who are fond of standing out from cover regardless of advantaged / disadvantaged lane state.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              }
-            ],
-            "optional": null
-          },
-          {
-            "name": "Early Game",
-            "width": 336.0,
-            "height": 158.0,
-            "description": "AR \u2192 BL \u2192 SS",
-            "mods": [
-              {
-                "ability_id": 381961617,
-                "annotation": null,
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 499683006,
-                "annotation": null,
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 4104549924,
-                "annotation": null,
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              }
-            ],
-            "optional": null
-          },
-          {
-            "name": "Mid Game",
-            "width": 336.0,
-            "height": 154.0,
-            "description": "QSR (Dagger) \u2192 BRS \u2192 EH",
-            "mods": [
-              {
-                "ability_id": 84321454,
-                "annotation": "QSR is most effectively used at the end of your first clip to extend your damage whether this is against an enemy, tower, or camp. It can also be used in tandem with an procced Active Reload to extend your clip during the buff.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 2971868509,
-                "annotation": null,
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 3633614685,
-                "annotation": "Sell Extra Regen to buy this! Can be sold for Unstoppable.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              }
-            ],
-            "optional": null
-          },
-          {
-            "name": "Ganking Tech (Read Annotations): Generalist \u2193    Runners \u2193     Leechers \u2193",
-            "width": 338.0,
-            "height": 143.0,
-            "description": null,
-            "mods": [
-              {
-                "ability_id": 1976391348,
-                "annotation": "Our \u201cdefault\u201d midgame ganking relic, great for locking down enemies. Also a great tool for camps and clearing waves.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 1813726886,
-                "annotation": "If the enemy team has high ability mobility, use this to secure ganks. Best against Vindicta, Wraith, Infernus, Dynamo, etc.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 3144988365,
-                "annotation": "Against Tanks & Lifesteal heavy heroes like Abrams, Shiv, and Geist. Use this during a gank or to push them away in a team fight.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              }
-            ],
-            "optional": null
-          },
-          {
-            "name": "Late Game",
-            "width": 336.0,
-            "height": 132.0,
-            "description": "BF \u2192 HA \u2192 LS",
-            "mods": [
-              {
-                "ability_id": 2739107182,
-                "annotation": null,
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 2481177645,
-                "annotation": null,
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 1396247347,
-                "annotation": null,
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              }
-            ],
-            "optional": null
-          },
-          {
-            "name": "Spirit Armors",
-            "width": 228.0,
-            "height": 78.0,
-            "description": null,
-            "mods": [
-              {
-                "ability_id": 223594321,
-                "annotation": "An essential purchase at some point, it\u2019s important to sense when that is exactly in the match. Frequently around the 11-15 minute mark.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 2163598980,
-                "annotation": "Another essential purchase but can be picked up much later in the round. Any time after Lucky Shot is ideal.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              }
-            ],
-            "optional": null
-          },
-          {
-            "name": "Priority Late Game Picks",
-            "width": 228.0,
-            "height": 150.0,
-            "description": "",
-            "mods": [
-              {
-                "ability_id": 3357231760,
-                "annotation": "If you are getting heavily CC'd in Bullet Dance or otherwise, I advise you buy this relic before Curse. Unstoppable does a lot to keep us alive in Late Game.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 2617435668,
-                "annotation": "Used in tandem with Ult or your gun to shutdown and kill enemies. An essential Late Game relic for Haze.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              }
-            ],
-            "optional": null
-          },
-          {
-            "name": "Super Late Game",
-            "width": 554.0,
-            "height": 140.0,
-            "description": "No Order, Read Annotations!",
-            "mods": [
-              {
-                "ability_id": 2037039379,
-                "annotation": "A straightforward \u201cnerf\u201d relic for our late game, it\u2019s impossible to go wrong with Inhibitor. Especially helpful for outliving fights against metal skinned enemies.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 3884003354,
-                "annotation": "A large increase to our gun damage and plays well at any range. Can be erroneously triggered during Bullet Dance but I don\u2019t expect that behavior to last forever.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 1371725689,
-                "annotation": "Can be used DURING Bullet Dance to chase fleeing enemies, also great for confirming kills / trades whenever possible.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 2407781327,
-                "annotation": "A fun pairing with gun or Ult to briefly increase your sustain and keep enemies locked around you.",
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              },
-              {
-                "ability_id": 1055679805,
-                "annotation": null,
-                "required_flex_slots": null,
-                "sell_priority": null,
-                "imbue_target_ability_id": null
-              }
-            ],
-            "optional": null
-          },
-          {
-            "name": "Further Updates 11/15!",
-            "width": 486.0,
-            "height": 136.0,
-            "description": "Check The Discord Guide for info :)",
-            "mods": null,
-            "optional": null
-          },
-          {
-            "name": "Check Out The Annotations!",
-            "width": 532.0,
-            "height": 140.0,
-            "description": "Hover over relics to check out helpful annotations for use cases and general tips.",
-            "mods": null,
-            "optional": null
-          }
-        ],
-        "ability_order": {
-          "currency_changes": [
-            {
-              "ability_id": 1080948381,
-              "currency_type": 2,
-              "delta": -1,
-              "annotation": null
-            },
-            {
-              "ability_id": 2948410412,
-              "currency_type": 2,
-              "delta": -1,
-              "annotation": null
-            },
-            {
-              "ability_id": 2414191464,
-              "currency_type": 2,
-              "delta": -1,
-              "annotation": null
-            },
-            {
-              "ability_id": 731943444,
-              "currency_type": 2,
-              "delta": -1,
-              "annotation": null
-            },
-            {
-              "ability_id": 1080948381,
-              "currency_type": 1,
-              "delta": -1,
-              "annotation": null
-            },
-            {
-              "ability_id": 1080948381,
-              "currency_type": 1,
-              "delta": -2,
-              "annotation": null
-            },
-            {
-              "ability_id": 731943444,
-              "currency_type": 1,
-              "delta": -1,
-              "annotation": null
-            },
-            {
-              "ability_id": 1080948381,
-              "currency_type": 1,
-              "delta": -5,
-              "annotation": null
-            },
-            {
-              "ability_id": 2948410412,
-              "currency_type": 1,
-              "delta": -1,
-              "annotation": null
-            },
-            {
-              "ability_id": 2948410412,
-              "currency_type": 1,
-              "delta": -2,
-              "annotation": null
-            },
-            {
-              "ability_id": 2414191464,
-              "currency_type": 1,
-              "delta": -1,
-              "annotation": null
-            },
-            {
-              "ability_id": 2414191464,
-              "currency_type": 1,
-              "delta": -2,
-              "annotation": null
-            },
-            {
-              "ability_id": 731943444,
-              "currency_type": 1,
-              "delta": -2,
-              "annotation": null
-            },
-            {
-              "ability_id": 731943444,
-              "currency_type": 1,
-              "delta": -5,
-              "annotation": null
-            },
-            {
-              "ability_id": 2948410412,
-              "currency_type": 1,
-              "delta": -5,
-              "annotation": null
-            },
-            {
-              "ability_id": 2414191464,
-              "currency_type": 1,
-              "delta": -5,
-              "annotation": null
-            }
-          ]
-        }
-      }
-    },
-    "num_favorites": 390093,
-    "num_ignores": null,
-    "num_reports": null,
-    "num_weekly_favorites": null,
-    "rollup_category": 1
-  },
-  {
-    "hero_build": {
-      "hero_id": 13,
-      "hero_build_id": 1023,
-      "author_account_id": 203209620,
       "last_updated_timestamp": 1731272938,
       "publish_timestamp": null,
       "name": "Chrome's Rapid Haze",
@@ -27882,6 +27471,417 @@
           },
           {
             "name": "Updated for 11/7 Patch",
+            "width": 486.0,
+            "height": 136.0,
+            "description": "Check The Discord Guide for info :)",
+            "mods": null,
+            "optional": null
+          },
+          {
+            "name": "Check Out The Annotations!",
+            "width": 532.0,
+            "height": 140.0,
+            "description": "Hover over relics to check out helpful annotations for use cases and general tips.",
+            "mods": null,
+            "optional": null
+          }
+        ],
+        "ability_order": {
+          "currency_changes": [
+            {
+              "ability_id": 1080948381,
+              "currency_type": 2,
+              "delta": -1,
+              "annotation": null
+            },
+            {
+              "ability_id": 2948410412,
+              "currency_type": 2,
+              "delta": -1,
+              "annotation": null
+            },
+            {
+              "ability_id": 2414191464,
+              "currency_type": 2,
+              "delta": -1,
+              "annotation": null
+            },
+            {
+              "ability_id": 731943444,
+              "currency_type": 2,
+              "delta": -1,
+              "annotation": null
+            },
+            {
+              "ability_id": 1080948381,
+              "currency_type": 1,
+              "delta": -1,
+              "annotation": null
+            },
+            {
+              "ability_id": 1080948381,
+              "currency_type": 1,
+              "delta": -2,
+              "annotation": null
+            },
+            {
+              "ability_id": 731943444,
+              "currency_type": 1,
+              "delta": -1,
+              "annotation": null
+            },
+            {
+              "ability_id": 1080948381,
+              "currency_type": 1,
+              "delta": -5,
+              "annotation": null
+            },
+            {
+              "ability_id": 2948410412,
+              "currency_type": 1,
+              "delta": -1,
+              "annotation": null
+            },
+            {
+              "ability_id": 2948410412,
+              "currency_type": 1,
+              "delta": -2,
+              "annotation": null
+            },
+            {
+              "ability_id": 2414191464,
+              "currency_type": 1,
+              "delta": -1,
+              "annotation": null
+            },
+            {
+              "ability_id": 2414191464,
+              "currency_type": 1,
+              "delta": -2,
+              "annotation": null
+            },
+            {
+              "ability_id": 731943444,
+              "currency_type": 1,
+              "delta": -2,
+              "annotation": null
+            },
+            {
+              "ability_id": 731943444,
+              "currency_type": 1,
+              "delta": -5,
+              "annotation": null
+            },
+            {
+              "ability_id": 2948410412,
+              "currency_type": 1,
+              "delta": -5,
+              "annotation": null
+            },
+            {
+              "ability_id": 2414191464,
+              "currency_type": 1,
+              "delta": -5,
+              "annotation": null
+            }
+          ]
+        }
+      }
+    },
+    "num_favorites": 390093,
+    "num_ignores": null,
+    "num_reports": null,
+    "num_weekly_favorites": null,
+    "rollup_category": 1
+  },
+  {
+    "hero_build": {
+      "hero_id": 13,
+      "hero_build_id": 1023,
+      "author_account_id": 203209620,
+      "last_updated_timestamp": 1731708575,
+      "publish_timestamp": null,
+      "name": "Chrome's Rapid Haze",
+      "description": "More updates on 11/15 \u2013 (Chrome\u2019s) Rapid Haze is a gun-centric, gank focused roamer build that exceeds in lockdown kill potential. We rapidly \u2013 haha \u2013 scale our offensive, defensive, and technical skills with special care, creating an effective mixture of high damage, strong sustain, and helpful tools. Visit the full written guide in Deadlock\u2019s official Discord server for further details and to ask any questions :)",
+      "language": 0,
+      "version": 50,
+      "origin_build_id": 1023,
+      "tags": [],
+      "development_build": null,
+      "details": {
+        "mod_categories": [
+          {
+            "name": "Super Early Game",
+            "width": 444.0,
+            "height": 154.0,
+            "description": "ER \u2192 ES \u2192 RR \u2192 ES",
+            "mods": [
+              {
+                "ability_id": 2829638276,
+                "annotation": "Sell for Extra Health.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 968099481,
+                "annotation": "Sell for Curse.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 668299740,
+                "annotation": null,
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 4139877411,
+                "annotation": "If laning against a hero with large, telegraphed damage such as Geist Bomb, Viscous Splatter, or Warden Cage, buy this 3rd.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              }
+            ],
+            "optional": null
+          },
+          {
+            "name": "Read Annotations!       Big Dmg \u2193    + Pressure \u2193",
+            "width": 230.0,
+            "height": 160.0,
+            "description": null,
+            "mods": [
+              {
+                "ability_id": 1710079648,
+                "annotation": "If you\u2019re suffering from large chunks of damage or need to quickly regen in-lane after a tough 1v1, pick this up.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 2010028405,
+                "annotation": "To put pressure on your opponent in lane. This is well applied in winning lanes to capitalize on momentum, and against lane opponents who are fond of standing out from cover regardless of advantaged / disadvantaged lane state.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              }
+            ],
+            "optional": null
+          },
+          {
+            "name": "Early Game",
+            "width": 336.0,
+            "height": 158.0,
+            "description": "AR \u2192 BL \u2192 SS",
+            "mods": [
+              {
+                "ability_id": 381961617,
+                "annotation": null,
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 499683006,
+                "annotation": null,
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 4104549924,
+                "annotation": null,
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              }
+            ],
+            "optional": null
+          },
+          {
+            "name": "Mid Game",
+            "width": 336.0,
+            "height": 154.0,
+            "description": "QSR (Dagger) \u2192 BRS \u2192 EH",
+            "mods": [
+              {
+                "ability_id": 84321454,
+                "annotation": "QSR is most effectively used at the end of your first clip to extend your damage whether this is against an enemy, tower, or camp. It can also be used in tandem with an procced Active Reload to extend your clip during the buff.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 2971868509,
+                "annotation": null,
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 3633614685,
+                "annotation": "Sell Extra Regen to buy this! Can be sold for Unstoppable.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              }
+            ],
+            "optional": null
+          },
+          {
+            "name": "Ganking Tech (Read Annotations): Generalist \u2193    Runners \u2193     Leechers \u2193",
+            "width": 338.0,
+            "height": 143.0,
+            "description": null,
+            "mods": [
+              {
+                "ability_id": 1976391348,
+                "annotation": "Our \u201cdefault\u201d midgame ganking relic, great for locking down enemies. Also a great tool for camps and clearing waves.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 1813726886,
+                "annotation": "If the enemy team has high ability mobility, use this to secure ganks. Best against Vindicta, Wraith, Infernus, Dynamo, etc.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 3144988365,
+                "annotation": "Against Tanks & Lifesteal heavy heroes like Abrams, Shiv, and Geist. Use this during a gank or to push them away in a team fight.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              }
+            ],
+            "optional": null
+          },
+          {
+            "name": "Late Game",
+            "width": 336.0,
+            "height": 132.0,
+            "description": "BF \u2192 HA \u2192 LS",
+            "mods": [
+              {
+                "ability_id": 2739107182,
+                "annotation": null,
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 2481177645,
+                "annotation": null,
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 1396247347,
+                "annotation": null,
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              }
+            ],
+            "optional": null
+          },
+          {
+            "name": "Spirit Armors",
+            "width": 228.0,
+            "height": 78.0,
+            "description": null,
+            "mods": [
+              {
+                "ability_id": 223594321,
+                "annotation": "An essential purchase at some point, it\u2019s important to sense when that is exactly in the match. Frequently around the 11-15 minute mark.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 2163598980,
+                "annotation": "Another essential purchase but can be picked up much later in the round. Any time after Lucky Shot is ideal.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              }
+            ],
+            "optional": null
+          },
+          {
+            "name": "Priority Late Game Picks",
+            "width": 228.0,
+            "height": 150.0,
+            "description": "",
+            "mods": [
+              {
+                "ability_id": 3357231760,
+                "annotation": "If you are getting heavily CC'd in Bullet Dance or otherwise, I advise you buy this relic before Curse. Unstoppable does a lot to keep us alive in Late Game.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 2617435668,
+                "annotation": "Used in tandem with Ult or your gun to shutdown and kill enemies. An essential Late Game relic for Haze.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              }
+            ],
+            "optional": null
+          },
+          {
+            "name": "Super Late Game",
+            "width": 554.0,
+            "height": 140.0,
+            "description": "No Order, Read Annotations!",
+            "mods": [
+              {
+                "ability_id": 2037039379,
+                "annotation": "A straightforward \u201cnerf\u201d relic for our late game, it\u2019s impossible to go wrong with Inhibitor. Especially helpful for outliving fights against metal skinned enemies.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 3884003354,
+                "annotation": "A large increase to our gun damage and plays well at any range. Can be erroneously triggered during Bullet Dance but I don\u2019t expect that behavior to last forever.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 1371725689,
+                "annotation": "Can be used DURING Bullet Dance to chase fleeing enemies, also great for confirming kills / trades whenever possible.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 2407781327,
+                "annotation": "A fun pairing with gun or Ult to briefly increase your sustain and keep enemies locked around you.",
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              },
+              {
+                "ability_id": 1055679805,
+                "annotation": null,
+                "required_flex_slots": null,
+                "sell_priority": null,
+                "imbue_target_ability_id": null
+              }
+            ],
+            "optional": null
+          },
+          {
+            "name": "Further Updates 11/15!",
             "width": 486.0,
             "height": 136.0,
             "description": "Check The Discord Guide for info :)",
@@ -29653,12 +29653,12 @@
       "hero_id": 13,
       "hero_build_id": 1023,
       "author_account_id": 203209620,
-      "last_updated_timestamp": 1730505984,
+      "last_updated_timestamp": 1730505115,
       "publish_timestamp": null,
       "name": "Chrome's Rapid Haze",
-      "description": "Further Updates 11/1 \u2013 (Chrome\u2019s) Rapid Haze is a gun-centric, gank focused roamer build that exceeds in lockdown kill potential. We rapidly \u2013 haha \u2013 scale our offensive, defensive, and technical skills with special care, creating an effective mixture of high damage, strong sustain, and helpful tools. Check out the Guide in the Official Discord for further details or if you have any questions :)",
+      "description": "10/25/24 - Another big update for Rapid Haze, bringing it up to speed with the current meta and doing everything we can to push Haze to her limit. I\u2019m very happy with this update, and I appreciate everyone\u2019s ongoing support. Check out the Guide in the Official Discord for further details or if you have any questions :)",
       "language": 0,
-      "version": 43,
+      "version": 41,
       "origin_build_id": 1023,
       "tags": [],
       "development_build": null,
@@ -29702,7 +29702,7 @@
             "optional": null
           },
           {
-            "name": "Read Annotations!       Big Dmg \u2193    + Pressure \u2193",
+            "name": "Read Annotations!       Big Dmg \u2193     + Pressure \u2193",
             "width": 228.0,
             "height": 116.0,
             "description": null,
@@ -30064,12 +30064,12 @@
       "hero_id": 13,
       "hero_build_id": 1023,
       "author_account_id": 203209620,
-      "last_updated_timestamp": 1730505115,
+      "last_updated_timestamp": 1730505984,
       "publish_timestamp": null,
       "name": "Chrome's Rapid Haze",
-      "description": "10/25/24 - Another big update for Rapid Haze, bringing it up to speed with the current meta and doing everything we can to push Haze to her limit. I\u2019m very happy with this update, and I appreciate everyone\u2019s ongoing support. Check out the Guide in the Official Discord for further details or if you have any questions :)",
+      "description": "Further Updates 11/1 \u2013 (Chrome\u2019s) Rapid Haze is a gun-centric, gank focused roamer build that exceeds in lockdown kill potential. We rapidly \u2013 haha \u2013 scale our offensive, defensive, and technical skills with special care, creating an effective mixture of high damage, strong sustain, and helpful tools. Check out the Guide in the Official Discord for further details or if you have any questions :)",
       "language": 0,
-      "version": 41,
+      "version": 43,
       "origin_build_id": 1023,
       "tags": [],
       "development_build": null,
@@ -30113,7 +30113,7 @@
             "optional": null
           },
           {
-            "name": "Read Annotations!       Big Dmg \u2193     + Pressure \u2193",
+            "name": "Read Annotations!       Big Dmg \u2193    + Pressure \u2193",
             "width": 228.0,
             "height": 116.0,
             "description": null,

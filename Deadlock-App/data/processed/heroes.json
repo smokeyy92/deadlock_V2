@@ -11,12 +11,12 @@
       "melee"
     ],
     "stats": {
-      "winrate": 0.507472,
-      "pickrate": 0.031667,
-      "avg_kills": 6.425,
-      "avg_deaths": 6.983,
-      "avg_assists": 13.292,
-      "games": 6223
+      "winrate": 0.505064,
+      "pickrate": 0.03077,
+      "avg_kills": 6.295,
+      "avg_deaths": 6.944,
+      "avg_assists": 13.219,
+      "games": 6122
     },
     "abilities": [
       "Shoulder Charge",
@@ -37,12 +37,12 @@
       "agile"
     ],
     "stats": {
-      "winrate": 0.485578,
-      "pickrate": 0.048165,
-      "avg_kills": 7.954,
-      "avg_deaths": 6.483,
-      "avg_assists": 13.616,
-      "games": 9465
+      "winrate": 0.487437,
+      "pickrate": 0.045607,
+      "avg_kills": 7.906,
+      "avg_deaths": 6.394,
+      "avg_assists": 13.553,
+      "games": 9074
     },
     "abilities": [
       "Ability 147493976",
@@ -63,12 +63,12 @@
       "range"
     ],
     "stats": {
-      "winrate": 0.46098,
-      "pickrate": 0.028757,
-      "avg_kills": 6.242,
-      "avg_deaths": 8.129,
-      "avg_assists": 14.575,
-      "games": 5651
+      "winrate": 0.46022,
+      "pickrate": 0.02786,
+      "avg_kills": 6.19,
+      "avg_deaths": 8.086,
+      "avg_assists": 14.468,
+      "games": 5543
     },
     "abilities": [
       "Hook",
@@ -90,12 +90,12 @@
       "engage"
     ],
     "stats": {
-      "winrate": 0.465729,
-      "pickrate": 0.014477,
-      "avg_kills": 5.911,
-      "avg_deaths": 7.618,
-      "avg_assists": 12.962,
-      "games": 2845
+      "winrate": 0.468825,
+      "pickrate": 0.014591,
+      "avg_kills": 5.866,
+      "avg_deaths": 7.575,
+      "avg_assists": 12.946,
+      "games": 2903
     },
     "abilities": [
       "Bashdown",
@@ -116,12 +116,12 @@
       "melee"
     ],
     "stats": {
-      "winrate": 0.530858,
-      "pickrate": 0.039331,
-      "avg_kills": 8.616,
-      "avg_deaths": 6.407,
-      "avg_assists": 14.458,
-      "games": 7729
+      "winrate": 0.530953,
+      "pickrate": 0.040677,
+      "avg_kills": 8.575,
+      "avg_deaths": 6.359,
+      "avg_assists": 14.429,
+      "games": 8093
     },
     "abilities": [
       "Leaping Slash",
@@ -143,12 +143,12 @@
       "mage"
     ],
     "stats": {
-      "winrate": 0.530721,
-      "pickrate": 0.039092,
-      "avg_kills": 7.244,
-      "avg_deaths": 5.989,
-      "avg_assists": 14.164,
-      "games": 7682
+      "winrate": 0.533333,
+      "pickrate": 0.03649,
+      "avg_kills": 7.227,
+      "avg_deaths": 5.93,
+      "avg_assists": 14.087,
+      "games": 7260
     },
     "abilities": [
       "Light Eater",
@@ -169,12 +169,12 @@
       "utility"
     ],
     "stats": {
-      "winrate": 0.523023,
-      "pickrate": 0.043763,
-      "avg_kills": 8.273,
-      "avg_deaths": 8.033,
-      "avg_assists": 14.541,
-      "games": 8600
+      "winrate": 0.518523,
+      "pickrate": 0.04328,
+      "avg_kills": 8.206,
+      "avg_deaths": 8.003,
+      "avg_assists": 14.414,
+      "games": 8611
     },
     "abilities": [
       "Warp Stone",
@@ -195,12 +195,12 @@
       "team"
     ],
     "stats": {
-      "winrate": 0.536255,
-      "pickrate": 0.018808,
-      "avg_kills": 3.934,
-      "avg_deaths": 6.388,
-      "avg_assists": 16.08,
-      "games": 3696
+      "winrate": 0.540042,
+      "pickrate": 0.019331,
+      "avg_kills": 3.923,
+      "avg_deaths": 6.321,
+      "avg_assists": 16.035,
+      "games": 3846
     },
     "abilities": [
       "Kinetic Pulse",
@@ -222,12 +222,12 @@
       "damage"
     ],
     "stats": {
-      "winrate": 0.526084,
-      "pickrate": 0.020777,
-      "avg_kills": 5.445,
-      "avg_deaths": 7.096,
-      "avg_assists": 12.3,
-      "games": 4083
+      "winrate": 0.525802,
+      "pickrate": 0.020064,
+      "avg_kills": 5.406,
+      "avg_deaths": 7.08,
+      "avg_assists": 12.219,
+      "games": 3992
     },
     "abilities": [
       "Grasping Hands",
@@ -247,12 +247,12 @@
       "slow"
     ],
     "stats": {
-      "winrate": 0.471029,
-      "pickrate": 0.01493,
-      "avg_kills": 7.931,
-      "avg_deaths": 5.821,
-      "avg_assists": 13.045,
-      "games": 2934
+      "winrate": 0.470527,
+      "pickrate": 0.014581,
+      "avg_kills": 7.861,
+      "avg_deaths": 5.78,
+      "avg_assists": 12.96,
+      "games": 2901
     },
     "abilities": [
       "Guided Owl",
@@ -273,12 +273,12 @@
       "damage"
     ],
     "stats": {
-      "winrate": 0.505189,
-      "pickrate": 0.037753,
-      "avg_kills": 7.769,
-      "avg_deaths": 7.047,
-      "avg_assists": 11.464,
-      "games": 7419
+      "winrate": 0.507752,
+      "pickrate": 0.037606,
+      "avg_kills": 7.722,
+      "avg_deaths": 6.954,
+      "avg_assists": 11.371,
+      "games": 7482
     },
     "abilities": [
       "Smoke Bomb",
@@ -299,12 +299,12 @@
       "mobility"
     ],
     "stats": {
-      "winrate": 0.448901,
-      "pickrate": 0.013195,
-      "avg_kills": 6.094,
-      "avg_deaths": 6.919,
-      "avg_assists": 15.713,
-      "games": 2593
+      "winrate": 0.448031,
+      "pickrate": 0.012766,
+      "avg_kills": 6.06,
+      "avg_deaths": 6.885,
+      "avg_assists": 15.64,
+      "games": 2540
     },
     "abilities": [
       "Lasso",
@@ -325,12 +325,12 @@
       "fire"
     ],
     "stats": {
-      "winrate": 0.452659,
-      "pickrate": 0.015694,
-      "avg_kills": 6.586,
-      "avg_deaths": 7.078,
-      "avg_assists": 10.601,
-      "games": 3084
+      "winrate": 0.45356,
+      "pickrate": 0.016234,
+      "avg_kills": 6.569,
+      "avg_deaths": 7.027,
+      "avg_assists": 10.562,
+      "games": 3230
     },
     "abilities": [
       "Catalyst",
@@ -351,12 +351,12 @@
       "carry"
     ],
     "stats": {
-      "winrate": 0.539086,
-      "pickrate": 0.03385,
-      "avg_kills": 4.276,
-      "avg_deaths": 5.817,
-      "avg_assists": 15.447,
-      "games": 6652
+      "winrate": 0.536419,
+      "pickrate": 0.035399,
+      "avg_kills": 4.248,
+      "avg_deaths": 5.779,
+      "avg_assists": 15.372,
+      "games": 7043
     },
     "abilities": [
       "Kudzu Bomb",
@@ -377,12 +377,12 @@
       "team"
     ],
     "stats": {
-      "winrate": 0.489938,
-      "pickrate": 0.012391,
-      "avg_kills": 3.497,
-      "avg_deaths": 6.042,
-      "avg_assists": 15.688,
-      "games": 2435
+      "winrate": 0.49414,
+      "pickrate": 0.013294,
+      "avg_kills": 3.503,
+      "avg_deaths": 6.033,
+      "avg_assists": 15.67,
+      "games": 2645
     },
     "abilities": [
       "Frost Grenade",
@@ -403,12 +403,12 @@
       "damage"
     ],
     "stats": {
-      "winrate": 0.487916,
-      "pickrate": 0.017897,
-      "avg_kills": 6.193,
-      "avg_deaths": 6.557,
-      "avg_assists": 11.665,
-      "games": 3517
+      "winrate": 0.493486,
+      "pickrate": 0.01929,
+      "avg_kills": 6.226,
+      "avg_deaths": 6.5,
+      "avg_assists": 11.655,
+      "games": 3838
     },
     "abilities": [
       "Life Drain",
@@ -429,12 +429,12 @@
       "aoe"
     ],
     "stats": {
-      "winrate": 0.499058,
-      "pickrate": 0.048618,
-      "avg_kills": 6.782,
-      "avg_deaths": 6.474,
-      "avg_assists": 15.218,
-      "games": 9554
+      "winrate": 0.500784,
+      "pickrate": 0.048085,
+      "avg_kills": 6.724,
+      "avg_deaths": 6.444,
+      "avg_assists": 15.134,
+      "games": 9567
     },
     "abilities": [
       "Ground Strike",
@@ -455,12 +455,12 @@
       "support"
     ],
     "stats": {
-      "winrate": 0.551216,
-      "pickrate": 0.014854,
-      "avg_kills": 5.101,
-      "avg_deaths": 5.965,
-      "avg_assists": 12.952,
-      "games": 2919
+      "winrate": 0.544828,
+      "pickrate": 0.015305,
+      "avg_kills": 5.06,
+      "avg_deaths": 5.904,
+      "avg_assists": 12.949,
+      "games": 3045
     },
     "abilities": [
       "Medicinal Specter",
@@ -482,12 +482,12 @@
       "damage"
     ],
     "stats": {
-      "winrate": 0.473218,
-      "pickrate": 0.022421,
-      "avg_kills": 7.836,
-      "avg_deaths": 5.894,
-      "avg_assists": 11.836,
-      "games": 4406
+      "winrate": 0.468076,
+      "pickrate": 0.023301,
+      "avg_kills": 7.799,
+      "avg_deaths": 5.9,
+      "avg_assists": 11.693,
+      "games": 4636
     },
     "abilities": [
       "Rake",
@@ -508,12 +508,12 @@
       "displacement"
     ],
     "stats": {
-      "winrate": 0.430175,
-      "pickrate": 0.018584,
-      "avg_kills": 6.606,
-      "avg_deaths": 6.458,
-      "avg_assists": 10.566,
-      "games": 3652
+      "winrate": 0.427562,
+      "pickrate": 0.018491,
+      "avg_kills": 6.582,
+      "avg_deaths": 6.434,
+      "avg_assists": 10.491,
+      "games": 3679
     },
     "abilities": [
       "Fire Scarabs",
@@ -534,12 +534,12 @@
       "melee"
     ],
     "stats": {
-      "winrate": 0.528465,
-      "pickrate": 0.035397,
-      "avg_kills": 5.178,
-      "avg_deaths": 6.732,
-      "avg_assists": 16.526,
-      "games": 6956
+      "winrate": 0.528208,
+      "pickrate": 0.036349,
+      "avg_kills": 5.169,
+      "avg_deaths": 6.701,
+      "avg_assists": 16.427,
+      "games": 7232
     },
     "abilities": [
       "Scorn",
@@ -561,12 +561,12 @@
       "team"
     ],
     "stats": {
-      "winrate": 0.503723,
-      "pickrate": 0.021184,
-      "avg_kills": 2.583,
-      "avg_deaths": 5.41,
-      "avg_assists": 17.625,
-      "games": 4163
+      "winrate": 0.498801,
+      "pickrate": 0.020959,
+      "avg_kills": 2.566,
+      "avg_deaths": 5.376,
+      "avg_assists": 17.467,
+      "games": 4170
     },
     "abilities": [
       "Bookwyrm",
@@ -587,12 +587,12 @@
       "range"
     ],
     "stats": {
-      "winrate": 0.475549,
-      "pickrate": 0.033611,
-      "avg_kills": 5.646,
-      "avg_deaths": 7.302,
-      "avg_assists": 15.604,
-      "games": 6605
+      "winrate": 0.475227,
+      "pickrate": 0.033273,
+      "avg_kills": 5.594,
+      "avg_deaths": 7.273,
+      "avg_assists": 15.461,
+      "games": 6620
     },
     "abilities": [
       "Kinetic Carbine",
@@ -613,12 +613,12 @@
       "damage"
     ],
     "stats": {
-      "winrate": 0.495595,
-      "pickrate": 0.023103,
-      "avg_kills": 6.861,
-      "avg_deaths": 6.885,
-      "avg_assists": 13.033,
-      "games": 4540
+      "winrate": 0.494064,
+      "pickrate": 0.023286,
+      "avg_kills": 6.833,
+      "avg_deaths": 6.827,
+      "avg_assists": 12.906,
+      "games": 4633
     },
     "abilities": [
       "Barrage",
@@ -640,12 +640,12 @@
       "team"
     ],
     "stats": {
-      "winrate": 0.448146,
-      "pickrate": 0.033906,
-      "avg_kills": 3.304,
-      "avg_deaths": 5.592,
-      "avg_assists": 16.555,
-      "games": 6663
+      "winrate": 0.446462,
+      "pickrate": 0.03267,
+      "avg_kills": 3.262,
+      "avg_deaths": 5.565,
+      "avg_assists": 16.404,
+      "games": 6500
     },
     "abilities": [
       "Pillow Toss",
@@ -666,12 +666,12 @@
       "lightning"
     ],
     "stats": {
-      "winrate": 0.539066,
-      "pickrate": 0.025271,
-      "avg_kills": 5.941,
-      "avg_deaths": 6.496,
-      "avg_assists": 12.034,
-      "games": 4966
+      "winrate": 0.537015,
+      "pickrate": 0.025663,
+      "avg_kills": 5.949,
+      "avg_deaths": 6.498,
+      "avg_assists": 11.94,
+      "games": 5106
     },
     "abilities": [
       "Static Charge",
@@ -692,12 +692,12 @@
       "brawler"
     ],
     "stats": {
-      "winrate": 0.452846,
-      "pickrate": 0.030217,
-      "avg_kills": 8.63,
-      "avg_deaths": 7.491,
-      "avg_assists": 11.64,
-      "games": 5938
+      "winrate": 0.45291,
+      "pickrate": 0.03074,
+      "avg_kills": 8.458,
+      "avg_deaths": 7.441,
+      "avg_assists": 11.622,
+      "games": 6116
     },
     "abilities": [
       "Serrated Knives",
@@ -719,12 +719,12 @@
       "damage"
     ],
     "stats": {
-      "winrate": 0.525049,
-      "pickrate": 0.038903,
-      "avg_kills": 7.503,
-      "avg_deaths": 6.827,
-      "avg_assists": 13.841,
-      "games": 7645
+      "winrate": 0.528943,
+      "pickrate": 0.036555,
+      "avg_kills": 7.454,
+      "avg_deaths": 6.785,
+      "avg_assists": 13.832,
+      "games": 7273
     },
     "abilities": [
       "Slam Fire",
@@ -745,12 +745,12 @@
       "magic"
     ],
     "stats": {
-      "winrate": 0.46409,
-      "pickrate": 0.013958,
-      "avg_kills": 5.177,
-      "avg_deaths": 5.649,
-      "avg_assists": 13.574,
-      "games": 2743
+      "winrate": 0.464426,
+      "pickrate": 0.014058,
+      "avg_kills": 5.159,
+      "avg_deaths": 5.585,
+      "avg_assists": 13.467,
+      "games": 2797
     },
     "abilities": [
       "Rabbit Hex",
@@ -767,12 +767,12 @@
     "role": "unknown",
     "tags": [],
     "stats": {
-      "winrate": 0.482436,
-      "pickrate": 0.019556,
-      "avg_kills": 4.637,
-      "avg_deaths": 5.182,
-      "avg_assists": 14.119,
-      "games": 3843
+      "winrate": 0.486858,
+      "pickrate": 0.020843,
+      "avg_kills": 4.618,
+      "avg_deaths": 5.145,
+      "avg_assists": 14.066,
+      "games": 4147
     },
     "abilities": [
       "Ability 103496908",
@@ -794,12 +794,12 @@
       "crowd control"
     ],
     "stats": {
-      "winrate": 0.514846,
-      "pickrate": 0.051417,
-      "avg_kills": 7.929,
-      "avg_deaths": 6.924,
-      "avg_assists": 11.545,
-      "games": 10104
+      "winrate": 0.512475,
+      "pickrate": 0.050362,
+      "avg_kills": 7.881,
+      "avg_deaths": 6.882,
+      "avg_assists": 11.446,
+      "games": 10020
     },
     "abilities": [
       "Consecrating Grenade",
@@ -821,12 +821,12 @@
       "spirit"
     ],
     "stats": {
-      "winrate": 0.514995,
-      "pickrate": 0.01578,
-      "avg_kills": 6.04,
-      "avg_deaths": 5.954,
-      "avg_assists": 10.43,
-      "games": 3101
+      "winrate": 0.508706,
+      "pickrate": 0.016164,
+      "avg_kills": 5.988,
+      "avg_deaths": 5.905,
+      "avg_assists": 10.322,
+      "games": 3216
     },
     "abilities": [
       "Pain Battery",
@@ -847,12 +847,12 @@
       "assassin"
     ],
     "stats": {
-      "winrate": 0.498242,
-      "pickrate": 0.020263,
-      "avg_kills": 8.402,
-      "avg_deaths": 6.283,
-      "avg_assists": 13.012,
-      "games": 3982
+      "winrate": 0.496464,
+      "pickrate": 0.021321,
+      "avg_kills": 8.39,
+      "avg_deaths": 6.262,
+      "avg_assists": 12.951,
+      "games": 4242
     },
     "abilities": [
       "Stake",
@@ -873,12 +873,12 @@
       "aoe"
     ],
     "stats": {
-      "winrate": 0.511983,
-      "pickrate": 0.018686,
-      "avg_kills": 5.329,
-      "avg_deaths": 5.554,
-      "avg_assists": 14.302,
-      "games": 3672
+      "winrate": 0.512214,
+      "pickrate": 0.019341,
+      "avg_kills": 5.345,
+      "avg_deaths": 5.525,
+      "avg_assists": 14.237,
+      "games": 3848
     },
     "abilities": [
       "Puddle Punch",
@@ -899,12 +899,12 @@
       "mobility"
     ],
     "stats": {
-      "winrate": 0.516581,
-      "pickrate": 0.010895,
-      "avg_kills": 9.158,
-      "avg_deaths": 7.156,
-      "avg_assists": 10.411,
-      "games": 2141
+      "winrate": 0.517816,
+      "pickrate": 0.010861,
+      "avg_kills": 9.152,
+      "avg_deaths": 7.138,
+      "avg_assists": 10.373,
+      "games": 2161
     },
     "abilities": [
       "Venom Snare",
@@ -925,12 +925,12 @@
       "sustain"
     ],
     "stats": {
-      "winrate": 0.485226,
-      "pickrate": 0.019632,
-      "avg_kills": 6.827,
-      "avg_deaths": 6.71,
-      "avg_assists": 10.955,
-      "games": 3858
+      "winrate": 0.487705,
+      "pickrate": 0.019622,
+      "avg_kills": 6.763,
+      "avg_deaths": 6.643,
+      "avg_assists": 10.961,
+      "games": 3904
     },
     "abilities": [
       "Alchemical Flask",
@@ -951,12 +951,12 @@
       "mobility"
     ],
     "stats": {
-      "winrate": 0.514602,
-      "pickrate": 0.030843,
-      "avg_kills": 7.15,
-      "avg_deaths": 5.473,
-      "avg_assists": 10.166,
-      "games": 6061
+      "winrate": 0.51888,
+      "pickrate": 0.032479,
+      "avg_kills": 7.169,
+      "avg_deaths": 5.439,
+      "avg_assists": 10.174,
+      "games": 6462
     },
     "abilities": [
       "Card Trick",
@@ -977,12 +977,12 @@
       "dash"
     ],
     "stats": {
-      "winrate": 0.484745,
-      "pickrate": 0.02235,
-      "avg_kills": 7.426,
-      "avg_deaths": 7.852,
-      "avg_assists": 12.991,
-      "games": 4392
+      "winrate": 0.485324,
+      "pickrate": 0.022432,
+      "avg_kills": 7.402,
+      "avg_deaths": 7.822,
+      "avg_assists": 12.846,
+      "games": 4463
     },
     "abilities": [
       "Power Slash",

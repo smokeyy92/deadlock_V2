@@ -25,13 +25,14 @@ from .hero_selector import HeroSelector
 from .pipeline_panel import PipelinePanel
 from .recommendation_panel import RecommendationPanel
 from .team_analysis_panel import TeamAnalysisPanel
+from .lane_optimizer_panel import LaneOptimizerPanel
 
 
 class MainWindow(QMainWindow):
     def __init__(self) -> None:
         super().__init__()
         self.setWindowTitle("Deadlock Draft Analyzer")
-        self.resize(1440, 900)
+        self.resize(1440, 1080)
         self._build_ui()
         self._connect_signals()
 
@@ -100,10 +101,23 @@ class MainWindow(QMainWindow):
         )
         self.addDockWidget(Qt.DockWidgetArea.LeftDockWidgetArea, left_dock)
 
-        # Right dock: recommendations
+        # Right dock: recommendations and lane optimizer
+        self.right_container = QWidget()
+        self.right_container.setFixedWidth(600) 
+        self.right_layout = QVBoxLayout(self.right_container)
+        self.right_layout.setContentsMargins(0, 0, 0, 0)
+
         self.rec_panel = RecommendationPanel()
-        right_dock = QDockWidget("Recommendations", self)
-        right_dock.setWidget(self.rec_panel)
+        self.lane_panel = LaneOptimizerPanel()
+        
+        # Initially, Lane Optimizer is hidden
+        self.lane_panel.setVisible(False)
+        
+        self.right_layout.addWidget(self.rec_panel)
+        self.right_layout.addWidget(self.lane_panel)
+
+        right_dock = QDockWidget("Analysis", self)
+        right_dock.setWidget(self.right_container)
         right_dock.setFeatures(
             QDockWidget.DockWidgetFeature.DockWidgetMovable
             | QDockWidget.DockWidgetFeature.DockWidgetFloatable
@@ -133,6 +147,7 @@ class MainWindow(QMainWindow):
         self.pipeline.relaunch_requested.connect(self._relaunch_app)
         self.timeline.draft_changed.connect(self._on_draft_changed)
         self.pipeline.pipeline_done.connect(self._on_pipeline_done)
+        self.lane_panel.team_changed.connect(self._on_draft_changed)
 
     # ── slots ────────────────────────────────────────────────────────────────
 
@@ -163,16 +178,33 @@ class MainWindow(QMainWindow):
     def _on_draft_changed(self) -> None:
         team_a = self.timeline.get_team_a_picks()
         team_b = self.timeline.get_team_b_picks()
-        self.rec_panel.refresh(team_a, team_b)
+        is_complete = self.timeline.is_draft_complete() and len(team_a) == 6 and len(team_b) == 6
+
+        if is_complete:
+            # Switch views: Hide recommendations, show lane optimizer
+            self.rec_panel.setVisible(False)
+            self.lane_panel.setVisible(True)
+            self.lane_panel.update_data(team_a, team_b)
+        else:
+            # During draft: Show recommendations, hide lane optimizer
+            self.rec_panel.setVisible(True)
+            self.lane_panel.setVisible(False)
+            self.rec_panel.refresh(team_a, team_b)
+
+        # Standard team analysis updates
         self.team_panel.update_teams(team_a, team_b)
-        if self.timeline.is_draft_complete() and len(team_a) == 6 and len(team_b) == 6:
+        
+        if is_complete:
             win_pct, sample_size, source = self._compute_draft_win_prediction(team_a, team_b)
             self.team_panel.set_win_prediction(win_pct, sample_size, source)
         else:
             self.team_panel.set_win_prediction(None)
+
         self.statusBar().showMessage(
-            f"{TEAM_A}: {len(team_a)} pick(s)  |  {TEAM_B}: {len(team_b)} pick(s)  |  Next: {self.timeline.get_next_step_text()}"
+            f"{TEAM_A}: {len(team_a)} | {TEAM_B}: {len(team_b)} | Next: {self.timeline.get_next_step_text()}"
         )
+
+
 
     def _on_pipeline_done(self) -> None:
         self.ds_status.refresh()
