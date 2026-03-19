@@ -7,10 +7,19 @@ class SynergyEngine:
         base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         self.syn_path = os.path.join(base_dir, "data", "synergy_data.json")
         self.lane_path = os.path.join(base_dir, "data", "lane_data.json")
+        self.snowball_path = os.path.join(base_dir, "data", "snowball_data.json")
         
         self.synergy_data = self._load_json(self.syn_path)
         self.lane_data = self._load_json(self.lane_path)
+        self.snowball_data = self._load_json(self.snowball_path)
         self.target_lanes = [1, 3, 4]
+
+    def is_snowball_hero(self, hero_name: str) -> bool:
+        """Checks if a hero is a high-impact snowballer (WR > 60% after winning lane)."""
+        data = self.snowball_data.get(hero_name, {})
+        # Threshold: 60% snowball winrate and at least 50 matches
+        print(f"Checking {hero_name}: WR is {data.get("snowball_wr", 0)}")
+        return data.get("snowball_wr", 0) > 0.60
 
     def _load_json(self, path) -> dict:
         if not os.path.exists(path):

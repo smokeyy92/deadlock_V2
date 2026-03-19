@@ -38,15 +38,22 @@ API_PARAMS = {
 }
 
 def process_match_batch(matches):
-    """Processes matches to extract Synergy, Matchups, and Lane Winrates."""
+    """
+    Processes matches to extract Synergy, Matchups, Lane Winrates, and Snowball Potential.
+    Returns: synergy_records, matchup_records, lane_records, snowball_records
+    """
     synergy_records = []
     matchup_records = []
     lane_records = []
+    snowball_records = []
     
     for match in matches:
         objectives = match.get("objectives", [])
         players = match.get("players", [])
+        # Get the match winner (usually 0 or 1)
+        match_winner_team = match.get("winning_team") 
         
+        # 1. Track tower destruction times
         lane_times = {1: {"Team0": 99999, "Team1": 99999}, 
                       3: {"Team0": 99999, "Team1": 99999}, 
                       4: {"Team0": 99999, "Team1": 99999}}
@@ -59,10 +66,12 @@ def process_match_batch(matches):
                 if match_digit:
                     l_num = int(match_digit.group(1))
                     team_raw = obj.get("team")
+                    # Normalize team name to "Team0" or "Team1"
                     team = f"Team{team_raw}" if isinstance(team_raw, int) else str(team_raw)
                     if l_num in lane_times:
                         lane_times[l_num][team] = time_destroyed
 
+        # 2. Determine lane winners (whoever lost tower later wins the lane)
         lane_winners = {}
         for l_id in [1, 3, 4]:
             t0, t1 = lane_times[l_id]["Team0"], lane_times[l_id]["Team1"]
@@ -71,15 +80,36 @@ def process_match_batch(matches):
             else:
                 lane_winners[l_id] = "Team1" if t0 < t1 else "Team0"
 
+        # 3. Group players and handle Snowball Logic
         lane_groups = defaultdict(lambda: {"Team0": [], "Team1": []})
         for p in players:
             target_lane = LANE_MAP.get(p.get("assigned_lane"))
             if target_lane:
                 team_raw = p.get("team")
-                team_key = f"Team{team_raw}" if isinstance(team_raw, int) else ("Team0" if "Team0" in str(team_raw) else "Team1")
-                h_name = HERO_NAMES.get(p.get("hero_id"), f"Hero_{p.get('hero_id')}")
+                # Fix for "TeamTeam0" error: check if prefix already exists
+                if isinstance(team_raw, int):
+                    team_key = f"Team{team_raw}"
+                else:
+                    team_key = str(team_raw) if "Team" in str(team_raw) else f"Team{team_raw}"
+                
+                h_id = p.get("hero_id")
+                h_name = HERO_NAMES.get(h_id, f"Hero_{h_id}")
                 lane_groups[target_lane][team_key].append(h_name)
 
+                # --- Snowball Calculation ---
+                l_winner = lane_winners.get(target_lane)
+                if l_winner and l_winner == team_key:
+                    # Match winner from API is a string like "Team0" or "Team1"
+                    # We compare it directly with our team_key ("Team0"/"Team1")
+                    is_match_win = 1 if team_key == match_winner_team else 0
+                    
+                    # Log for debugging if needed: 
+                    # print(f"Hero {h_name} won lane. Team: {team_key}, Winner: {match_winner_team} -> {is_match_win}")
+                    
+                    snowball_records.append({'Hero': h_name, 'MatchWin': is_match_win})
+
+
+        # 4. Extract Winrates and Synergy
         for l_id in [1, 3, 4]:
             winner = lane_winners.get(l_id)
             if not winner: continue
@@ -87,31 +117,31 @@ def process_match_batch(matches):
             t0_heroes = lane_groups[l_id]["Team0"]
             t1_heroes = lane_groups[l_id]["Team1"]
 
-            # --- NEW: Lane Winrate Stats ---
+            # Lane records (Individual WR on lane)
             for team_name, heroes in lane_groups[l_id].items():
                 is_win = 1 if team_name == winner else 0
                 for h_name in heroes:
                     lane_records.append({'Hero': h_name, 'Lane': l_id, 'Win': is_win})
 
-            # 1. Extract Synergy (Allies)
-            for t_name, heroes in lane_groups[l_id].items():
+                # Synergy records (Duo winrates)
                 if len(heroes) == 2:
                     h1, h2 = sorted(heroes)
-                    synergy_records.append({'Hero1': h1, 'Hero2': h2, 'Win': 1 if t_name == winner else 0})
+                    synergy_records.append({'Hero1': h1, 'Hero2': h2, 'Win': is_win})
 
-            # 2. Extract Matchups (Opponents)
+            # Matchup records (Vs opponents)
             if t0_heroes and t1_heroes:
                 for h0 in t0_heroes:
                     for h1 in t1_heroes:
                         matchup_records.append({'Hero': h0, 'Opponent': h1, 'Win': 1 if winner == "Team0" else 0})
                         matchup_records.append({'Hero': h1, 'Opponent': h0, 'Win': 1 if winner == "Team1" else 0})
                         
-    return synergy_records, matchup_records, lane_records
+    return synergy_records, matchup_records, lane_records, snowball_records
 
 def main():
     all_synergy = []
     all_matchups = []
     all_lanes = []
+    all_snowball = []
     current_max_id = "9999999999999"
     iteration = 1
     
@@ -123,6 +153,9 @@ def main():
         
         try:
             response = requests.get(API_URL, params=API_PARAMS, timeout=60)
+            if response.status_code == 404:
+                print(f"  [INFO] No more historical data available (ID: {current_max_id}).")
+                break
             response.raise_for_status()
             matches = response.json()
         except Exception as e:
@@ -131,10 +164,11 @@ def main():
 
         if not matches: break
 
-        syn_batch, match_batch, lane_batch = process_match_batch(matches)
+        syn_batch, match_batch, lane_batch, snowball_batch = process_match_batch(matches)
         all_synergy.extend(syn_batch)
         all_matchups.extend(match_batch)
         all_lanes.extend(lane_batch)
+        all_snowball.extend(snowball_batch)
         
         if all_synergy:
             counts = pd.DataFrame(all_synergy).groupby(['Hero1', 'Hero2']).size()
@@ -211,6 +245,52 @@ def main():
         json.dump(lane_json, f, indent=4, ensure_ascii=False)
 
     print(f"\nSUCCESS: Reports saved. Lane data included.")
+
+    # --- Processing Snowball Data ---
+    if all_snowball:
+        df_snowball = pd.DataFrame(all_snowball)
+        
+        # Double check if the column exists to prevent KeyError
+        if 'Hero' in df_snowball.columns:
+            snowball_stats = df_snowball.groupby('Hero')['MatchWin'].agg(['mean', 'count']).reset_index()
+            snowball_stats.columns = ['Hero', 'Snowball_WR', 'Lanes_Won_Count']
+            snowball_stats = snowball_stats.sort_values(by='Snowball_WR', ascending=False)
+            
+            # --- JSON Export for Snowball Potential ---
+            MIN_LANE_WINS = 50
+            snowball_json_stats = {}
+
+            for _, row in snowball_stats.iterrows():
+                hero = row['Hero']
+                count = int(row['Lanes_Won_Count'])
+                
+                # Check threshold for data quality
+                if count >= MIN_LANE_WINS:
+                    snowball_json_stats[hero] = {
+                        "snowball_wr": round(float(row['Snowball_WR']), 4),
+                        "lanes_won": count
+                    }
+                else:
+                    snowball_json_stats[hero] = {
+                        "snowball_wr": 0.0,
+                        "lanes_won": count
+                    }
+
+            # Save Snowball JSON
+            os.makedirs("data", exist_ok=True)
+            snowball_path = os.path.join("data", "snowball_data.json")
+            with open(snowball_path, "w", encoding="utf-8") as f:
+                json.dump(snowball_json_stats, f, indent=4, ensure_ascii=False)
+            
+            print(f"SUCCESS: Snowball data exported to {snowball_path}")
+            
+            # --- Excel Export (Add sheet only if data exists) ---
+            # If you are using the same Excel writer as before, make sure it's within the 'with' block
+            # snowball_stats.to_excel(writer, sheet_name='Snowball_Potential', index=False)
+        else:
+            print("WARNING: Snowball data collected but format is incorrect.")
+    else:
+        print("WARNING: No snowball data collected (list is empty).")
 
 if __name__ == "__main__":
     main()
