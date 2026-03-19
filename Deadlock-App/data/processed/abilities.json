@@ -18,15 +18,6 @@
     "scaling": {}
   },
   {
-    "ability_id": "1020817390",
-    "hero_id": "35",
-    "name": "Ability 1020817390",
-    "cooldown": null,
-    "damage": null,
-    "description": "",
-    "scaling": {}
-  },
-  {
     "ability_id": "1033019133",
     "hero_id": "64",
     "name": "Ability 1033019133",
@@ -900,15 +891,6 @@
     "scaling": {}
   },
   {
-    "ability_id": "3247040238",
-    "hero_id": "35",
-    "name": "Ability 3247040238",
-    "cooldown": null,
-    "damage": null,
-    "description": "",
-    "scaling": {}
-  },
-  {
     "ability_id": "3255651252",
     "hero_id": "27",
     "name": "Ability 3255651252",
@@ -1080,15 +1062,6 @@
     "scaling": {}
   },
   {
-    "ability_id": "3788152387",
-    "hero_id": "35",
-    "name": "Ability 3788152387",
-    "cooldown": null,
-    "damage": null,
-    "description": "",
-    "scaling": {}
-  },
-  {
     "ability_id": "3826390464",
     "hero_id": "12",
     "name": "Ability 3826390464",
@@ -1182,15 +1155,6 @@
     "ability_id": "4179229681",
     "hero_id": "14",
     "name": "Ability 4179229681",
-    "cooldown": null,
-    "damage": null,
-    "description": "",
-    "scaling": {}
-  },
-  {
-    "ability_id": "4206531918",
-    "hero_id": "35",
-    "name": "Ability 4206531918",
     "cooldown": null,
     "damage": null,
     "description": "",

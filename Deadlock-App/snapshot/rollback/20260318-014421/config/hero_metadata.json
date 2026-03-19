@@ -1,0 +1,192 @@
+{
+  "abrams": {
+    "role": "frontliner",
+    "tags": ["frontline", "engage", "melee"],
+    "abilities": ["Shoulder Charge", "Infernal Resilience", "Seismic Impact", "Siphon Life"]
+  },
+  "bebop": {
+    "role": "frontliner",
+    "tags": ["hook", "explosive", "range"],
+    "abilities": ["Hook", "Sticky Bomb", "Hyper Beam", "Omega Strike"]
+  },
+  "calico": {
+    "role": "offcarry",
+    "tags": ["mobility", "stealth", "melee"],
+    "abilities": ["Leaping Slash", "Nine Lives", "Hex Barrier", "Phantom Form"]
+  },
+  "dynamo": {
+    "role": "support",
+    "tags": ["aoe", "crowd control", "team"],
+    "abilities": ["Kinetic Pulse", "Quantum Entanglement", "Singularity", "Demystify"]
+  },
+  "drifter": {
+    "role": "initiator",
+    "tags": ["crowd control", "aoe", "utility"],
+    "abilities": ["Warp Stone", "Juxtaposition", "Goo Grenade", "Tornado"]
+  },
+  "grey_talon": {
+    "role": "spirit",
+    "tags": ["sniper", "range", "slow"],
+    "abilities": ["Guided Owl", "Charged Shot", "Rain of Arrows", "Charge of Misery"]
+  },
+  "haze": {
+    "role": "initiator",
+    "tags": ["assassin", "stealth", "damage"],
+    "abilities": ["Smoke Bomb", "Bullet Dance", "Sleep Dagger", "Fixation"]
+  },
+  "holliday": {
+    "role": "initiator",
+    "tags": ["range", "damage", "mobility"],
+    "abilities": ["Lasso", "Ride Into The Sunrise", "Fan the Hammer", "Explosive Dead Shot"]
+  },
+  "infernus": {
+    "role": "hypercarry",
+    "tags": ["damage", "aoe", "fire"],
+    "abilities": ["Catalyst", "Flame Dash", "Concussive Combustion", "Afterburn"]
+  },
+  "ivy": {
+    "role": "support",
+    "tags": ["mobility", "healer", "carry"],
+    "abilities": ["Kudzu Bomb", "Air Drop", "Watcher's Covenant", "Stone Form"]
+  },
+  "kelvin": {
+    "role": "support",
+    "tags": ["aoe", "freeze", "team"],
+    "abilities": ["Frost Grenade", "Arctic Beam", "Frozen Shelter", "Glacial Cage"]
+  },
+  "lady_geist": {
+    "role": "spirit",
+    "tags": ["mage", "life drain", "damage"],
+    "abilities": ["Life Drain", "Essence Bomb", "Malice", "Soul Exchange"]
+  },
+  "lash": {
+    "role": "initiator",
+    "tags": ["mobility", "engage", "aoe"],
+    "abilities": ["Ground Strike", "Flog", "Death Slam", "Grapnel"]
+  },
+  "mcginnis": {
+    "role": "support",
+    "tags": ["frontline", "turret", "support"],
+    "abilities": ["Medicinal Specter", "Heavy Barrage", "Spectral Wall", "Turret"]
+  },
+  "mirage": {
+    "role": "offcarry",
+    "tags": ["fire", "damage", "displacement"],
+    "abilities": ["Fire Scarabs", "Tornado", "Djinn's Mark", "Traveler"]
+  },
+  "mo_and_krill": {
+    "role": "initiator",
+    "tags": ["frontline", "burrow", "melee"],
+    "abilities": ["Scorn", "Burrow", "Sand Blast", "Combo"]
+  },
+  "paradox": {
+    "role": "initiator",
+    "tags": ["time", "displacement", "range"],
+    "abilities": ["Kinetic Carbine", "Pulse Grenade", "Time Wall", "Paradoxical Swap"]
+  },
+  "pocket": {
+    "role": "spirit",
+    "tags": ["mage", "mobility", "damage"],
+    "abilities": ["Barrage", "Flying Cloak", "Enchanter's Satchel", "Affliction"]
+  },
+  "seven": {
+    "role": "hypercarry",
+    "tags": ["damage", "mage", "lightning"],
+    "abilities": ["Static Charge", "Lightning Ball", "Thunderclap", "Storm Cloud"]
+  },
+  "shiv": {
+    "role": "frontliner",
+    "tags": ["melee", "bleed", "brawler"],
+    "abilities": ["Serrated Knives", "Slice and Dice", "Bloodletting", "Killing Blow"]
+  },
+  "sinclair": {
+    "role": "spirit",
+    "tags": ["summon", "support", "magic"],
+    "abilities": ["Rabbit Hex", "Bundle of Curses", "Spectral Assistant", "Grand Illusion"]
+  },
+  "vindicta": {
+    "role": "initiator",
+    "tags": ["sniper", "range", "assassin"],
+    "abilities": ["Stake", "Crow Familiar", "Flight", "Assassinate"]
+  },
+  "viscous": {
+    "role": "support",
+    "tags": ["frontline", "slow", "aoe"],
+    "abilities": ["Puddle Punch", "Splatter", "Pull", "The Cube"]
+  },
+  "vyper": {
+    "role": "initiator",
+    "tags": ["range", "poison", "mobility"],
+    "abilities": ["Venom Snare", "Hyper Speed", "Corrosive Vent", "Neural Inject"]
+  },
+  "warden": {
+    "role": "hypercarry",
+    "tags": ["frontline", "stun", "sustain"],
+    "abilities": ["Alchemical Flask", "Binding Word", "Willpower", "Future Sight"]
+  },
+  "wraith": {
+    "role": "hypercarry",
+    "tags": ["damage", "cards", "mobility"],
+    "abilities": ["Card Trick", "Royal Flush", "Full Auto", "Telekinesis"]
+  },
+  "yamato": {
+    "role": "spirit",
+    "tags": ["melee", "mobility", "dash"],
+    "abilities": ["Power Slash", "Flying Strike", "Shadow Transformation", "Crimson Slash"]
+  },
+  "apollo": {
+    "role": "offcarry",
+    "tags": ["range", "damage", "agile"],
+    "abilities": []
+  },
+  "billy": {
+    "role": "frontliner",
+    "tags": ["frontline", "melee", "crowd control", "engage"],
+    "abilities": ["Bashdown", "Rising Ram", "Blasted", "Chain Gang"]
+  },
+  "celeste": {
+    "role": "offcarry",
+    "tags": ["range", "agile", "mobility", "mage"],
+    "abilities": ["Light Eater", "Dazzling Trick", "Radiant Daggers", "Shining Wonder"]
+  },
+  "doorman": {
+    "role": "support",
+    "tags": ["crowd control", "utility", "teleport", "engage"],
+    "abilities": ["Call Bell", "Doorway", "Luggage Cart", "Hotel Guest"]
+  },
+  "graves": {
+    "role": "offcarry",
+    "tags": ["range", "summon", "crowd control", "damage"],
+    "abilities": ["Grasping Hands", "Jar of Dead", "Borrowed Decree"]
+  },
+  "mina": {
+    "role": "offcarry",
+    "tags": ["mobility", "lifesteal", "melee", "damage"],
+    "abilities": ["Rake", "Sanguine Retreat", "Love Bites", "Nox Nostra"]
+  },
+  "paige": {
+    "role": "support",
+    "tags": ["summon", "barrier", "crowd control", "team"],
+    "abilities": ["Bookwyrm", "Plot Armor", "Captivating Read", "Rallying Charge"]
+  },
+  "rem": {
+    "role": "support",
+    "tags": ["summon", "healer", "crowd control", "team"],
+    "abilities": ["Pillow Toss", "Tag Along", "Lil Helpers", "Naptime"]
+  },
+  "silver": {
+    "role": "spirit",
+    "tags": ["melee", "range", "transform", "damage"],
+    "abilities": ["Slam Fire", "Boot Kick", "Entangling Bola", "Lycan Curse"]
+  },
+  "venator": {
+    "role": "hypercarry",
+    "tags": ["range", "hunter", "damage", "crowd control"],
+    "abilities": ["Consecrating Grenade", "Gutshot", "Hex-Lined Snap Trap", "Ira Domini"]
+  },
+  "victor": {
+    "role": "frontliner",
+    "tags": ["frontline", "aoe", "sustain", "spirit"],
+    "abilities": ["Pain Battery", "Jumpstart", "Aura of Suffering", "Shocking Reanimation"]
+  }
+}
