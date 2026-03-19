@@ -17,6 +17,7 @@ from PySide6.QtWidgets import (
     QVBoxLayout,
     QWidget,
 )
+from PySide6.QtCore import Slot
 
 from .dataset_status_panel import DatasetStatusPanel
 from .draft_timeline_panel import TEAM_A, TEAM_B, DraftTimelinePanel
@@ -273,3 +274,93 @@ class MainWindow(QMainWindow):
             return (None, 0, "")
 
         return (100.0 * weighted_wins / weighted_games, weighted_games, "hero matchups")
+
+            # --- Integration with Bridge Server ---
+            
+    from PySide6.QtCore import Slot # Make sure this is in imports
+
+    @Slot(dict)
+    def process_external_update_from_dict(self, data):
+        """ Intermediate slot to handle data from Signal """
+        if data.get('event') == 'DRAFT_UPDATE':
+            current = data.get('current')
+            full_draft = data.get('fullDraft')
+            count = data.get('count')
+            
+            # Call your main processing logic
+            self.process_external_update(current, full_draft, count)
+
+    @Slot(object, object, int)
+    def process_external_update(self, current, full_draft, script_count):
+        """ 
+        Processes a single update but also verifies the total count.
+        If counts mismatch, synchronizes the entire draft.
+        """
+        # Get current count in GUI (picks + bans)
+        gui_count = len(self.timeline.get_used_heroes())
+        
+        # Scenario A: Perfect sequence (1 new hero added)
+        if script_count == gui_count + 1:
+            self._apply_single_pick(current)
+            self.statusBar().showMessage(f"Added: {current['heroFile']}")
+
+        # Scenario B: Desync or late start (Script has more heroes than GUI)
+        elif script_count > gui_count:
+            print(f"[SYNC] Desync detected. GUI: {gui_count}, Script: {script_count}. Repairing...")
+            self._synchronize_all(full_draft)
+            self.statusBar().showMessage(f"Draft Synchronized ({script_count} heroes)")
+
+        # Scenario C: Already in sync or script reset
+        elif script_count < gui_count:
+             print("[SYNC] Script has fewer heroes. Resetting GUI to match.")
+             self._synchronize_all(full_draft)
+
+        self._on_draft_changed()
+
+    def _apply_single_pick(self, entry):
+        """ Forcefully adds a hero to the timeline, ignoring internal TURN_SEQUENCE checks """
+        from bridge_server import HERO_NAME_MAP
+        from PySide6.QtWidgets import QTableWidgetItem
+        from PySide6.QtGui import QColor
+
+        file_name = entry.get('heroFile')
+        hero_name = HERO_NAME_MAP.get(file_name, file_name.replace('_card.webp', '').capitalize())
+        team_label = "Hidden King" if entry.get('team') == 'AMBER' else "Archmother"
+        action_type = entry.get('type') # PICK or BAN
+
+        # 1. Manually update internal state
+        self.timeline._step += 1
+        self.timeline._history.append({
+            "hero": hero_name,
+            "team": team_label,
+            "action": action_type
+        })
+
+        # 2. Directly update the UI Table
+        row = self.timeline._table.rowCount()
+        self.timeline._table.insertRow(row)
+        
+        self.timeline._table.setItem(row, 0, QTableWidgetItem(str(self.timeline._step)))
+        self.timeline._table.setItem(row, 1, QTableWidgetItem(team_label))
+        self.timeline._table.setItem(row, 2, QTableWidgetItem(f"{action_type.title()}: {hero_name}"))
+
+        # 3. Apply Styling
+        team_bg = QColor(34, 56, 80, 70) if team_label == "Hidden King" else QColor(93, 64, 17, 70)
+        action_fg = QColor("#2ECC71") if action_type == "PICK" else QColor("#E74C3C")
+        
+        for col in range(3):
+            item = self.timeline._table.item(row, col)
+            if item:
+                item.setBackground(team_bg)
+                if col == 2:
+                    item.setForeground(action_fg)
+
+        # 4. Update the status labels in timeline
+        self.timeline._refresh_status_text()
+
+
+    def _synchronize_all(self, full_draft):
+        """ Rebuilds the draft from scratch based on the full list from script """
+        self.timeline.reset()
+        for entry in full_draft:
+            self._apply_single_pick(entry)
