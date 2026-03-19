@@ -105,35 +105,41 @@ class LaneOptimizerPanel(QWidget):
             return
 
         LANE_NAMES = {1: "LEFT LANE", 3: "MID LANE", 4: "RIGHT LANE"}
+        STRATEGY_NAMES = ["SYNERGY FOCUS", "LANE EFFICIENCY", "BALANCED SETUP"]
         top_setups = self.engine.get_top_lane_setups(heroes, top_n=3)
 
-        for idx, setup in enumerate(top_setups, 1):
-            # --- MAIN SETUP BLOCK ---
+        for idx, setup in enumerate(top_setups):
+            # --- 1. Calculate color and strategy names FIRST ---
+            avg_wr = setup['average_winrate']
+            val_color = "#63BE7B" if avg_wr > 0.52 else "#F8696B" if avg_wr < 0.48 else "#FFFFFF"
+            STRATEGY_NAMES = ["SYNERGY FOCUS", "LANE EFFICIENCY", "BALANCED SETUP"]
+            strategy_name = STRATEGY_NAMES[idx] if idx < len(STRATEGY_NAMES) else "OPTIMIZED SETUP"
+
+            # --- 2. CREATE THE BLOCK (defines setup_block and block_layout) ---
             setup_block = QFrame()
             setup_block.setStyleSheet("""
                 QFrame {
                     background-color: #2a2a2a;
                     border: 1px solid #3d3d3d;
-                    border-radius: 8px;
+                    border-radius: 12px;
                 }
                 QLabel { border: none; background: transparent; }
             """)
             
             block_layout = QVBoxLayout(setup_block)
-            block_layout.setContentsMargins(10, 6, 10, 8) 
-            block_layout.setSpacing(2) # Minimal gap between header and lanes
+            block_layout.setContentsMargins(12, 6, 12, 8)
+            block_layout.setSpacing(2)
 
-            # 1. Header (TOP X WR) - Bold and Visible
-            avg_wr = setup['average_winrate']
-            val_color = "#63BE7B" if avg_wr > 0.52 else "#F8696B" if avg_wr < 0.48 else "#FFFFFF"
-            
-            avg_label = QLabel(
-                f"<span style='color: #888; font-weight: bold;'>TOP {idx} WR: </span>"
+            # --- 3. Add Header to the block ---
+            header_text = (
+                f"<span style='color: #aaaaaa; font-weight: bold;'>{strategy_name} WR: </span>"
                 f"<span style='color: {val_color}; font-weight: bold;'>{avg_wr:.1%}</span>"
             )
+            
+            avg_label = QLabel(header_text)
             avg_label.setAlignment(Qt.AlignCenter)
-            avg_label.setStyleSheet("font-size: 13px; margin-bottom: 2px;") 
-            block_layout.addWidget(avg_label)
+            avg_label.setStyleSheet("font-size: 13px; margin-bottom: 5px;")
+            block_layout.addWidget(avg_label) # <--- block_layout is used here
 
             # 2. Horizontal Row for the 3 lanes
             lanes_row_widget = QWidget()
@@ -147,7 +153,7 @@ class LaneOptimizerPanel(QWidget):
                 lane_unit = QWidget()
                 unit_layout = QVBoxLayout(lane_unit)
                 unit_layout.setContentsMargins(0, 0, 0, 0)
-                unit_layout.setSpacing(4) 
+                unit_layout.setSpacing(2) 
 
                 # Lane Name (Visible but compact)
                 l_title = QLabel(LANE_NAMES.get(lane['lane_id']))
@@ -157,18 +163,18 @@ class LaneOptimizerPanel(QWidget):
 
                 # Hero Group - NO BORDER, increased size
                 hero_group = QWidget()
-                hero_group.setFixedHeight(95) # Enough room for large icons
+                hero_group.setFixedHeight(92) # Enough room for large icons
                 
                 group_layout = QHBoxLayout(hero_group)
                 group_layout.setContentsMargins(0, 0, 0, 0)
-                group_layout.setSpacing(10)
+                group_layout.setSpacing(6)
                 group_layout.setAlignment(Qt.AlignCenter)
 
                 for hero in lane['pair']:
                     icon_pix = self._get_hero_icon(hero)
                     if icon_pix:
                         # Increased icon size (85x85) for better visibility
-                        icon_pix = icon_pix.scaled(85, 85, Qt.KeepAspectRatio, Qt.SmoothTransformation)
+                        icon_pix = icon_pix.scaled(90, 90, Qt.KeepAspectRatio, Qt.SmoothTransformation)
                         img_label = QLabel()
                         img_label.setPixmap(icon_pix)
                         img_label.setStyleSheet("background: transparent; border: none;")
