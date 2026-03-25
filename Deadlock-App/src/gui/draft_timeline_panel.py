@@ -17,14 +17,18 @@ from PySide6.QtWidgets import (
     QVBoxLayout,
     QWidget,
 )
+from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel, QFrame, QHBoxLayout
+from PySide6.QtCore import Qt
+from PySide6.QtGui import QPixmap, QColor
+import os
 
 _ANALYSIS_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "analysis"
 
 TEAM_A = "Hidden King"
 TEAM_B = "Archmother"
 
-TEAM_A_COLOR = "#4DA3FF"
-TEAM_B_COLOR = "#F39C12"
+TEAM_A_COLOR = "#F39C12"
+TEAM_B_COLOR = "#4DA3FF"
 PICK_COLOR = "#2ECC71"
 BAN_COLOR = "#E74C3C"
 
@@ -47,6 +51,125 @@ TURN_SEQUENCE: list[tuple[str, str]] = [
     (TEAM_A, "PICK"),
 ]
 
+class HeroCard(QFrame):
+    def __init__(self, hero_name, is_ban=False, hero_icon_path=None, border_color="#4a9eff"):
+        super().__init__()
+        
+        # New "Sweet Spot" sizes
+        if is_ban:
+            # Bans: 70x112
+            self.setFixedSize(70, 112)
+            self.img_height = 92
+            self.name_height = 18
+            self.font_size = "8px"
+        else:
+            # Picks: 95x152
+            self.setFixedSize(95, 152)
+            self.img_height = 130
+            self.name_height = 20
+            self.font_size = "9px"
+
+        self.hero_name = hero_name
+        accent_color = "#f44336" if is_ban else border_color
+        
+        self.setStyleSheet(f"""
+            QFrame {{
+                background-color: #2a2a2a;
+                border: 2px solid {accent_color};
+                border-radius: 5px;
+            }}
+            QLabel {{ border: none; background: transparent; color: white; }}
+        """)
+
+        layout = QVBoxLayout(self)
+        layout.setContentsMargins(0, 0, 0, 0)
+        layout.setSpacing(0)
+
+        # Hero Portrait
+        self.image_label = QLabel()
+        self.image_label.setFixedSize(self.width() - 4, self.img_height)
+        self.image_label.setScaledContents(True)
+        
+        if hero_icon_path and os.path.exists(hero_icon_path):
+            self.image_label.setPixmap(QPixmap(hero_icon_path))
+        else:
+            self.image_label.setText("?")
+            self.image_label.setAlignment(Qt.AlignCenter)
+            self.image_label.setStyleSheet(f"font-size: 14px; color: #444;")
+
+        layout.addWidget(self.image_label)
+
+        # Hero Name Label
+        self.name_label = QLabel(hero_name.upper())
+        self.name_label.setFixedHeight(self.name_height)
+        self.name_label.setAlignment(Qt.AlignCenter)
+        self.name_label.setStyleSheet(f"""
+            font-size: {self.font_size}; 
+            font-weight: bold; 
+            background: rgba(0,0,0,0.7);
+            border-top: 1px solid {accent_color};
+        """)
+        layout.addWidget(self.name_label)
+
+
+class VisualDraftPanel(QWidget):
+    def __init__(self, team_name, accent_color):
+        super().__init__()
+        self.team_name = team_name
+        self.accent_color = accent_color
+        self._setup_ui()
+
+    def _setup_ui(self):
+        self.layout = QVBoxLayout(self)
+        self.layout.setContentsMargins(10, 0, 10, 0)
+        self.layout.setSpacing(15)
+
+        # Team Title (Hidden King / Archmother)
+        self.title_label = QLabel(self.team_name.upper())
+        self.title_label.setAlignment(Qt.AlignCenter)
+        self.title_label.setStyleSheet(f"""
+            color: {self.accent_color};
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 6px;
+        """)
+        self.layout.addWidget(self.title_label)
+
+        # PICKS row (Centered)
+        self.picks_layout = QHBoxLayout()
+        self.picks_layout.setAlignment(Qt.AlignCenter)
+        self.picks_layout.setSpacing(12)
+        self.layout.addLayout(self.picks_layout)
+
+        # BANS row (Centered, no label)
+        self.bans_layout = QHBoxLayout()
+        self.bans_layout.setAlignment(Qt.AlignCenter)
+        self.bans_layout.setSpacing(12)
+        self.layout.addLayout(self.bans_layout)
+
+    def update_draft(self, picks_data, bans_data, get_icon_func):
+        self._clear_layout(self.picks_layout)
+        self._clear_layout(self.bans_layout)
+
+        # Update Picks with Team Color
+        for pick in picks_data:
+            path = get_icon_func(pick['name'])
+            card = HeroCard(pick['name'], is_ban=False, 
+                            hero_icon_path=path, border_color=self.accent_color)
+            self.picks_layout.addWidget(card)
+
+        # Update Bans with Red Color
+        for ban in bans_data:
+            path = get_icon_func(ban['name'])
+            card = HeroCard(ban['name'], is_ban=True, 
+                            hero_icon_path=path, border_color="#f44336")
+            self.bans_layout.addWidget(card)
+
+    def _clear_layout(self, layout):
+        while layout.count():
+            item = layout.takeAt(0)
+            if item.widget():
+                item.widget().deleteLater()
 
 class DraftTimelinePanel(QGroupBox):
     draft_changed = Signal()
@@ -57,8 +180,8 @@ class DraftTimelinePanel(QGroupBox):
 
         legend = QLabel(
             f"<b>Legend:</b> "
-            f"<span style='color:{TEAM_A_COLOR}'>Blue = {TEAM_A}</span> | "
-            f"<span style='color:{TEAM_B_COLOR}'>Orange = {TEAM_B}</span> | "
+            f"<span style='color:{TEAM_A_COLOR}'>Orange = {TEAM_A}</span> | "
+            f"<span style='color:{TEAM_B_COLOR}'>Blue = {TEAM_B}</span> | "
             f"<span style='color:{PICK_COLOR}'>Green = Pick</span> | "
             f"<span style='color:{BAN_COLOR}'>Red = Ban</span>"
         )

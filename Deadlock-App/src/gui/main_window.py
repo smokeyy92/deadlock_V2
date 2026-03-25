@@ -16,11 +16,13 @@ from PySide6.QtWidgets import (
     QStatusBar,
     QVBoxLayout,
     QWidget,
+    QFrame,
+    QStackedWidget
 )
 from PySide6.QtCore import Slot
 
 from .dataset_status_panel import DatasetStatusPanel
-from .draft_timeline_panel import TEAM_A, TEAM_B, DraftTimelinePanel
+from .draft_timeline_panel import TEAM_A, TEAM_B, VisualDraftPanel, DraftTimelinePanel
 from .hero_selector import HeroSelector
 from .pipeline_panel import PipelinePanel
 from .recommendation_panel import RecommendationPanel
@@ -35,6 +37,7 @@ class MainWindow(QMainWindow):
         self.resize(1440, 1080)
         self._build_ui()
         self._connect_signals()
+        self._toggle_view_mode(True)
 
     @staticmethod
     def _main_script_path() -> Path:
@@ -55,91 +58,165 @@ class MainWindow(QMainWindow):
     # ── layout ───────────────────────────────────────────────────────────────
 
     def _build_ui(self) -> None:
-        # Central area: hero selectors + draft timeline
+        """Constructs the modern gaming UI with toggleable view modes using QStackedWidget."""
         central = QWidget()
+        central.setObjectName("CentralWidget")
         self.setCentralWidget(central)
+    
+        # Main vertical layout for the central area
         center_layout = QVBoxLayout(central)
-        center_layout.setContentsMargins(6, 6, 6, 6)
-        center_layout.setSpacing(6)
+        center_layout.setContentsMargins(15, 15, 15, 15)
+        center_layout.setSpacing(10)
 
-        # Selector row
-        sel_row = QHBoxLayout()
-        sel_row.addWidget(QLabel(f"<b>{TEAM_A}</b>"))
-        self.sel_a = HeroSelector(f"{TEAM_A} hero")
-        sel_row.addWidget(self.sel_a)
-        self.btn_add_a = QPushButton(f"Add to {TEAM_A}  ▶")
+        # --- HEADER ROW (Selectors & Controls) ---
+        header_frame = QFrame()
+        header_frame.setStyleSheet("background-color: #252525; border-radius: 8px; border: 1px solid #3d3d3d;")
+        header_layout = QHBoxLayout(header_frame)
+        header_frame.setFixedHeight(65)
+        header_layout.setContentsMargins(10, 5, 10, 5)
+
+        buttons_column = QVBoxLayout()
+        buttons_column.setSpacing(4)
+        buttons_column.setContentsMargins(0, 0, 0, 0)
+
+        self.btn_toggle_view = QPushButton("VIEW: VISUAL")
+        self.btn_toggle_view.setFixedWidth(130)
+        self.btn_toggle_view.setCheckable(True)
+        self.btn_toggle_view.setChecked(True)
+        self.btn_toggle_view.setStyleSheet("""
+            QPushButton { background-color: #333; color: #aaa; border: 1px solid #555; }
+            QPushButton:checked { background-color: #4a9eff; color: white; border: 1px solid #4a9eff; }
+        """)
+        buttons_column.addWidget(self.btn_toggle_view)
+
+        header_layout.addSpacing(10)
+        self.btn_toggle_controls = QPushButton("SHOW CONTROLS")
+        self.btn_toggle_controls.setFixedWidth(130)
+        self.btn_toggle_controls.setCheckable(True)
+        self.btn_toggle_controls.setChecked(False)
+        self.btn_toggle_controls.setStyleSheet("""
+            QPushButton { background-color: #333; color: #aaa; border: 1px solid #555; }
+            QPushButton:checked { background-color: #444; color: #63BE7B; border: 1px solid #63BE7B; }
+        """)
+        buttons_column.addWidget(self.btn_toggle_controls)
+        
+        header_layout.addLayout(buttons_column)
+        header_layout.addStretch(1)
+
+        self.sel_a = HeroSelector(f"Search {TEAM_A} hero...")
+        header_layout.addWidget(self.sel_a, 2)
+        self.btn_add_a = QPushButton("ADD PICK")
+        self.btn_add_a.setObjectName("AddBtnA")
         self.btn_add_a.setVisible(False)
-        sel_row.addWidget(self.btn_add_a)
-        sel_row.addStretch()
-        self.btn_add_b = QPushButton(f"◀  Add to {TEAM_B}")
+        header_layout.addWidget(self.btn_add_a)
+
+        header_layout.addSpacing(20)
+
+        self.btn_add_b = QPushButton("ADD PICK")
+        self.btn_add_b.setObjectName("AddBtnB")
         self.btn_add_b.setVisible(False)
-        sel_row.addWidget(self.btn_add_b)
-        self.sel_b = HeroSelector(f"{TEAM_B} hero")
-        sel_row.addWidget(self.sel_b)
-        sel_row.addWidget(QLabel(f"<b>{TEAM_B}</b>"))
-        center_layout.addLayout(sel_row)
+        header_layout.addWidget(self.btn_add_b)
+        self.sel_b = HeroSelector(f"Search {TEAM_B} hero...")
+        header_layout.addWidget(self.sel_b, 2)
 
-        # Draft timeline
+        center_layout.addWidget(header_frame)
+
+        # --- CONTENT AREA: QStackedWidget (Stabilizes layout during mode switch) ---
+        self.mode_stack = QStackedWidget()
+    
+        # --- Mode 1: Visual View (Hero Cards) ---
+        self.visual_container = QWidget()
+        v_layout = QVBoxLayout(self.visual_container)
+        v_layout.setContentsMargins(0, 0, 0, 0)
+    
+        self.panel_a = VisualDraftPanel(TEAM_A, "#ff9e4a") # Hidden King - Orange
+        self.panel_b = VisualDraftPanel(TEAM_B, "#4a9eff") # Archmother - Blue
+        v_layout.addWidget(self.panel_a)
+        v_layout.addWidget(self.panel_b)
+        v_layout.addStretch(1) # Internal stretch keeps cards pinned correctly
+    
+        # --- Mode 2: Classic View (Original Table) ---
         self.timeline = DraftTimelinePanel()
-        center_layout.addWidget(self.timeline)
+        # No need to setVisible(False) manually, QStackedWidget handles it
+    
+        # Add modes to stack
+        self.mode_stack.addWidget(self.visual_container) # Index 0
+        self.mode_stack.addWidget(self.timeline)         # Index 1
+    
+        center_layout.addWidget(self.mode_stack)
 
-        # Left dock: pipeline controls + dataset status
+        # Final stretch at the bottom to keep everything compact at the top
+        center_layout.addStretch(1)
+
+        # --- RESTORED DOCK SETUP ---
+        self._setup_docks()
+
+        self.setStatusBar(QStatusBar())
+        self.statusBar().showMessage("Ready — waiting for draft actions...")
+
+    def _setup_docks(self) -> None:
+        """Initializes side and bottom docks, hiding CONTROLS by default."""
+        # --- LEFT DOCK: Controls ---
         left_widget = QWidget()
         left_layout = QVBoxLayout(left_widget)
-        left_layout.setContentsMargins(4, 4, 4, 4)
-        left_layout.setSpacing(4)
         self.pipeline = PipelinePanel()
         self.ds_status = DatasetStatusPanel()
         left_layout.addWidget(self.pipeline)
         left_layout.addWidget(self.ds_status)
+        left_layout.addStretch()
 
-        left_dock = QDockWidget("Controls", self)
-        left_dock.setWidget(left_widget)
-        left_dock.setFeatures(
-            QDockWidget.DockWidgetFeature.DockWidgetMovable
-            | QDockWidget.DockWidgetFeature.DockWidgetFloatable
-        )
-        self.addDockWidget(Qt.DockWidgetArea.LeftDockWidgetArea, left_dock)
+        # Save reference to the dock to toggle it later
+        self.controls_dock = self._create_dock("CONTROLS", left_widget)
+        self.addDockWidget(Qt.DockWidgetArea.LeftDockWidgetArea, self.controls_dock)
+        
+        # --- HIDE BY DEFAULT ---
+        self.controls_dock.setVisible(False)
 
-        # Right dock: recommendations and lane optimizer
+        # Left dock: Controls
+        left_widget = QWidget()
+        left_layout = QVBoxLayout(left_widget)
+        self.pipeline = PipelinePanel()
+        self.ds_status = DatasetStatusPanel()
+        left_layout.addWidget(self.pipeline)
+        left_layout.addWidget(self.ds_status)
+        left_layout.addStretch()
+
+        self.controls_dock = self._create_dock("CONTROLS", left_widget)
+        self.addDockWidget(Qt.DockWidgetArea.LeftDockWidgetArea, self.controls_dock)
+        self.controls_dock.hide() 
+
+        # Right dock: Analysis
         self.right_container = QWidget()
-        self.right_container.setFixedWidth(600) 
+        self.right_container.setFixedWidth(700) 
         self.right_layout = QVBoxLayout(self.right_container)
-        self.right_layout.setContentsMargins(0, 0, 0, 0)
 
+        self.right_layout.setContentsMargins(0, 0, 0, 0) 
+        self.right_layout.setSpacing(0) 
+        
         self.rec_panel = RecommendationPanel()
         self.lane_panel = LaneOptimizerPanel()
-        
-        # Initially, Lane Optimizer is hidden
         self.lane_panel.setVisible(False)
         
         self.right_layout.addWidget(self.rec_panel)
         self.right_layout.addWidget(self.lane_panel)
 
-        right_dock = QDockWidget("Analysis", self)
-        right_dock.setWidget(self.right_container)
-        right_dock.setFeatures(
-            QDockWidget.DockWidgetFeature.DockWidgetMovable
-            | QDockWidget.DockWidgetFeature.DockWidgetFloatable
-        )
+        right_dock = self._create_dock("DRAFT ANALYSIS", self.right_container)
         self.addDockWidget(Qt.DockWidgetArea.RightDockWidgetArea, right_dock)
 
-        # Bottom dock: team analysis
+        # Bottom dock: Team Analysis
         self.team_panel = TeamAnalysisPanel()
-        bottom_dock = QDockWidget("Team Analysis", self)
-        bottom_dock.setWidget(self.team_panel)
-        bottom_dock.setFeatures(
-            QDockWidget.DockWidgetFeature.DockWidgetMovable
-            | QDockWidget.DockWidgetFeature.DockWidgetFloatable
-        )
+        bottom_dock = self._create_dock("TEAM COMPOSITION", self.team_panel)
         self.addDockWidget(Qt.DockWidgetArea.BottomDockWidgetArea, bottom_dock)
 
-        self.setStatusBar(QStatusBar())
-        self.statusBar().showMessage("Ready — run the pipeline to populate datasets.")
-
-    # ── signals ──────────────────────────────────────────────────────────────
+    def _create_dock(self, title: str, widget: QWidget) -> QDockWidget:
+        """Helper to create a standard QDockWidget with uniform features."""
+        dock = QDockWidget(title, self)
+        dock.setWidget(widget)
+        dock.setFeatures(QDockWidget.DockWidgetMovable | QDockWidget.DockWidgetFloatable)
+        return dock
 
     def _connect_signals(self) -> None:
+        """Binds UI interactions to internal logic slots."""
         self.btn_add_a.clicked.connect(self._add_team_a)
         self.btn_add_b.clicked.connect(self._add_team_b)
         self.sel_a.hero_selected.connect(self._queue_team_a)
@@ -148,6 +225,33 @@ class MainWindow(QMainWindow):
         self.timeline.draft_changed.connect(self._on_draft_changed)
         self.pipeline.pipeline_done.connect(self._on_pipeline_done)
         self.lane_panel.team_changed.connect(self._on_draft_changed)
+        self.btn_toggle_view.toggled.connect(self._toggle_view_mode)
+        self.btn_toggle_controls.toggled.connect(self._toggle_controls_panel)
+        self.controls_dock.visibilityChanged.connect(self._on_controls_visibility_changed)
+
+    @Slot(bool)
+    def _toggle_controls_panel(self, visible: bool) -> None:
+        """Toggles the visibility of the left Controls dock."""
+        self.controls_dock.setVisible(visible)
+        self.btn_toggle_controls.setText("HIDE CONTROLS" if visible else "SHOW CONTROLS")
+
+    def _on_controls_visibility_changed(self, visible: bool) -> None:
+        """Syncs the header button state if the dock is closed manually."""
+        self.btn_toggle_controls.setChecked(visible)
+        self.btn_toggle_controls.setText("HIDE CONTROLS" if visible else "SHOW CONTROLS")
+
+    @Slot(bool)
+    def _toggle_view_mode(self, is_visual: bool) -> None:
+        """Switch index in the stack instead of manual hiding."""
+        self.mode_stack.setCurrentIndex(0 if is_visual else 1)
+        
+        self.sel_a.setVisible(not is_visual)
+        self.sel_b.setVisible(not is_visual)
+        if is_visual:
+            self.btn_add_a.setVisible(False)
+            self.btn_add_b.setVisible(False)
+        
+        self.btn_toggle_view.setText("VIEW: VISUAL" if is_visual else "VIEW: CLASSIC")
 
     # ── slots ────────────────────────────────────────────────────────────────
 
@@ -176,22 +280,49 @@ class MainWindow(QMainWindow):
             self.statusBar().showMessage(f"Queued: {hero}. Click Confirm Action.")
 
     def _on_draft_changed(self) -> None:
+        history = []
+        if hasattr(self.timeline, 'get_history'):
+            history = self.timeline.get_history()
+        elif hasattr(self.timeline, '_history'):
+            history = self.timeline._history
+
+        picks_a, bans_a = [], []
+        picks_b, bans_b = [], []
+
+        for i, entry in enumerate(history, 1):
+            hero_name = entry.get('hero', 'Unknown')
+            step_num = entry.get('step', i) 
+            
+            item = {"name": hero_name, "step": step_num}
+            
+            team = entry.get('team')
+            action = entry.get('action', 'PICK')
+
+            if team == TEAM_A:
+                if action == "PICK": picks_a.append(item)
+                else: bans_a.append(item)
+            else:
+                if action == "PICK": picks_b.append(item)
+                else: bans_b.append(item)
+
+        icon_func = self.lane_panel._get_hero_icon_path 
+        self.panel_a.update_draft(picks_a, bans_a, icon_func)
+        self.panel_b.update_draft(picks_b, bans_b, icon_func)
+
         team_a = self.timeline.get_team_a_picks()
         team_b = self.timeline.get_team_b_picks()
+
         is_complete = self.timeline.is_draft_complete() and len(team_a) == 6 and len(team_b) == 6
 
         if is_complete:
-            # Switch views: Hide recommendations, show lane optimizer
             self.rec_panel.setVisible(False)
             self.lane_panel.setVisible(True)
             self.lane_panel.update_data(team_a, team_b)
         else:
-            # During draft: Show recommendations, hide lane optimizer
             self.rec_panel.setVisible(True)
             self.lane_panel.setVisible(False)
             self.rec_panel.refresh(team_a, team_b)
 
-        # Standard team analysis updates
         self.team_panel.update_teams(team_a, team_b)
         
         if is_complete:
@@ -203,6 +334,7 @@ class MainWindow(QMainWindow):
         self.statusBar().showMessage(
             f"{TEAM_A}: {len(team_a)} | {TEAM_B}: {len(team_b)} | Next: {self.timeline.get_next_step_text()}"
         )
+
 
 
 
@@ -377,7 +509,7 @@ class MainWindow(QMainWindow):
         self.timeline._table.setItem(row, 2, QTableWidgetItem(f"{action_type.title()}: {hero_name}"))
 
         # 3. Apply Styling
-        team_bg = QColor(34, 56, 80, 70) if team_label == "Hidden King" else QColor(93, 64, 17, 70)
+        team_bg = QColor(93, 64, 17, 70) if team_label == "Hidden King" else QColor(34, 56, 80, 70)
         action_fg = QColor("#2ECC71") if action_type == "PICK" else QColor("#E74C3C")
         
         for col in range(3):

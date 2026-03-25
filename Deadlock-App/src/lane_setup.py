@@ -5,8 +5,8 @@ from itertools import combinations, permutations
 class SynergyEngine:
     def __init__(self):
         base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        self.syn_path = os.path.join(base_dir, "data", "synergy_data.json")
-        self.lane_path = os.path.join(base_dir, "data", "lane_data.json")
+        self.syn_path = os.path.join(base_dir, "data", "lane", "synergy_data.json")
+        self.lane_path = os.path.join(base_dir, "data", "lane", "lane_data.json")
         
         self.synergy_data = self._load_json(self.syn_path)
         self.lane_data = self._load_json(self.lane_path)
@@ -57,10 +57,80 @@ class SynergyEngine:
             
         return {"lanes": lane_results, "average_winrate": total_wr / 3}
 
+    def calculate_setup_details(self, setup_dict: dict) -> dict:
+        """
+        Calculates detailed winrates for a setup, including lane deltas.
+        Matches the logic used in automated strategies.
+        """
+        lane_results = []
+        total_wr = 0
+        
+        for l_id, pair in setup_dict.items():
+            if len(pair) == 2:
+                # 1. Base Synergy (from synergy_data.json)
+                syn = self.get_pair_synergy(pair[0], pair[1])
+                
+                # 2. Get Lane Deltas (efficiency on this specific lane)
+                d1 = self.get_hero_lane_delta(pair[0], l_id)
+                d2 = self.get_hero_lane_delta(pair[1], l_id)
+                
+                # 3. Apply Delta to Synergy (Formula from Strategy 2)
+                # We use the average delta of the two heroes
+                avg_delta = (d1 + d2) / 2
+                lane_wr = syn * avg_delta
+                
+                lane_results.append({
+                    "lane_id": l_id, 
+                    "wr": lane_wr, 
+                    "pair": pair
+                })
+                total_wr += lane_wr
+            else:
+                # Fallback for incomplete lanes
+                lane_results.append({"lane_id": l_id, "wr": 0.5, "pair": pair})
+                total_wr += 0.5
+
+        return {
+            "lanes": lane_results, 
+            "average_winrate": total_wr / 3
+        }
+
+    def calculate_setup_winrate(self, setup_list: list) -> dict:
+        """
+        Calculates detailed winrates using the new formula: 
+        Winrate = Synergy * ((Delta1 + Delta2) / 2)
+        """
+        total_wr = 0
+        lane_results = []
+    
+        for pair, l_id in setup_list:
+            # 1. Get pure synergy (0.5 if missing)
+            syn = self.get_pair_synergy(pair[0], pair[1])
+        
+            # 2. Get individual lane deltas (1.0 if missing)
+            d1 = self.get_hero_lane_delta(pair[0], l_id)
+            d2 = self.get_hero_lane_delta(pair[1], l_id)
+        
+            # 3. Apply the formula
+            avg_delta = (d1 + d2) / 2
+            actual_wr = syn * avg_delta
+        
+            lane_results.append({
+                "pair": pair, 
+                "wr": actual_wr, 
+                "lane_id": l_id
+            })
+            total_wr += actual_wr
+        
+        return {
+            "lanes": lane_results, 
+            "average_winrate": total_wr / 3
+        }
+
     def get_top_lane_setups(self, heroes: list[str], top_n: int = 3) -> list[dict]:
         if len(heroes) != 6: return []
-        
-        # Pre-calculate all unique partitions of 6 heroes into 3 pairs
+    
+        # 1. Pre-calculate all 15 unique partitions of 6 heroes into 3 pairs
         partitions = []
         hero_pool = set(heroes)
         for p1 in combinations(heroes, 2):
@@ -71,51 +141,36 @@ class SynergyEngine:
                 if partition not in partitions:
                     partitions.append(partition)
 
-        results = []
-
-        # --- STRATEGY 1: BEST SYNERGY ---
-        # Find partition with highest combined pure synergy
-        best_syn_partition = max(partitions, key=lambda part: sum(self.get_pair_synergy(p[0], p[1]) for p in part))
-        # Find best lane distribution for these specific pairs
-        best_dist = None
-        max_dist_wr = -1
-        for p_perm in permutations(best_syn_partition):
-            setup = self._get_setup_details(zip(p_perm, self.target_lanes))
-            if setup["average_winrate"] > max_dist_wr:
-                max_dist_wr = setup["average_winrate"]
-                best_dist = setup
-        results.append(best_dist)
-
-        # --- STRATEGY 2: BEST LANE EFFICIENCY (DELTA) ---
+        # 2. Generate all 90 possible unique setups (15 partitions * 6 lane permutations)
         all_possible_setups = []
         for part in partitions:
             for p_perm in permutations(part):
-                score = 0
-                for i, pair in enumerate(p_perm):
-                    l_id = self.target_lanes[i]
-                    syn = self.get_pair_synergy(pair[0], pair[1])
-                    d1 = self.get_hero_lane_delta(pair[0], l_id)
-                    d2 = self.get_hero_lane_delta(pair[1], l_id)
-                    score += syn * ((d1 + d2) / 2)
-                
-                setup = self._get_setup_details(zip(p_perm, self.target_lanes))
-                setup['score'] = score
+                setup = self.calculate_setup_winrate(zip(p_perm, self.target_lanes))
+                # Pre-calculate synergy sum for Strategy 1
+                setup['total_synergy'] = sum(self.get_pair_synergy(p[0], p[1]) for p in p_perm)
+                # Pre-calculate WR variance for Strategy 3
+                wrs = [l['wr'] for l in setup['lanes']]
+                setup['variance'] = max(wrs) - min(wrs)
                 all_possible_setups.append(setup)
-        
-        best_lane_setup = max(all_possible_setups, key=lambda x: x['score'])
-        results.append(best_lane_setup)
 
-        # --- STRATEGY 3: BALANCED LANES ---
-        # Same as Strategy 2, but minimize WR difference between lanes
-        # Criteria: Total WR >= (Best Lane WR - 1%)
-        threshold = best_lane_setup['average_winrate'] - 0.01
-        valid_setups = [s for s in all_possible_setups if s['average_winrate'] >= threshold]
-        
-        def get_variance(setup):
-            wrs = [l['wr'] for l in setup['lanes']]
-            return max(wrs) - min(wrs)
+        results = []
 
-        balanced_setup = min(valid_setups, key=get_variance)
-        results.append(balanced_setup)
+        # --- STRATEGY 1: SYNERGY FOCUS ---
+        # Maximize pure synergy sum regardless of lane efficiency
+        best_syn = max(all_possible_setups, key=lambda x: (x['total_synergy'], x['average_winrate']))
+        results.append(best_syn)
+
+        # --- STRATEGY 2: LANE EFFICIENCY (META) ---
+        # Maximize total Winrate (Synergy adjusted by Lane Deltas)
+        best_eff = max(all_possible_setups, key=lambda x: x['average_winrate'])
+        results.append(best_eff)
+
+        # --- STRATEGY 3: BALANCED SETUP ---
+        # Find setups where lanes have similar power, but still keeping high average WR
+        # We take the top 10% of setups by WR and pick the one with lowest variance
+        threshold = best_eff['average_winrate'] * 0.98 # Top performance threshold
+        top_tier = [s for s in all_possible_setups if s['average_winrate'] >= threshold]
+        best_bal = min(top_tier, key=lambda x: x['variance'])
+        results.append(best_bal)
 
         return results

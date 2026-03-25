@@ -1,0 +1,2814 @@
+{
+    "Abrams|Apollo": {
+        "winrate": 0.5478,
+        "matches": 272
+    },
+    "Abrams|Bebop": {
+        "winrate": 0.4958,
+        "matches": 238
+    },
+    "Abrams|Billy": {
+        "winrate": 0.3289,
+        "matches": 76
+    },
+    "Abrams|Calico": {
+        "winrate": 0.5153,
+        "matches": 295
+    },
+    "Abrams|Celeste": {
+        "winrate": 0.4755,
+        "matches": 204
+    },
+    "Abrams|Drifter": {
+        "winrate": 0.3439,
+        "matches": 314
+    },
+    "Abrams|Dynamo": {
+        "winrate": 0.3659,
+        "matches": 205
+    },
+    "Abrams|Graves": {
+        "winrate": 0.4776,
+        "matches": 201
+    },
+    "Abrams|Grey Talon": {
+        "winrate": 0.4341,
+        "matches": 129
+    },
+    "Abrams|Haze": {
+        "winrate": 0.4181,
+        "matches": 397
+    },
+    "Abrams|Holliday": {
+        "winrate": 0.4272,
+        "matches": 103
+    },
+    "Abrams|Ivy": {
+        "winrate": 0.3913,
+        "matches": 391
+    },
+    "Abrams|Kelvin": {
+        "winrate": 0.363,
+        "matches": 146
+    },
+    "Abrams|Lash": {
+        "winrate": 0.4318,
+        "matches": 403
+    },
+    "Abrams|McGinnis": {
+        "winrate": 0.4603,
+        "matches": 189
+    },
+    "Abrams|Mina": {
+        "winrate": 0.4927,
+        "matches": 274
+    },
+    "Abrams|Mirage": {
+        "winrate": 0.3812,
+        "matches": 181
+    },
+    "Abrams|Mo & Krill": {
+        "winrate": 0.5159,
+        "matches": 157
+    },
+    "Abrams|Paige": {
+        "winrate": 0.4355,
+        "matches": 248
+    },
+    "Abrams|Paradox": {
+        "winrate": 0.3686,
+        "matches": 274
+    },
+    "Abrams|Pocket": {
+        "winrate": 0.4851,
+        "matches": 235
+    },
+    "Abrams|Rem": {
+        "winrate": 0.4472,
+        "matches": 284
+    },
+    "Abrams|Shiv": {
+        "winrate": 0.3688,
+        "matches": 160
+    },
+    "Abrams|Silver": {
+        "winrate": 0.5165,
+        "matches": 182
+    },
+    "Abrams|Sinclair": {
+        "winrate": 0.5148,
+        "matches": 169
+    },
+    "Abrams|The Doorman": {
+        "winrate": 0.5201,
+        "matches": 323
+    },
+    "Abrams|Venator": {
+        "winrate": 0.4902,
+        "matches": 410
+    },
+    "Abrams|Victor": {
+        "winrate": 0.4024,
+        "matches": 82
+    },
+    "Abrams|Viscous": {
+        "winrate": 0.4293,
+        "matches": 184
+    },
+    "Abrams|Vyper": {
+        "winrate": 0.427,
+        "matches": 89
+    },
+    "Abrams|Warden": {
+        "winrate": 0.5294,
+        "matches": 85
+    },
+    "Abrams|Wraith": {
+        "winrate": 0.4459,
+        "matches": 379
+    },
+    "Abrams|Yamato": {
+        "winrate": 0.4267,
+        "matches": 150
+    },
+    "Apollo|Celeste": {
+        "winrate": 0.5522,
+        "matches": 297
+    },
+    "Apollo|Rem": {
+        "winrate": 0.5588,
+        "matches": 374
+    },
+    "Apollo|Silver": {
+        "winrate": 0.6898,
+        "matches": 274
+    },
+    "Bebop|Apollo": {
+        "winrate": 0.6624,
+        "matches": 314
+    },
+    "Bebop|Billy": {
+        "winrate": 0.4808,
+        "matches": 156
+    },
+    "Bebop|Calico": {
+        "winrate": 0.5869,
+        "matches": 426
+    },
+    "Bebop|Celeste": {
+        "winrate": 0.5427,
+        "matches": 199
+    },
+    "Bebop|Drifter": {
+        "winrate": 0.5336,
+        "matches": 446
+    },
+    "Bebop|Graves": {
+        "winrate": 0.6537,
+        "matches": 257
+    },
+    "Bebop|Grey Talon": {
+        "winrate": 0.4936,
+        "matches": 156
+    },
+    "Bebop|Ivy": {
+        "winrate": 0.4232,
+        "matches": 397
+    },
+    "Bebop|Lash": {
+        "winrate": 0.517,
+        "matches": 528
+    },
+    "Bebop|Mina": {
+        "winrate": 0.6145,
+        "matches": 249
+    },
+    "Bebop|Mirage": {
+        "winrate": 0.5187,
+        "matches": 187
+    },
+    "Bebop|Mo & Krill": {
+        "winrate": 0.6515,
+        "matches": 307
+    },
+    "Bebop|Paige": {
+        "winrate": 0.5059,
+        "matches": 170
+    },
+    "Bebop|Pocket": {
+        "winrate": 0.5904,
+        "matches": 249
+    },
+    "Bebop|Rem": {
+        "winrate": 0.4816,
+        "matches": 272
+    },
+    "Bebop|Shiv": {
+        "winrate": 0.4879,
+        "matches": 289
+    },
+    "Bebop|Silver": {
+        "winrate": 0.5948,
+        "matches": 232
+    },
+    "Bebop|Sinclair": {
+        "winrate": 0.4245,
+        "matches": 139
+    },
+    "Bebop|The Doorman": {
+        "winrate": 0.5819,
+        "matches": 299
+    },
+    "Bebop|Venator": {
+        "winrate": 0.5841,
+        "matches": 440
+    },
+    "Bebop|Victor": {
+        "winrate": 0.5198,
+        "matches": 177
+    },
+    "Bebop|Viscous": {
+        "winrate": 0.5607,
+        "matches": 239
+    },
+    "Bebop|Vyper": {
+        "winrate": 0.5614,
+        "matches": 114
+    },
+    "Bebop|Warden": {
+        "winrate": 0.5843,
+        "matches": 166
+    },
+    "Bebop|Yamato": {
+        "winrate": 0.5872,
+        "matches": 235
+    },
+    "Billy|Apollo": {
+        "winrate": 0.506,
+        "matches": 166
+    },
+    "Billy|Celeste": {
+        "winrate": 0.4135,
+        "matches": 133
+    },
+    "Billy|Graves": {
+        "winrate": 0.4429,
+        "matches": 140
+    },
+    "Billy|Rem": {
+        "winrate": 0.3603,
+        "matches": 272
+    },
+    "Billy|Silver": {
+        "winrate": 0.5684,
+        "matches": 95
+    },
+    "Calico|Apollo": {
+        "winrate": 0.6514,
+        "matches": 416
+    },
+    "Calico|Billy": {
+        "winrate": 0.4847,
+        "matches": 229
+    },
+    "Calico|Celeste": {
+        "winrate": 0.5476,
+        "matches": 336
+    },
+    "Calico|Drifter": {
+        "winrate": 0.5152,
+        "matches": 625
+    },
+    "Calico|Graves": {
+        "winrate": 0.5629,
+        "matches": 334
+    },
+    "Calico|Grey Talon": {
+        "winrate": 0.5968,
+        "matches": 186
+    },
+    "Calico|Ivy": {
+        "winrate": 0.5129,
+        "matches": 813
+    },
+    "Calico|Lash": {
+        "winrate": 0.5935,
+        "matches": 711
+    },
+    "Calico|Mina": {
+        "winrate": 0.6345,
+        "matches": 446
+    },
+    "Calico|Mirage": {
+        "winrate": 0.5345,
+        "matches": 290
+    },
+    "Calico|Mo & Krill": {
+        "winrate": 0.6509,
+        "matches": 593
+    },
+    "Calico|Paige": {
+        "winrate": 0.5663,
+        "matches": 249
+    },
+    "Calico|Pocket": {
+        "winrate": 0.6286,
+        "matches": 377
+    },
+    "Calico|Rem": {
+        "winrate": 0.5017,
+        "matches": 303
+    },
+    "Calico|Shiv": {
+        "winrate": 0.466,
+        "matches": 382
+    },
+    "Calico|Silver": {
+        "winrate": 0.6466,
+        "matches": 283
+    },
+    "Calico|Sinclair": {
+        "winrate": 0.5587,
+        "matches": 179
+    },
+    "Calico|The Doorman": {
+        "winrate": 0.5767,
+        "matches": 430
+    },
+    "Calico|Venator": {
+        "winrate": 0.6235,
+        "matches": 672
+    },
+    "Calico|Victor": {
+        "winrate": 0.498,
+        "matches": 245
+    },
+    "Calico|Viscous": {
+        "winrate": 0.5933,
+        "matches": 450
+    },
+    "Calico|Vyper": {
+        "winrate": 0.619,
+        "matches": 147
+    },
+    "Calico|Warden": {
+        "winrate": 0.6426,
+        "matches": 277
+    },
+    "Calico|Yamato": {
+        "winrate": 0.5623,
+        "matches": 329
+    },
+    "Drifter|Apollo": {
+        "winrate": 0.5808,
+        "matches": 458
+    },
+    "Drifter|Billy": {
+        "winrate": 0.4045,
+        "matches": 178
+    },
+    "Drifter|Celeste": {
+        "winrate": 0.4365,
+        "matches": 307
+    },
+    "Drifter|Graves": {
+        "winrate": 0.4384,
+        "matches": 333
+    },
+    "Drifter|Paige": {
+        "winrate": 0.3781,
+        "matches": 365
+    },
+    "Drifter|Rem": {
+        "winrate": 0.3542,
+        "matches": 463
+    },
+    "Drifter|Silver": {
+        "winrate": 0.5016,
+        "matches": 315
+    },
+    "Drifter|The Doorman": {
+        "winrate": 0.4702,
+        "matches": 470
+    },
+    "Drifter|Venator": {
+        "winrate": 0.5441,
+        "matches": 533
+    },
+    "Drifter|Victor": {
+        "winrate": 0.4,
+        "matches": 195
+    },
+    "Dynamo|Apollo": {
+        "winrate": 0.5335,
+        "matches": 328
+    },
+    "Dynamo|Bebop": {
+        "winrate": 0.5055,
+        "matches": 275
+    },
+    "Dynamo|Billy": {
+        "winrate": 0.3669,
+        "matches": 139
+    },
+    "Dynamo|Calico": {
+        "winrate": 0.5325,
+        "matches": 415
+    },
+    "Dynamo|Celeste": {
+        "winrate": 0.4549,
+        "matches": 233
+    },
+    "Dynamo|Drifter": {
+        "winrate": 0.3881,
+        "matches": 371
+    },
+    "Dynamo|Graves": {
+        "winrate": 0.402,
+        "matches": 204
+    },
+    "Dynamo|Grey Talon": {
+        "winrate": 0.4569,
+        "matches": 116
+    },
+    "Dynamo|Haze": {
+        "winrate": 0.4205,
+        "matches": 547
+    },
+    "Dynamo|Holliday": {
+        "winrate": 0.3662,
+        "matches": 71
+    },
+    "Dynamo|Ivy": {
+        "winrate": 0.3034,
+        "matches": 234
+    },
+    "Dynamo|Kelvin": {
+        "winrate": 0.383,
+        "matches": 94
+    },
+    "Dynamo|Lash": {
+        "winrate": 0.4444,
+        "matches": 360
+    },
+    "Dynamo|Mina": {
+        "winrate": 0.5148,
+        "matches": 270
+    },
+    "Dynamo|Mirage": {
+        "winrate": 0.4455,
+        "matches": 211
+    },
+    "Dynamo|Mo & Krill": {
+        "winrate": 0.5891,
+        "matches": 202
+    },
+    "Dynamo|Paige": {
+        "winrate": 0.381,
+        "matches": 63
+    },
+    "Dynamo|Pocket": {
+        "winrate": 0.4113,
+        "matches": 265
+    },
+    "Dynamo|Rem": {
+        "winrate": 0.403,
+        "matches": 67
+    },
+    "Dynamo|Shiv": {
+        "winrate": 0.4335,
+        "matches": 263
+    },
+    "Dynamo|Silver": {
+        "winrate": 0.5541,
+        "matches": 222
+    },
+    "Dynamo|Sinclair": {
+        "winrate": 0.3457,
+        "matches": 81
+    },
+    "Dynamo|The Doorman": {
+        "winrate": 0.4677,
+        "matches": 186
+    },
+    "Dynamo|Venator": {
+        "winrate": 0.5058,
+        "matches": 514
+    },
+    "Dynamo|Victor": {
+        "winrate": 0.3851,
+        "matches": 174
+    },
+    "Dynamo|Viscous": {
+        "winrate": 0.375,
+        "matches": 152
+    },
+    "Dynamo|Vyper": {
+        "winrate": 0.4519,
+        "matches": 104
+    },
+    "Dynamo|Warden": {
+        "winrate": 0.5312,
+        "matches": 160
+    },
+    "Dynamo|Yamato": {
+        "winrate": 0.428,
+        "matches": 243
+    },
+    "Graves|Apollo": {
+        "winrate": 0.6549,
+        "matches": 284
+    },
+    "Graves|Celeste": {
+        "winrate": 0.4889,
+        "matches": 180
+    },
+    "Graves|Rem": {
+        "winrate": 0.4422,
+        "matches": 251
+    },
+    "Graves|Silver": {
+        "winrate": 0.6103,
+        "matches": 195
+    },
+    "Grey Talon|Apollo": {
+        "winrate": 0.6619,
+        "matches": 139
+    },
+    "Grey Talon|Billy": {
+        "winrate": 0.5065,
+        "matches": 77
+    },
+    "Grey Talon|Celeste": {
+        "winrate": 0.5978,
+        "matches": 92
+    },
+    "Grey Talon|Drifter": {
+        "winrate": 0.4747,
+        "matches": 158
+    },
+    "Grey Talon|Graves": {
+        "winrate": 0.6364,
+        "matches": 66
+    },
+    "Grey Talon|Ivy": {
+        "winrate": 0.4196,
+        "matches": 143
+    },
+    "Grey Talon|Lash": {
+        "winrate": 0.4821,
+        "matches": 195
+    },
+    "Grey Talon|Mina": {
+        "winrate": 0.5733,
+        "matches": 75
+    },
+    "Grey Talon|Mirage": {
+        "winrate": 0.4306,
+        "matches": 72
+    },
+    "Grey Talon|Mo & Krill": {
+        "winrate": 0.567,
+        "matches": 224
+    },
+    "Grey Talon|Paige": {
+        "winrate": 0.439,
+        "matches": 82
+    },
+    "Grey Talon|Pocket": {
+        "winrate": 0.5306,
+        "matches": 98
+    },
+    "Grey Talon|Rem": {
+        "winrate": 0.4356,
+        "matches": 101
+    },
+    "Grey Talon|Shiv": {
+        "winrate": 0.4557,
+        "matches": 158
+    },
+    "Grey Talon|Silver": {
+        "winrate": 0.6316,
+        "matches": 76
+    },
+    "Grey Talon|Sinclair": {
+        "winrate": 0.5139,
+        "matches": 72
+    },
+    "Grey Talon|The Doorman": {
+        "winrate": 0.5463,
+        "matches": 108
+    },
+    "Grey Talon|Venator": {
+        "winrate": 0.5646,
+        "matches": 147
+    },
+    "Grey Talon|Victor": {
+        "winrate": 0.5091,
+        "matches": 110
+    },
+    "Grey Talon|Viscous": {
+        "winrate": 0.5397,
+        "matches": 126
+    },
+    "Grey Talon|Vyper": {
+        "winrate": 0.6154,
+        "matches": 39
+    },
+    "Grey Talon|Warden": {
+        "winrate": 0.5,
+        "matches": 72
+    },
+    "Grey Talon|Yamato": {
+        "winrate": 0.4444,
+        "matches": 90
+    },
+    "Haze|Apollo": {
+        "winrate": 0.5513,
+        "matches": 390
+    },
+    "Haze|Bebop": {
+        "winrate": 0.4645,
+        "matches": 422
+    },
+    "Haze|Billy": {
+        "winrate": 0.3625,
+        "matches": 240
+    },
+    "Haze|Calico": {
+        "winrate": 0.5414,
+        "matches": 604
+    },
+    "Haze|Celeste": {
+        "winrate": 0.4545,
+        "matches": 264
+    },
+    "Haze|Drifter": {
+        "winrate": 0.3701,
+        "matches": 481
+    },
+    "Haze|Graves": {
+        "winrate": 0.4644,
+        "matches": 267
+    },
+    "Haze|Grey Talon": {
+        "winrate": 0.4786,
+        "matches": 140
+    },
+    "Haze|Holliday": {
+        "winrate": 0.4389,
+        "matches": 180
+    },
+    "Haze|Ivy": {
+        "winrate": 0.3535,
+        "matches": 693
+    },
+    "Haze|Lash": {
+        "winrate": 0.456,
+        "matches": 750
+    },
+    "Haze|Mina": {
+        "winrate": 0.5126,
+        "matches": 238
+    },
+    "Haze|Mirage": {
+        "winrate": 0.375,
+        "matches": 192
+    },
+    "Haze|Mo & Krill": {
+        "winrate": 0.5739,
+        "matches": 981
+    },
+    "Haze|Paige": {
+        "winrate": 0.3226,
+        "matches": 434
+    },
+    "Haze|Pocket": {
+        "winrate": 0.4781,
+        "matches": 228
+    },
+    "Haze|Rem": {
+        "winrate": 0.4373,
+        "matches": 510
+    },
+    "Haze|Shiv": {
+        "winrate": 0.4038,
+        "matches": 473
+    },
+    "Haze|Silver": {
+        "winrate": 0.5325,
+        "matches": 246
+    },
+    "Haze|Sinclair": {
+        "winrate": 0.4145,
+        "matches": 193
+    },
+    "Haze|The Doorman": {
+        "winrate": 0.4588,
+        "matches": 449
+    },
+    "Haze|Venator": {
+        "winrate": 0.4717,
+        "matches": 407
+    },
+    "Haze|Victor": {
+        "winrate": 0.3948,
+        "matches": 271
+    },
+    "Haze|Viscous": {
+        "winrate": 0.4415,
+        "matches": 376
+    },
+    "Haze|Vyper": {
+        "winrate": 0.3868,
+        "matches": 106
+    },
+    "Haze|Warden": {
+        "winrate": 0.4635,
+        "matches": 274
+    },
+    "Haze|Yamato": {
+        "winrate": 0.4657,
+        "matches": 335
+    },
+    "Holliday|Apollo": {
+        "winrate": 0.5099,
+        "matches": 151
+    },
+    "Holliday|Bebop": {
+        "winrate": 0.5636,
+        "matches": 110
+    },
+    "Holliday|Billy": {
+        "winrate": 0.4205,
+        "matches": 88
+    },
+    "Holliday|Calico": {
+        "winrate": 0.5092,
+        "matches": 163
+    },
+    "Holliday|Celeste": {
+        "winrate": 0.4321,
+        "matches": 81
+    },
+    "Holliday|Drifter": {
+        "winrate": 0.4332,
+        "matches": 217
+    },
+    "Holliday|Graves": {
+        "winrate": 0.5882,
+        "matches": 68
+    },
+    "Holliday|Grey Talon": {
+        "winrate": 0.3143,
+        "matches": 35
+    },
+    "Holliday|Ivy": {
+        "winrate": 0.3478,
+        "matches": 115
+    },
+    "Holliday|Lash": {
+        "winrate": 0.4688,
+        "matches": 160
+    },
+    "Holliday|Mina": {
+        "winrate": 0.5481,
+        "matches": 104
+    },
+    "Holliday|Mirage": {
+        "winrate": 0.3563,
+        "matches": 87
+    },
+    "Holliday|Mo & Krill": {
+        "winrate": 0.5769,
+        "matches": 104
+    },
+    "Holliday|Paige": {
+        "winrate": 0.4138,
+        "matches": 29
+    },
+    "Holliday|Pocket": {
+        "winrate": 0.5088,
+        "matches": 114
+    },
+    "Holliday|Rem": {
+        "winrate": 0.2157,
+        "matches": 51
+    },
+    "Holliday|Shiv": {
+        "winrate": 0.4444,
+        "matches": 198
+    },
+    "Holliday|Silver": {
+        "winrate": 0.6,
+        "matches": 90
+    },
+    "Holliday|Sinclair": {
+        "winrate": 0.4211,
+        "matches": 57
+    },
+    "Holliday|The Doorman": {
+        "winrate": 0.3889,
+        "matches": 72
+    },
+    "Holliday|Venator": {
+        "winrate": 0.5189,
+        "matches": 212
+    },
+    "Holliday|Victor": {
+        "winrate": 0.4685,
+        "matches": 143
+    },
+    "Holliday|Viscous": {
+        "winrate": 0.3718,
+        "matches": 78
+    },
+    "Holliday|Vyper": {
+        "winrate": 0.4783,
+        "matches": 46
+    },
+    "Holliday|Warden": {
+        "winrate": 0.451,
+        "matches": 102
+    },
+    "Holliday|Yamato": {
+        "winrate": 0.5221,
+        "matches": 113
+    },
+    "Infernus|Abrams": {
+        "winrate": 0.4726,
+        "matches": 201
+    },
+    "Infernus|Apollo": {
+        "winrate": 0.6139,
+        "matches": 202
+    },
+    "Infernus|Bebop": {
+        "winrate": 0.5755,
+        "matches": 245
+    },
+    "Infernus|Billy": {
+        "winrate": 0.4444,
+        "matches": 108
+    },
+    "Infernus|Calico": {
+        "winrate": 0.5988,
+        "matches": 339
+    },
+    "Infernus|Celeste": {
+        "winrate": 0.5875,
+        "matches": 160
+    },
+    "Infernus|Drifter": {
+        "winrate": 0.4136,
+        "matches": 295
+    },
+    "Infernus|Dynamo": {
+        "winrate": 0.427,
+        "matches": 274
+    },
+    "Infernus|Graves": {
+        "winrate": 0.5027,
+        "matches": 183
+    },
+    "Infernus|Grey Talon": {
+        "winrate": 0.5256,
+        "matches": 78
+    },
+    "Infernus|Haze": {
+        "winrate": 0.4345,
+        "matches": 267
+    },
+    "Infernus|Holliday": {
+        "winrate": 0.5191,
+        "matches": 131
+    },
+    "Infernus|Ivy": {
+        "winrate": 0.4109,
+        "matches": 387
+    },
+    "Infernus|Kelvin": {
+        "winrate": 0.511,
+        "matches": 272
+    },
+    "Infernus|Lady Geist": {
+        "winrate": 0.5301,
+        "matches": 183
+    },
+    "Infernus|Lash": {
+        "winrate": 0.5242,
+        "matches": 372
+    },
+    "Infernus|McGinnis": {
+        "winrate": 0.4709,
+        "matches": 206
+    },
+    "Infernus|Mina": {
+        "winrate": 0.5466,
+        "matches": 161
+    },
+    "Infernus|Mirage": {
+        "winrate": 0.4219,
+        "matches": 128
+    },
+    "Infernus|Mo & Krill": {
+        "winrate": 0.6111,
+        "matches": 396
+    },
+    "Infernus|Paige": {
+        "winrate": 0.4061,
+        "matches": 293
+    },
+    "Infernus|Paradox": {
+        "winrate": 0.4157,
+        "matches": 267
+    },
+    "Infernus|Pocket": {
+        "winrate": 0.546,
+        "matches": 163
+    },
+    "Infernus|Rem": {
+        "winrate": 0.5086,
+        "matches": 407
+    },
+    "Infernus|Seven": {
+        "winrate": 0.564,
+        "matches": 211
+    },
+    "Infernus|Shiv": {
+        "winrate": 0.4753,
+        "matches": 223
+    },
+    "Infernus|Silver": {
+        "winrate": 0.5734,
+        "matches": 143
+    },
+    "Infernus|Sinclair": {
+        "winrate": 0.5212,
+        "matches": 165
+    },
+    "Infernus|The Doorman": {
+        "winrate": 0.5196,
+        "matches": 331
+    },
+    "Infernus|Venator": {
+        "winrate": 0.5799,
+        "matches": 319
+    },
+    "Infernus|Victor": {
+        "winrate": 0.5385,
+        "matches": 130
+    },
+    "Infernus|Vindicta": {
+        "winrate": 0.5127,
+        "matches": 197
+    },
+    "Infernus|Viscous": {
+        "winrate": 0.5351,
+        "matches": 228
+    },
+    "Infernus|Vyper": {
+        "winrate": 0.4583,
+        "matches": 72
+    },
+    "Infernus|Warden": {
+        "winrate": 0.598,
+        "matches": 102
+    },
+    "Infernus|Wraith": {
+        "winrate": 0.5191,
+        "matches": 235
+    },
+    "Infernus|Yamato": {
+        "winrate": 0.5108,
+        "matches": 139
+    },
+    "Ivy|Apollo": {
+        "winrate": 0.5817,
+        "matches": 545
+    },
+    "Ivy|Billy": {
+        "winrate": 0.3289,
+        "matches": 298
+    },
+    "Ivy|Celeste": {
+        "winrate": 0.387,
+        "matches": 354
+    },
+    "Ivy|Drifter": {
+        "winrate": 0.3354,
+        "matches": 635
+    },
+    "Ivy|Graves": {
+        "winrate": 0.4286,
+        "matches": 336
+    },
+    "Ivy|Lash": {
+        "winrate": 0.3906,
+        "matches": 640
+    },
+    "Ivy|Mina": {
+        "winrate": 0.4622,
+        "matches": 357
+    },
+    "Ivy|Mirage": {
+        "winrate": 0.4081,
+        "matches": 272
+    },
+    "Ivy|Paige": {
+        "winrate": 0.3846,
+        "matches": 169
+    },
+    "Ivy|Pocket": {
+        "winrate": 0.4379,
+        "matches": 322
+    },
+    "Ivy|Rem": {
+        "winrate": 0.364,
+        "matches": 239
+    },
+    "Ivy|Silver": {
+        "winrate": 0.5,
+        "matches": 398
+    },
+    "Ivy|Sinclair": {
+        "winrate": 0.3977,
+        "matches": 171
+    },
+    "Ivy|The Doorman": {
+        "winrate": 0.4248,
+        "matches": 339
+    },
+    "Ivy|Venator": {
+        "winrate": 0.4679,
+        "matches": 778
+    },
+    "Ivy|Victor": {
+        "winrate": 0.3958,
+        "matches": 379
+    },
+    "Ivy|Viscous": {
+        "winrate": 0.3761,
+        "matches": 335
+    },
+    "Ivy|Vyper": {
+        "winrate": 0.4247,
+        "matches": 146
+    },
+    "Ivy|Warden": {
+        "winrate": 0.5026,
+        "matches": 380
+    },
+    "Ivy|Yamato": {
+        "winrate": 0.4344,
+        "matches": 419
+    },
+    "Kelvin|Apollo": {
+        "winrate": 0.547,
+        "matches": 298
+    },
+    "Kelvin|Bebop": {
+        "winrate": 0.4111,
+        "matches": 180
+    },
+    "Kelvin|Billy": {
+        "winrate": 0.4797,
+        "matches": 148
+    },
+    "Kelvin|Calico": {
+        "winrate": 0.4984,
+        "matches": 311
+    },
+    "Kelvin|Celeste": {
+        "winrate": 0.3815,
+        "matches": 173
+    },
+    "Kelvin|Drifter": {
+        "winrate": 0.3208,
+        "matches": 346
+    },
+    "Kelvin|Graves": {
+        "winrate": 0.4311,
+        "matches": 225
+    },
+    "Kelvin|Grey Talon": {
+        "winrate": 0.3333,
+        "matches": 108
+    },
+    "Kelvin|Haze": {
+        "winrate": 0.3728,
+        "matches": 523
+    },
+    "Kelvin|Holliday": {
+        "winrate": 0.3125,
+        "matches": 48
+    },
+    "Kelvin|Ivy": {
+        "winrate": 0.3304,
+        "matches": 224
+    },
+    "Kelvin|Lash": {
+        "winrate": 0.4234,
+        "matches": 274
+    },
+    "Kelvin|Mina": {
+        "winrate": 0.4691,
+        "matches": 275
+    },
+    "Kelvin|Mirage": {
+        "winrate": 0.3392,
+        "matches": 227
+    },
+    "Kelvin|Mo & Krill": {
+        "winrate": 0.5985,
+        "matches": 137
+    },
+    "Kelvin|Paige": {
+        "winrate": 0.3889,
+        "matches": 36
+    },
+    "Kelvin|Pocket": {
+        "winrate": 0.4746,
+        "matches": 236
+    },
+    "Kelvin|Rem": {
+        "winrate": 0.2453,
+        "matches": 53
+    },
+    "Kelvin|Shiv": {
+        "winrate": 0.3301,
+        "matches": 306
+    },
+    "Kelvin|Silver": {
+        "winrate": 0.5351,
+        "matches": 228
+    },
+    "Kelvin|Sinclair": {
+        "winrate": 0.4091,
+        "matches": 66
+    },
+    "Kelvin|The Doorman": {
+        "winrate": 0.3889,
+        "matches": 126
+    },
+    "Kelvin|Venator": {
+        "winrate": 0.5,
+        "matches": 534
+    },
+    "Kelvin|Victor": {
+        "winrate": 0.356,
+        "matches": 191
+    },
+    "Kelvin|Viscous": {
+        "winrate": 0.4046,
+        "matches": 131
+    },
+    "Kelvin|Vyper": {
+        "winrate": 0.3964,
+        "matches": 111
+    },
+    "Kelvin|Warden": {
+        "winrate": 0.5244,
+        "matches": 164
+    },
+    "Kelvin|Yamato": {
+        "winrate": 0.4131,
+        "matches": 213
+    },
+    "Lady Geist|Abrams": {
+        "winrate": 0.5064,
+        "matches": 233
+    },
+    "Lady Geist|Apollo": {
+        "winrate": 0.6431,
+        "matches": 311
+    },
+    "Lady Geist|Bebop": {
+        "winrate": 0.5865,
+        "matches": 312
+    },
+    "Lady Geist|Billy": {
+        "winrate": 0.4532,
+        "matches": 139
+    },
+    "Lady Geist|Calico": {
+        "winrate": 0.6121,
+        "matches": 379
+    },
+    "Lady Geist|Celeste": {
+        "winrate": 0.4672,
+        "matches": 229
+    },
+    "Lady Geist|Drifter": {
+        "winrate": 0.4885,
+        "matches": 393
+    },
+    "Lady Geist|Dynamo": {
+        "winrate": 0.5127,
+        "matches": 275
+    },
+    "Lady Geist|Graves": {
+        "winrate": 0.5565,
+        "matches": 230
+    },
+    "Lady Geist|Grey Talon": {
+        "winrate": 0.5329,
+        "matches": 152
+    },
+    "Lady Geist|Haze": {
+        "winrate": 0.4914,
+        "matches": 348
+    },
+    "Lady Geist|Holliday": {
+        "winrate": 0.5644,
+        "matches": 163
+    },
+    "Lady Geist|Ivy": {
+        "winrate": 0.4615,
+        "matches": 507
+    },
+    "Lady Geist|Kelvin": {
+        "winrate": 0.503,
+        "matches": 330
+    },
+    "Lady Geist|Lash": {
+        "winrate": 0.531,
+        "matches": 484
+    },
+    "Lady Geist|McGinnis": {
+        "winrate": 0.5046,
+        "matches": 216
+    },
+    "Lady Geist|Mina": {
+        "winrate": 0.6203,
+        "matches": 237
+    },
+    "Lady Geist|Mirage": {
+        "winrate": 0.5539,
+        "matches": 204
+    },
+    "Lady Geist|Mo & Krill": {
+        "winrate": 0.5917,
+        "matches": 409
+    },
+    "Lady Geist|Paige": {
+        "winrate": 0.5118,
+        "matches": 254
+    },
+    "Lady Geist|Paradox": {
+        "winrate": 0.4319,
+        "matches": 345
+    },
+    "Lady Geist|Pocket": {
+        "winrate": 0.5081,
+        "matches": 248
+    },
+    "Lady Geist|Rem": {
+        "winrate": 0.5211,
+        "matches": 332
+    },
+    "Lady Geist|Shiv": {
+        "winrate": 0.4549,
+        "matches": 277
+    },
+    "Lady Geist|Silver": {
+        "winrate": 0.6262,
+        "matches": 214
+    },
+    "Lady Geist|Sinclair": {
+        "winrate": 0.4744,
+        "matches": 156
+    },
+    "Lady Geist|The Doorman": {
+        "winrate": 0.5356,
+        "matches": 351
+    },
+    "Lady Geist|Venator": {
+        "winrate": 0.6022,
+        "matches": 372
+    },
+    "Lady Geist|Victor": {
+        "winrate": 0.4899,
+        "matches": 149
+    },
+    "Lady Geist|Viscous": {
+        "winrate": 0.6084,
+        "matches": 263
+    },
+    "Lady Geist|Vyper": {
+        "winrate": 0.6449,
+        "matches": 107
+    },
+    "Lady Geist|Warden": {
+        "winrate": 0.5912,
+        "matches": 137
+    },
+    "Lady Geist|Wraith": {
+        "winrate": 0.5132,
+        "matches": 341
+    },
+    "Lady Geist|Yamato": {
+        "winrate": 0.5291,
+        "matches": 223
+    },
+    "Lash|Apollo": {
+        "winrate": 0.6306,
+        "matches": 536
+    },
+    "Lash|Billy": {
+        "winrate": 0.4032,
+        "matches": 253
+    },
+    "Lash|Celeste": {
+        "winrate": 0.507,
+        "matches": 355
+    },
+    "Lash|Drifter": {
+        "winrate": 0.4773,
+        "matches": 662
+    },
+    "Lash|Graves": {
+        "winrate": 0.5115,
+        "matches": 393
+    },
+    "Lash|Mina": {
+        "winrate": 0.5609,
+        "matches": 435
+    },
+    "Lash|Mirage": {
+        "winrate": 0.4465,
+        "matches": 318
+    },
+    "Lash|Paige": {
+        "winrate": 0.3829,
+        "matches": 269
+    },
+    "Lash|Pocket": {
+        "winrate": 0.5264,
+        "matches": 435
+    },
+    "Lash|Rem": {
+        "winrate": 0.4777,
+        "matches": 337
+    },
+    "Lash|Silver": {
+        "winrate": 0.6313,
+        "matches": 339
+    },
+    "Lash|Sinclair": {
+        "winrate": 0.4722,
+        "matches": 216
+    },
+    "Lash|The Doorman": {
+        "winrate": 0.5405,
+        "matches": 383
+    },
+    "Lash|Venator": {
+        "winrate": 0.5609,
+        "matches": 681
+    },
+    "Lash|Victor": {
+        "winrate": 0.4466,
+        "matches": 309
+    },
+    "Lash|Viscous": {
+        "winrate": 0.4681,
+        "matches": 408
+    },
+    "Lash|Vyper": {
+        "winrate": 0.5168,
+        "matches": 149
+    },
+    "McGinnis|Apollo": {
+        "winrate": 0.5837,
+        "matches": 209
+    },
+    "McGinnis|Bebop": {
+        "winrate": 0.4569,
+        "matches": 232
+    },
+    "McGinnis|Billy": {
+        "winrate": 0.3876,
+        "matches": 129
+    },
+    "McGinnis|Calico": {
+        "winrate": 0.5122,
+        "matches": 369
+    },
+    "McGinnis|Celeste": {
+        "winrate": 0.4654,
+        "matches": 159
+    },
+    "McGinnis|Drifter": {
+        "winrate": 0.3954,
+        "matches": 263
+    },
+    "McGinnis|Dynamo": {
+        "winrate": 0.3643,
+        "matches": 129
+    },
+    "McGinnis|Graves": {
+        "winrate": 0.491,
+        "matches": 167
+    },
+    "McGinnis|Grey Talon": {
+        "winrate": 0.4595,
+        "matches": 74
+    },
+    "McGinnis|Haze": {
+        "winrate": 0.3669,
+        "matches": 278
+    },
+    "McGinnis|Holliday": {
+        "winrate": 0.5926,
+        "matches": 54
+    },
+    "McGinnis|Ivy": {
+        "winrate": 0.3272,
+        "matches": 272
+    },
+    "McGinnis|Kelvin": {
+        "winrate": 0.3158,
+        "matches": 114
+    },
+    "McGinnis|Lash": {
+        "winrate": 0.4574,
+        "matches": 317
+    },
+    "McGinnis|Mina": {
+        "winrate": 0.4658,
+        "matches": 161
+    },
+    "McGinnis|Mirage": {
+        "winrate": 0.3219,
+        "matches": 146
+    },
+    "McGinnis|Mo & Krill": {
+        "winrate": 0.5775,
+        "matches": 258
+    },
+    "McGinnis|Paige": {
+        "winrate": 0.2842,
+        "matches": 95
+    },
+    "McGinnis|Paradox": {
+        "winrate": 0.3223,
+        "matches": 211
+    },
+    "McGinnis|Pocket": {
+        "winrate": 0.4354,
+        "matches": 147
+    },
+    "McGinnis|Rem": {
+        "winrate": 0.4156,
+        "matches": 154
+    },
+    "McGinnis|Shiv": {
+        "winrate": 0.3671,
+        "matches": 237
+    },
+    "McGinnis|Silver": {
+        "winrate": 0.4667,
+        "matches": 135
+    },
+    "McGinnis|Sinclair": {
+        "winrate": 0.4024,
+        "matches": 82
+    },
+    "McGinnis|The Doorman": {
+        "winrate": 0.5031,
+        "matches": 159
+    },
+    "McGinnis|Venator": {
+        "winrate": 0.5309,
+        "matches": 307
+    },
+    "McGinnis|Victor": {
+        "winrate": 0.3403,
+        "matches": 191
+    },
+    "McGinnis|Viscous": {
+        "winrate": 0.5169,
+        "matches": 178
+    },
+    "McGinnis|Vyper": {
+        "winrate": 0.4795,
+        "matches": 73
+    },
+    "McGinnis|Warden": {
+        "winrate": 0.5093,
+        "matches": 161
+    },
+    "McGinnis|Yamato": {
+        "winrate": 0.4774,
+        "matches": 155
+    },
+    "Mina|Apollo": {
+        "winrate": 0.6968,
+        "matches": 310
+    },
+    "Mina|Billy": {
+        "winrate": 0.5,
+        "matches": 172
+    },
+    "Mina|Celeste": {
+        "winrate": 0.5025,
+        "matches": 197
+    },
+    "Mina|Drifter": {
+        "winrate": 0.5255,
+        "matches": 314
+    },
+    "Mina|Graves": {
+        "winrate": 0.6163,
+        "matches": 172
+    },
+    "Mina|Paige": {
+        "winrate": 0.5234,
+        "matches": 214
+    },
+    "Mina|Rem": {
+        "winrate": 0.5252,
+        "matches": 278
+    },
+    "Mina|Silver": {
+        "winrate": 0.6615,
+        "matches": 195
+    },
+    "Mina|The Doorman": {
+        "winrate": 0.6174,
+        "matches": 230
+    },
+    "Mina|Venator": {
+        "winrate": 0.6326,
+        "matches": 362
+    },
+    "Mina|Victor": {
+        "winrate": 0.5363,
+        "matches": 179
+    },
+    "Mirage|Apollo": {
+        "winrate": 0.6103,
+        "matches": 213
+    },
+    "Mirage|Billy": {
+        "winrate": 0.391,
+        "matches": 133
+    },
+    "Mirage|Celeste": {
+        "winrate": 0.5379,
+        "matches": 145
+    },
+    "Mirage|Drifter": {
+        "winrate": 0.3802,
+        "matches": 242
+    },
+    "Mirage|Graves": {
+        "winrate": 0.5926,
+        "matches": 162
+    },
+    "Mirage|Mina": {
+        "winrate": 0.5917,
+        "matches": 120
+    },
+    "Mirage|Paige": {
+        "winrate": 0.4278,
+        "matches": 194
+    },
+    "Mirage|Rem": {
+        "winrate": 0.3971,
+        "matches": 272
+    },
+    "Mirage|Silver": {
+        "winrate": 0.6045,
+        "matches": 134
+    },
+    "Mirage|Sinclair": {
+        "winrate": 0.4923,
+        "matches": 130
+    },
+    "Mirage|The Doorman": {
+        "winrate": 0.4,
+        "matches": 195
+    },
+    "Mirage|Venator": {
+        "winrate": 0.4491,
+        "matches": 216
+    },
+    "Mirage|Victor": {
+        "winrate": 0.4758,
+        "matches": 124
+    },
+    "Mirage|Vyper": {
+        "winrate": 0.5079,
+        "matches": 63
+    },
+    "Mo & Krill|Apollo": {
+        "winrate": 0.6895,
+        "matches": 467
+    },
+    "Mo & Krill|Billy": {
+        "winrate": 0.5639,
+        "matches": 133
+    },
+    "Mo & Krill|Celeste": {
+        "winrate": 0.5809,
+        "matches": 303
+    },
+    "Mo & Krill|Drifter": {
+        "winrate": 0.5619,
+        "matches": 557
+    },
+    "Mo & Krill|Graves": {
+        "winrate": 0.5918,
+        "matches": 294
+    },
+    "Mo & Krill|Ivy": {
+        "winrate": 0.5196,
+        "matches": 510
+    },
+    "Mo & Krill|Lash": {
+        "winrate": 0.5833,
+        "matches": 468
+    },
+    "Mo & Krill|Mina": {
+        "winrate": 0.6331,
+        "matches": 556
+    },
+    "Mo & Krill|Mirage": {
+        "winrate": 0.5504,
+        "matches": 367
+    },
+    "Mo & Krill|Paige": {
+        "winrate": 0.4889,
+        "matches": 135
+    },
+    "Mo & Krill|Pocket": {
+        "winrate": 0.6424,
+        "matches": 523
+    },
+    "Mo & Krill|Rem": {
+        "winrate": 0.5542,
+        "matches": 166
+    },
+    "Mo & Krill|Shiv": {
+        "winrate": 0.4669,
+        "matches": 287
+    },
+    "Mo & Krill|Silver": {
+        "winrate": 0.5955,
+        "matches": 267
+    },
+    "Mo & Krill|Sinclair": {
+        "winrate": 0.5864,
+        "matches": 162
+    },
+    "Mo & Krill|The Doorman": {
+        "winrate": 0.5932,
+        "matches": 322
+    },
+    "Mo & Krill|Venator": {
+        "winrate": 0.6429,
+        "matches": 871
+    },
+    "Mo & Krill|Victor": {
+        "winrate": 0.4479,
+        "matches": 192
+    },
+    "Mo & Krill|Viscous": {
+        "winrate": 0.6316,
+        "matches": 228
+    },
+    "Mo & Krill|Vyper": {
+        "winrate": 0.6435,
+        "matches": 216
+    },
+    "Mo & Krill|Warden": {
+        "winrate": 0.6792,
+        "matches": 159
+    },
+    "Mo & Krill|Yamato": {
+        "winrate": 0.6126,
+        "matches": 302
+    },
+    "Paige|Apollo": {
+        "winrate": 0.597,
+        "matches": 268
+    },
+    "Paige|Billy": {
+        "winrate": 0.3906,
+        "matches": 256
+    },
+    "Paige|Celeste": {
+        "winrate": 0.4167,
+        "matches": 180
+    },
+    "Paige|Graves": {
+        "winrate": 0.4398,
+        "matches": 191
+    },
+    "Paige|Rem": {
+        "winrate": 0.3333,
+        "matches": 18
+    },
+    "Paige|Silver": {
+        "winrate": 0.5225,
+        "matches": 178
+    },
+    "Paige|The Doorman": {
+        "winrate": 0.3333,
+        "matches": 75
+    },
+    "Paradox|Apollo": {
+        "winrate": 0.5114,
+        "matches": 395
+    },
+    "Paradox|Bebop": {
+        "winrate": 0.5015,
+        "matches": 331
+    },
+    "Paradox|Billy": {
+        "winrate": 0.2865,
+        "matches": 185
+    },
+    "Paradox|Calico": {
+        "winrate": 0.4813,
+        "matches": 534
+    },
+    "Paradox|Celeste": {
+        "winrate": 0.4389,
+        "matches": 262
+    },
+    "Paradox|Drifter": {
+        "winrate": 0.3897,
+        "matches": 485
+    },
+    "Paradox|Dynamo": {
+        "winrate": 0.4275,
+        "matches": 276
+    },
+    "Paradox|Graves": {
+        "winrate": 0.4739,
+        "matches": 230
+    },
+    "Paradox|Grey Talon": {
+        "winrate": 0.3913,
+        "matches": 138
+    },
+    "Paradox|Haze": {
+        "winrate": 0.3801,
+        "matches": 442
+    },
+    "Paradox|Holliday": {
+        "winrate": 0.3837,
+        "matches": 86
+    },
+    "Paradox|Ivy": {
+        "winrate": 0.3316,
+        "matches": 386
+    },
+    "Paradox|Kelvin": {
+        "winrate": 0.3287,
+        "matches": 216
+    },
+    "Paradox|Lash": {
+        "winrate": 0.4158,
+        "matches": 469
+    },
+    "Paradox|Mina": {
+        "winrate": 0.517,
+        "matches": 265
+    },
+    "Paradox|Mirage": {
+        "winrate": 0.4082,
+        "matches": 196
+    },
+    "Paradox|Mo & Krill": {
+        "winrate": 0.4733,
+        "matches": 374
+    },
+    "Paradox|Paige": {
+        "winrate": 0.3775,
+        "matches": 151
+    },
+    "Paradox|Pocket": {
+        "winrate": 0.4337,
+        "matches": 249
+    },
+    "Paradox|Rem": {
+        "winrate": 0.3739,
+        "matches": 230
+    },
+    "Paradox|Shiv": {
+        "winrate": 0.3493,
+        "matches": 375
+    },
+    "Paradox|Silver": {
+        "winrate": 0.4894,
+        "matches": 282
+    },
+    "Paradox|Sinclair": {
+        "winrate": 0.4231,
+        "matches": 130
+    },
+    "Paradox|The Doorman": {
+        "winrate": 0.4,
+        "matches": 285
+    },
+    "Paradox|Venator": {
+        "winrate": 0.4693,
+        "matches": 537
+    },
+    "Paradox|Victor": {
+        "winrate": 0.352,
+        "matches": 250
+    },
+    "Paradox|Viscous": {
+        "winrate": 0.3758,
+        "matches": 298
+    },
+    "Paradox|Vyper": {
+        "winrate": 0.4454,
+        "matches": 119
+    },
+    "Paradox|Warden": {
+        "winrate": 0.4686,
+        "matches": 239
+    },
+    "Paradox|Yamato": {
+        "winrate": 0.4188,
+        "matches": 277
+    },
+    "Pocket|Apollo": {
+        "winrate": 0.633,
+        "matches": 267
+    },
+    "Pocket|Billy": {
+        "winrate": 0.5128,
+        "matches": 156
+    },
+    "Pocket|Celeste": {
+        "winrate": 0.5188,
+        "matches": 160
+    },
+    "Pocket|Drifter": {
+        "winrate": 0.506,
+        "matches": 334
+    },
+    "Pocket|Graves": {
+        "winrate": 0.5409,
+        "matches": 159
+    },
+    "Pocket|Mina": {
+        "winrate": 0.6012,
+        "matches": 168
+    },
+    "Pocket|Mirage": {
+        "winrate": 0.5426,
+        "matches": 129
+    },
+    "Pocket|Paige": {
+        "winrate": 0.4971,
+        "matches": 175
+    },
+    "Pocket|Rem": {
+        "winrate": 0.4896,
+        "matches": 241
+    },
+    "Pocket|Silver": {
+        "winrate": 0.6429,
+        "matches": 168
+    },
+    "Pocket|Sinclair": {
+        "winrate": 0.6281,
+        "matches": 121
+    },
+    "Pocket|The Doorman": {
+        "winrate": 0.5732,
+        "matches": 239
+    },
+    "Pocket|Venator": {
+        "winrate": 0.6441,
+        "matches": 340
+    },
+    "Pocket|Victor": {
+        "winrate": 0.5106,
+        "matches": 188
+    },
+    "Pocket|Vyper": {
+        "winrate": 0.5574,
+        "matches": 61
+    },
+    "Rem|Celeste": {
+        "winrate": 0.393,
+        "matches": 229
+    },
+    "Rem|Silver": {
+        "winrate": 0.5455,
+        "matches": 286
+    },
+    "Seven|Abrams": {
+        "winrate": 0.5031,
+        "matches": 324
+    },
+    "Seven|Apollo": {
+        "winrate": 0.6634,
+        "matches": 303
+    },
+    "Seven|Bebop": {
+        "winrate": 0.5768,
+        "matches": 319
+    },
+    "Seven|Billy": {
+        "winrate": 0.5052,
+        "matches": 194
+    },
+    "Seven|Calico": {
+        "winrate": 0.6545,
+        "matches": 576
+    },
+    "Seven|Celeste": {
+        "winrate": 0.5377,
+        "matches": 199
+    },
+    "Seven|Drifter": {
+        "winrate": 0.508,
+        "matches": 374
+    },
+    "Seven|Dynamo": {
+        "winrate": 0.4838,
+        "matches": 277
+    },
+    "Seven|Graves": {
+        "winrate": 0.6141,
+        "matches": 184
+    },
+    "Seven|Grey Talon": {
+        "winrate": 0.4535,
+        "matches": 86
+    },
+    "Seven|Haze": {
+        "winrate": 0.4803,
+        "matches": 254
+    },
+    "Seven|Holliday": {
+        "winrate": 0.5,
+        "matches": 100
+    },
+    "Seven|Ivy": {
+        "winrate": 0.4034,
+        "matches": 290
+    },
+    "Seven|Kelvin": {
+        "winrate": 0.4494,
+        "matches": 336
+    },
+    "Seven|Lady Geist": {
+        "winrate": 0.6115,
+        "matches": 260
+    },
+    "Seven|Lash": {
+        "winrate": 0.5145,
+        "matches": 517
+    },
+    "Seven|McGinnis": {
+        "winrate": 0.4398,
+        "matches": 166
+    },
+    "Seven|Mina": {
+        "winrate": 0.6209,
+        "matches": 182
+    },
+    "Seven|Mirage": {
+        "winrate": 0.5391,
+        "matches": 115
+    },
+    "Seven|Mo & Krill": {
+        "winrate": 0.6495,
+        "matches": 562
+    },
+    "Seven|Paige": {
+        "winrate": 0.452,
+        "matches": 281
+    },
+    "Seven|Paradox": {
+        "winrate": 0.4474,
+        "matches": 266
+    },
+    "Seven|Pocket": {
+        "winrate": 0.561,
+        "matches": 164
+    },
+    "Seven|Rem": {
+        "winrate": 0.4907,
+        "matches": 322
+    },
+    "Seven|Shiv": {
+        "winrate": 0.4815,
+        "matches": 351
+    },
+    "Seven|Silver": {
+        "winrate": 0.601,
+        "matches": 193
+    },
+    "Seven|Sinclair": {
+        "winrate": 0.4453,
+        "matches": 128
+    },
+    "Seven|The Doorman": {
+        "winrate": 0.5992,
+        "matches": 257
+    },
+    "Seven|Venator": {
+        "winrate": 0.634,
+        "matches": 306
+    },
+    "Seven|Victor": {
+        "winrate": 0.4734,
+        "matches": 207
+    },
+    "Seven|Vindicta": {
+        "winrate": 0.5635,
+        "matches": 197
+    },
+    "Seven|Viscous": {
+        "winrate": 0.5551,
+        "matches": 254
+    },
+    "Seven|Vyper": {
+        "winrate": 0.5694,
+        "matches": 72
+    },
+    "Seven|Warden": {
+        "winrate": 0.5795,
+        "matches": 195
+    },
+    "Seven|Wraith": {
+        "winrate": 0.5168,
+        "matches": 238
+    },
+    "Seven|Yamato": {
+        "winrate": 0.582,
+        "matches": 244
+    },
+    "Shiv|Apollo": {
+        "winrate": 0.5537,
+        "matches": 298
+    },
+    "Shiv|Billy": {
+        "winrate": 0.2647,
+        "matches": 102
+    },
+    "Shiv|Celeste": {
+        "winrate": 0.4078,
+        "matches": 255
+    },
+    "Shiv|Drifter": {
+        "winrate": 0.338,
+        "matches": 361
+    },
+    "Shiv|Graves": {
+        "winrate": 0.4334,
+        "matches": 293
+    },
+    "Shiv|Ivy": {
+        "winrate": 0.3607,
+        "matches": 549
+    },
+    "Shiv|Lash": {
+        "winrate": 0.4172,
+        "matches": 453
+    },
+    "Shiv|Mina": {
+        "winrate": 0.5098,
+        "matches": 306
+    },
+    "Shiv|Mirage": {
+        "winrate": 0.4857,
+        "matches": 210
+    },
+    "Shiv|Paige": {
+        "winrate": 0.3907,
+        "matches": 343
+    },
+    "Shiv|Pocket": {
+        "winrate": 0.4856,
+        "matches": 313
+    },
+    "Shiv|Rem": {
+        "winrate": 0.3694,
+        "matches": 490
+    },
+    "Shiv|Silver": {
+        "winrate": 0.5176,
+        "matches": 170
+    },
+    "Shiv|Sinclair": {
+        "winrate": 0.4163,
+        "matches": 209
+    },
+    "Shiv|The Doorman": {
+        "winrate": 0.4191,
+        "matches": 439
+    },
+    "Shiv|Venator": {
+        "winrate": 0.4662,
+        "matches": 444
+    },
+    "Shiv|Victor": {
+        "winrate": 0.3333,
+        "matches": 129
+    },
+    "Shiv|Viscous": {
+        "winrate": 0.4454,
+        "matches": 238
+    },
+    "Shiv|Vyper": {
+        "winrate": 0.4124,
+        "matches": 97
+    },
+    "Shiv|Warden": {
+        "winrate": 0.5068,
+        "matches": 146
+    },
+    "Shiv|Yamato": {
+        "winrate": 0.4536,
+        "matches": 194
+    },
+    "Silver|Celeste": {
+        "winrate": 0.5989,
+        "matches": 187
+    },
+    "Sinclair|Apollo": {
+        "winrate": 0.635,
+        "matches": 200
+    },
+    "Sinclair|Billy": {
+        "winrate": 0.4198,
+        "matches": 131
+    },
+    "Sinclair|Celeste": {
+        "winrate": 0.4607,
+        "matches": 89
+    },
+    "Sinclair|Drifter": {
+        "winrate": 0.4564,
+        "matches": 241
+    },
+    "Sinclair|Graves": {
+        "winrate": 0.5714,
+        "matches": 98
+    },
+    "Sinclair|Mina": {
+        "winrate": 0.5536,
+        "matches": 112
+    },
+    "Sinclair|Paige": {
+        "winrate": 0.4,
+        "matches": 30
+    },
+    "Sinclair|Rem": {
+        "winrate": 0.4211,
+        "matches": 57
+    },
+    "Sinclair|Silver": {
+        "winrate": 0.6493,
+        "matches": 134
+    },
+    "Sinclair|The Doorman": {
+        "winrate": 0.48,
+        "matches": 100
+    },
+    "Sinclair|Venator": {
+        "winrate": 0.5907,
+        "matches": 237
+    },
+    "Sinclair|Victor": {
+        "winrate": 0.4328,
+        "matches": 134
+    },
+    "The Doorman|Apollo": {
+        "winrate": 0.5778,
+        "matches": 450
+    },
+    "The Doorman|Billy": {
+        "winrate": 0.4416,
+        "matches": 231
+    },
+    "The Doorman|Celeste": {
+        "winrate": 0.5,
+        "matches": 264
+    },
+    "The Doorman|Graves": {
+        "winrate": 0.4497,
+        "matches": 189
+    },
+    "The Doorman|Rem": {
+        "winrate": 0.4476,
+        "matches": 105
+    },
+    "The Doorman|Silver": {
+        "winrate": 0.6025,
+        "matches": 244
+    },
+    "Venator|Apollo": {
+        "winrate": 0.7175,
+        "matches": 439
+    },
+    "Venator|Billy": {
+        "winrate": 0.5,
+        "matches": 232
+    },
+    "Venator|Celeste": {
+        "winrate": 0.578,
+        "matches": 346
+    },
+    "Venator|Graves": {
+        "winrate": 0.5601,
+        "matches": 316
+    },
+    "Venator|Paige": {
+        "winrate": 0.526,
+        "matches": 481
+    },
+    "Venator|Rem": {
+        "winrate": 0.5297,
+        "matches": 572
+    },
+    "Venator|Silver": {
+        "winrate": 0.6143,
+        "matches": 293
+    },
+    "Venator|The Doorman": {
+        "winrate": 0.5923,
+        "matches": 574
+    },
+    "Venator|Victor": {
+        "winrate": 0.5539,
+        "matches": 269
+    },
+    "Victor|Apollo": {
+        "winrate": 0.5436,
+        "matches": 195
+    },
+    "Victor|Billy": {
+        "winrate": 0.3467,
+        "matches": 75
+    },
+    "Victor|Celeste": {
+        "winrate": 0.3819,
+        "matches": 144
+    },
+    "Victor|Graves": {
+        "winrate": 0.4877,
+        "matches": 162
+    },
+    "Victor|Paige": {
+        "winrate": 0.4589,
+        "matches": 292
+    },
+    "Victor|Rem": {
+        "winrate": 0.3708,
+        "matches": 418
+    },
+    "Victor|Silver": {
+        "winrate": 0.5082,
+        "matches": 122
+    },
+    "Victor|The Doorman": {
+        "winrate": 0.4464,
+        "matches": 289
+    },
+    "Vindicta|Abrams": {
+        "winrate": 0.4801,
+        "matches": 327
+    },
+    "Vindicta|Apollo": {
+        "winrate": 0.625,
+        "matches": 336
+    },
+    "Vindicta|Bebop": {
+        "winrate": 0.6032,
+        "matches": 310
+    },
+    "Vindicta|Billy": {
+        "winrate": 0.49,
+        "matches": 200
+    },
+    "Vindicta|Calico": {
+        "winrate": 0.632,
+        "matches": 481
+    },
+    "Vindicta|Celeste": {
+        "winrate": 0.565,
+        "matches": 223
+    },
+    "Vindicta|Drifter": {
+        "winrate": 0.4987,
+        "matches": 399
+    },
+    "Vindicta|Dynamo": {
+        "winrate": 0.4338,
+        "matches": 302
+    },
+    "Vindicta|Graves": {
+        "winrate": 0.5852,
+        "matches": 229
+    },
+    "Vindicta|Grey Talon": {
+        "winrate": 0.5467,
+        "matches": 75
+    },
+    "Vindicta|Haze": {
+        "winrate": 0.4655,
+        "matches": 290
+    },
+    "Vindicta|Holliday": {
+        "winrate": 0.4321,
+        "matches": 81
+    },
+    "Vindicta|Ivy": {
+        "winrate": 0.4574,
+        "matches": 352
+    },
+    "Vindicta|Kelvin": {
+        "winrate": 0.4114,
+        "matches": 175
+    },
+    "Vindicta|Lady Geist": {
+        "winrate": 0.5649,
+        "matches": 308
+    },
+    "Vindicta|Lash": {
+        "winrate": 0.5481,
+        "matches": 405
+    },
+    "Vindicta|McGinnis": {
+        "winrate": 0.4503,
+        "matches": 171
+    },
+    "Vindicta|Mina": {
+        "winrate": 0.5294,
+        "matches": 204
+    },
+    "Vindicta|Mirage": {
+        "winrate": 0.4621,
+        "matches": 145
+    },
+    "Vindicta|Mo & Krill": {
+        "winrate": 0.6192,
+        "matches": 449
+    },
+    "Vindicta|Paige": {
+        "winrate": 0.4183,
+        "matches": 153
+    },
+    "Vindicta|Paradox": {
+        "winrate": 0.4789,
+        "matches": 284
+    },
+    "Vindicta|Pocket": {
+        "winrate": 0.6491,
+        "matches": 171
+    },
+    "Vindicta|Rem": {
+        "winrate": 0.5048,
+        "matches": 210
+    },
+    "Vindicta|Shiv": {
+        "winrate": 0.5214,
+        "matches": 374
+    },
+    "Vindicta|Silver": {
+        "winrate": 0.5945,
+        "matches": 217
+    },
+    "Vindicta|Sinclair": {
+        "winrate": 0.5045,
+        "matches": 111
+    },
+    "Vindicta|The Doorman": {
+        "winrate": 0.5919,
+        "matches": 223
+    },
+    "Vindicta|Venator": {
+        "winrate": 0.5762,
+        "matches": 361
+    },
+    "Vindicta|Victor": {
+        "winrate": 0.498,
+        "matches": 253
+    },
+    "Vindicta|Viscous": {
+        "winrate": 0.5385,
+        "matches": 286
+    },
+    "Vindicta|Vyper": {
+        "winrate": 0.4937,
+        "matches": 79
+    },
+    "Vindicta|Warden": {
+        "winrate": 0.6244,
+        "matches": 221
+    },
+    "Vindicta|Wraith": {
+        "winrate": 0.5017,
+        "matches": 291
+    },
+    "Vindicta|Yamato": {
+        "winrate": 0.5513,
+        "matches": 263
+    },
+    "Viscous|Apollo": {
+        "winrate": 0.6062,
+        "matches": 292
+    },
+    "Viscous|Billy": {
+        "winrate": 0.3889,
+        "matches": 108
+    },
+    "Viscous|Celeste": {
+        "winrate": 0.5108,
+        "matches": 186
+    },
+    "Viscous|Drifter": {
+        "winrate": 0.4439,
+        "matches": 383
+    },
+    "Viscous|Graves": {
+        "winrate": 0.4737,
+        "matches": 190
+    },
+    "Viscous|Mina": {
+        "winrate": 0.5709,
+        "matches": 261
+    },
+    "Viscous|Mirage": {
+        "winrate": 0.4309,
+        "matches": 188
+    },
+    "Viscous|Paige": {
+        "winrate": 0.4423,
+        "matches": 156
+    },
+    "Viscous|Pocket": {
+        "winrate": 0.507,
+        "matches": 215
+    },
+    "Viscous|Rem": {
+        "winrate": 0.4817,
+        "matches": 218
+    },
+    "Viscous|Silver": {
+        "winrate": 0.5511,
+        "matches": 176
+    },
+    "Viscous|Sinclair": {
+        "winrate": 0.472,
+        "matches": 125
+    },
+    "Viscous|The Doorman": {
+        "winrate": 0.5041,
+        "matches": 246
+    },
+    "Viscous|Venator": {
+        "winrate": 0.5207,
+        "matches": 434
+    },
+    "Viscous|Victor": {
+        "winrate": 0.4307,
+        "matches": 137
+    },
+    "Viscous|Vyper": {
+        "winrate": 0.44,
+        "matches": 75
+    },
+    "Vyper|Apollo": {
+        "winrate": 0.5259,
+        "matches": 116
+    },
+    "Vyper|Billy": {
+        "winrate": 0.4706,
+        "matches": 51
+    },
+    "Vyper|Celeste": {
+        "winrate": 0.5125,
+        "matches": 80
+    },
+    "Vyper|Drifter": {
+        "winrate": 0.4865,
+        "matches": 148
+    },
+    "Vyper|Graves": {
+        "winrate": 0.5698,
+        "matches": 86
+    },
+    "Vyper|Mina": {
+        "winrate": 0.5909,
+        "matches": 88
+    },
+    "Vyper|Paige": {
+        "winrate": 0.5273,
+        "matches": 110
+    },
+    "Vyper|Rem": {
+        "winrate": 0.4591,
+        "matches": 159
+    },
+    "Vyper|Silver": {
+        "winrate": 0.5139,
+        "matches": 72
+    },
+    "Vyper|Sinclair": {
+        "winrate": 0.3966,
+        "matches": 58
+    },
+    "Vyper|The Doorman": {
+        "winrate": 0.463,
+        "matches": 108
+    },
+    "Vyper|Venator": {
+        "winrate": 0.5984,
+        "matches": 127
+    },
+    "Vyper|Victor": {
+        "winrate": 0.5455,
+        "matches": 66
+    },
+    "Warden|Apollo": {
+        "winrate": 0.6205,
+        "matches": 166
+    },
+    "Warden|Billy": {
+        "winrate": 0.5,
+        "matches": 66
+    },
+    "Warden|Celeste": {
+        "winrate": 0.5772,
+        "matches": 123
+    },
+    "Warden|Drifter": {
+        "winrate": 0.4955,
+        "matches": 224
+    },
+    "Warden|Graves": {
+        "winrate": 0.5385,
+        "matches": 143
+    },
+    "Warden|Lash": {
+        "winrate": 0.5684,
+        "matches": 285
+    },
+    "Warden|Mina": {
+        "winrate": 0.6024,
+        "matches": 166
+    },
+    "Warden|Mirage": {
+        "winrate": 0.5238,
+        "matches": 105
+    },
+    "Warden|Paige": {
+        "winrate": 0.4718,
+        "matches": 248
+    },
+    "Warden|Pocket": {
+        "winrate": 0.5971,
+        "matches": 139
+    },
+    "Warden|Rem": {
+        "winrate": 0.5053,
+        "matches": 283
+    },
+    "Warden|Silver": {
+        "winrate": 0.6822,
+        "matches": 107
+    },
+    "Warden|Sinclair": {
+        "winrate": 0.5652,
+        "matches": 138
+    },
+    "Warden|The Doorman": {
+        "winrate": 0.568,
+        "matches": 250
+    },
+    "Warden|Venator": {
+        "winrate": 0.616,
+        "matches": 263
+    },
+    "Warden|Victor": {
+        "winrate": 0.5522,
+        "matches": 67
+    },
+    "Warden|Viscous": {
+        "winrate": 0.5042,
+        "matches": 119
+    },
+    "Warden|Vyper": {
+        "winrate": 0.6406,
+        "matches": 64
+    },
+    "Warden|Yamato": {
+        "winrate": 0.544,
+        "matches": 125
+    },
+    "Wraith|Apollo": {
+        "winrate": 0.6432,
+        "matches": 384
+    },
+    "Wraith|Bebop": {
+        "winrate": 0.5419,
+        "matches": 454
+    },
+    "Wraith|Billy": {
+        "winrate": 0.3889,
+        "matches": 252
+    },
+    "Wraith|Calico": {
+        "winrate": 0.5942,
+        "matches": 626
+    },
+    "Wraith|Celeste": {
+        "winrate": 0.4962,
+        "matches": 266
+    },
+    "Wraith|Drifter": {
+        "winrate": 0.47,
+        "matches": 534
+    },
+    "Wraith|Dynamo": {
+        "winrate": 0.4379,
+        "matches": 523
+    },
+    "Wraith|Graves": {
+        "winrate": 0.4883,
+        "matches": 256
+    },
+    "Wraith|Grey Talon": {
+        "winrate": 0.4967,
+        "matches": 151
+    },
+    "Wraith|Haze": {
+        "winrate": 0.3855,
+        "matches": 345
+    },
+    "Wraith|Holliday": {
+        "winrate": 0.419,
+        "matches": 179
+    },
+    "Wraith|Ivy": {
+        "winrate": 0.4053,
+        "matches": 723
+    },
+    "Wraith|Kelvin": {
+        "winrate": 0.4392,
+        "matches": 551
+    },
+    "Wraith|Lash": {
+        "winrate": 0.4993,
+        "matches": 743
+    },
+    "Wraith|McGinnis": {
+        "winrate": 0.4128,
+        "matches": 298
+    },
+    "Wraith|Mina": {
+        "winrate": 0.5253,
+        "matches": 257
+    },
+    "Wraith|Mirage": {
+        "winrate": 0.5119,
+        "matches": 168
+    },
+    "Wraith|Mo & Krill": {
+        "winrate": 0.6136,
+        "matches": 1012
+    },
+    "Wraith|Paige": {
+        "winrate": 0.465,
+        "matches": 428
+    },
+    "Wraith|Paradox": {
+        "winrate": 0.4227,
+        "matches": 459
+    },
+    "Wraith|Pocket": {
+        "winrate": 0.4805,
+        "matches": 231
+    },
+    "Wraith|Rem": {
+        "winrate": 0.4532,
+        "matches": 459
+    },
+    "Wraith|Shiv": {
+        "winrate": 0.4796,
+        "matches": 465
+    },
+    "Wraith|Silver": {
+        "winrate": 0.5791,
+        "matches": 278
+    },
+    "Wraith|Sinclair": {
+        "winrate": 0.5616,
+        "matches": 203
+    },
+    "Wraith|The Doorman": {
+        "winrate": 0.5245,
+        "matches": 429
+    },
+    "Wraith|Venator": {
+        "winrate": 0.4988,
+        "matches": 405
+    },
+    "Wraith|Victor": {
+        "winrate": 0.4409,
+        "matches": 254
+    },
+    "Wraith|Viscous": {
+        "winrate": 0.4598,
+        "matches": 435
+    },
+    "Wraith|Vyper": {
+        "winrate": 0.4301,
+        "matches": 93
+    },
+    "Wraith|Warden": {
+        "winrate": 0.55,
+        "matches": 260
+    },
+    "Wraith|Yamato": {
+        "winrate": 0.4942,
+        "matches": 342
+    },
+    "Yamato|Apollo": {
+        "winrate": 0.6236,
+        "matches": 263
+    },
+    "Yamato|Billy": {
+        "winrate": 0.44,
+        "matches": 100
+    },
+    "Yamato|Celeste": {
+        "winrate": 0.4579,
+        "matches": 190
+    },
+    "Yamato|Drifter": {
+        "winrate": 0.4121,
+        "matches": 330
+    },
+    "Yamato|Graves": {
+        "winrate": 0.6345,
+        "matches": 197
+    },
+    "Yamato|Lash": {
+        "winrate": 0.4958,
+        "matches": 361
+    },
+    "Yamato|Mina": {
+        "winrate": 0.5691,
+        "matches": 246
+    },
+    "Yamato|Mirage": {
+        "winrate": 0.4854,
+        "matches": 171
+    },
+    "Yamato|Paige": {
+        "winrate": 0.4716,
+        "matches": 282
+    },
+    "Yamato|Pocket": {
+        "winrate": 0.487,
+        "matches": 193
+    },
+    "Yamato|Rem": {
+        "winrate": 0.4463,
+        "matches": 354
+    },
+    "Yamato|Silver": {
+        "winrate": 0.55,
+        "matches": 160
+    },
+    "Yamato|Sinclair": {
+        "winrate": 0.4792,
+        "matches": 144
+    },
+    "Yamato|The Doorman": {
+        "winrate": 0.5718,
+        "matches": 348
+    },
+    "Yamato|Venator": {
+        "winrate": 0.5667,
+        "matches": 330
+    },
+    "Yamato|Victor": {
+        "winrate": 0.5042,
+        "matches": 119
+    },
+    "Yamato|Viscous": {
+        "winrate": 0.5075,
+        "matches": 201
+    },
+    "Yamato|Vyper": {
+        "winrate": 0.5588,
+        "matches": 102
+    }
+}
